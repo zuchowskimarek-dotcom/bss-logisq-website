@@ -1,0 +1,22 @@
+{
+    "navigation": {
+        "solutions": "Lösungen",
+        "modularWes": "Modulares WES",
+        "digitalTwin": "Digital Twin",
+        "company": "Unternehmen",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "badge": "Strategische Lagerlogistik",
+        "titlePrefix": "Das Warehouse Execution System für",
+        "titleHighlight": "vollautomatisierte",
+        "titleSuffix": "Logistik",
+        "description": "Kürzere Projektlaufzeiten für komplexe Lager — mit voller Transparenz, echter Modularität und langfristiger Investitionssicherheit.",
+        "ctaPrimary": "System entdecken",
+        "ctaSecondary": "Digital Twin ansehen"
+    },
+    "meta": {
+        "title": "Warehouse Execution System für Lagerautomatisierung | BSS LogisQ",
+        "description": "Modulares Warehouse Execution System für vollautomatisierte Goods-to-Person-Lager. Kürzere Projektlaufzeiten, Digital Twin, kein Vendor Lock-in."
+    }
+}

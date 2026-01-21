@@ -45,6 +45,42 @@
     color: var(--color-kinetic);
 }
 
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.langSwitcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-dim);
+}
+
+.langBtn {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition-fast);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.langBtn:hover {
+    color: var(--color-text-main);
+    background: var(--color-surface);
+}
+
+.langBtn.active {
+    color: var(--color-accent);
+}
+
+.divider {
+    opacity: 0.3;
+}
+
 .cta {
     background: linear-gradient(135deg, var(--color-accent), var(--color-secondary));
     color: white;

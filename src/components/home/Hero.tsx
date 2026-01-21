@@ -1,23 +1,34 @@
 import styles from './Hero.module.css';
 
-export default function Hero() {
+interface HeroProps {
+    dict: {
+        badge: string;
+        titlePrefix: string;
+        titleHighlight: string;
+        titleSuffix: string;
+        description: string;
+        ctaPrimary: string;
+        ctaSecondary: string;
+    };
+}
+
+export default function Hero({ dict }: HeroProps) {
     return (
         <section className={styles.hero}>
             <div className={styles.overlay}></div>
             <div className={`${styles.container} container`}>
                 <div className={styles.content}>
-                    <span className={styles.badge}>Strategic Warehouse Logistics</span>
+                    <span className={styles.badge}>{dict.badge}</span>
                     <h1 className={styles.title}>
-                        Warehouse Execution System for <span className="text-gradient">Fully Automated</span> Logistics
+                        {dict.titlePrefix} <span className="text-gradient">{dict.titleHighlight}</span> {dict.titleSuffix}
                     </h1>
                     <p className={styles.description}>
-                        LogisQ-WES enables complex warehouses with shorter project runtimes,
-                        full transparency, and investment security through true modularity.
+                        {dict.description}
                     </p>
                     <div className={styles.actions}>
-                        <a href="/solutions" className={styles.primaryBtn}>Explore Solutions</a>
-                        <a href="/solutions/digital-twin" className={styles.secondaryBtn}>
-                            View Digital Twin
+                        <a href="#solutions" className={styles.primaryBtn}>{dict.ctaPrimary}</a>
+                        <a href="#digital-twin" className={styles.secondaryBtn}>
+                            {dict.ctaSecondary}
                         </a>
                     </div>
                 </div>

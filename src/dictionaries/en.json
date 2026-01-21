@@ -1,0 +1,22 @@
+{
+    "navigation": {
+        "solutions": "Solutions",
+        "modularWes": "Modular WES",
+        "digitalTwin": "Digital Twin",
+        "company": "Company",
+        "contact": "Contact Us"
+    },
+    "hero": {
+        "badge": "Strategic Warehouse Logistics",
+        "titlePrefix": "Warehouse Execution System for",
+        "titleHighlight": "Fully Automated",
+        "titleSuffix": "Logistics",
+        "description": "LogisQ-WES enables complex warehouses with shorter project runtimes, full transparency, and investment security through true modularity.",
+        "ctaPrimary": "Explore the System",
+        "ctaSecondary": "See the Digital Twin"
+    },
+    "meta": {
+        "title": "Warehouse Execution System for Automated Logistics | BSS LogisQ",
+        "description": "Modular Warehouse Execution System for fully automated and goods-to-person warehouses. Shorter project runtimes, Digital Twin, no vendor lock-in."
+    }
+}

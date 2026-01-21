@@ -1,24 +1,73 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import styles from './Navbar.module.css';
 
-export default function Navbar() {
+interface NavbarProps {
+    locale: string;
+    navigationDict: {
+        solutions: string;
+        modularWes: string;
+        digitalTwin: string;
+        company: string;
+        contact: string;
+    };
+}
+
+export default function Navbar({ locale, navigationDict }: NavbarProps) {
+    const pathname = usePathname();
+
+    const redirectedPathname = (targetLocale: string) => {
+        if (!pathname) return '/';
+        const segments = pathname.split('/');
+        segments[1] = targetLocale;
+        return segments.join('/');
+    };
+
     return (
         <nav className={styles.navbar}>
             <div className={`${styles.container} container`}>
-                <Link href="/" className={styles.logo}>
+                <Link href={`/${locale}`} className={styles.logo}>
                     <span className="text-gradient">BSS</span> LogisQ
                 </Link>
 
                 <div className={styles.links}>
-                    <Link href="/solutions" className={styles.link}>Solutions</Link>
-                    <Link href="/solutions/modular-wes" className={styles.link}>Modular WES</Link>
-                    <Link href="/solutions/digital-twin" className={styles.link}>Digital Twin</Link>
-                    <Link href="/company" className={styles.link}>Company</Link>
+                    <Link href={`/${locale}/solutions`} className={styles.link}>
+                        {navigationDict.solutions}
+                    </Link>
+                    <Link href={`/${locale}/solutions/modular-wes`} className={styles.link}>
+                        {navigationDict.modularWes}
+                    </Link>
+                    <Link href={`/${locale}/solutions/digital-twin`} className={styles.link}>
+                        {navigationDict.digitalTwin}
+                    </Link>
+                    <Link href={`/${locale}/company`} className={styles.link}>
+                        {navigationDict.company}
+                    </Link>
                 </div>
 
-                <Link href="/contact" className={styles.cta}>
-                    Contact Us
-                </Link>
+                <div className={styles.actions}>
+                    <div className={styles.langSwitcher}>
+                        <Link
+                            href={redirectedPathname('en')}
+                            className={`${styles.langBtn} ${locale === 'en' ? styles.active : ''}`}
+                        >
+                            EN
+                        </Link>
+                        <span className={styles.divider}>|</span>
+                        <Link
+                            href={redirectedPathname('de')}
+                            className={`${styles.langBtn} ${locale === 'de' ? styles.active : ''}`}
+                        >
+                            DE
+                        </Link>
+                    </div>
+
+                    <Link href={`/${locale}/contact`} className={styles.cta}>
+                        {navigationDict.contact}
+                    </Link>
+                </div>
             </div>
         </nav>
     );
