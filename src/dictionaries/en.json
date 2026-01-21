@@ -6,6 +6,128 @@
         "company": "Company",
         "contact": "Contact Us"
     },
+    "pillars": {
+        "title1": "Shorter Project Runtimes",
+        "desc1": "Visual, expert-driven configuration instead of custom software development. Faster go-live for new warehouses.",
+        "title2": "Built for Fully Automated Warehouses",
+        "desc2": "Designed for large, goods-to-person systems with high throughput. Reliable in greenfield and brownfield.",
+        "title3": "Full Control via Digital Twin",
+        "desc3": "Understand your warehouse before it runs. 2D and 3D visualization provide transparency and trust.",
+        "title4": "True Modularity",
+        "desc4": "Use exactly what you need: WMS, MFC, or Fleet Manager. No vendor lock-in, integrate existing systems.",
+        "title5": "Future-Safe Investment",
+        "desc5": "Built on a proven industrial platform. Scalable, database-independent, and long-term maintainability."
+    },
+    "trust": {
+        "badge": "Produc Proven DNA",
+        "title": "Software with Real Warehouse DNA",
+        "description": "LogisQ-WES is owned and developed by BSS LogisQ, a joint venture that combines general contractor expertise with mission-critical software excellence.",
+        "bssTitle": "BSS Materialflussgruppe",
+        "bssDesc": "A leading general contractor for warehouse automation, delivering complex greenfield and brownfield projects worldwide.",
+        "macrixTitle": "Macrix Technology Group",
+        "macrixDesc": "Creators of the ArconQ industrial platform – in productive use since 2010 with over 100 successful automation projects.",
+        "footer": "This combination ensures that LogisQ-WES is built for real-world constraints, not theoretical system landscapes."
+    },
+    "products": {
+        "title": "Buy Exactly What You Need",
+        "subtitle": "LogisQ-WES is not an all-or-nothing system. Deploy modular components standalone or combined.",
+        "wmsTitle": "Warehouse Management (WMS)",
+        "wmsDesc": "The business-level logic for your warehouse. Orchestrate orders, inventory, and resource allocation with precision.",
+        "mfcTitle": "Material Flow Control (MFC)",
+        "mfcDesc": "Real-time orchestration of automated systems, conveyors, and AS/RS. Reliable control at maximum throughput.",
+        "fleetTitle": "Fleet Management (SquadronQ)",
+        "fleetDesc": "Vendor-independent management of AGVs and AMRs. Coordinate mixed fleets through a single, unified interface.",
+        "result": "Result: flexibility without compromise."
+    },
+    "cta": {
+        "title": "Ready to Orchestrate Your Warehouse?",
+        "subtitle": "Get in touch with our experts to discuss your brownfield upgrade or greenfield automation project.",
+        "primary": "Schedule a Consultation",
+        "secondary": "Contact Sales"
+    },
+    "solutionsPage": {
+        "title": "Orchestrating Complex Logistics",
+        "subtitle": "Discover how LogisQ-WES combines modular architecture with digital twin transparency to shorten project runtimes and secure your investment.",
+        "intro": "Our solutions are designed for the reality of modern warehouses: hybrid, modular, and constantly evolving.",
+        "card1": {
+            "title": "Modular WES Architecture",
+            "desc": "The end of monolithic constraints. Deploy exactly the modules you need for WMS, MFC, or Fleet Management.",
+            "link": "Explore Modularity"
+        },
+        "card2": {
+            "title": "Digital Twin & Transparency",
+            "desc": "Real-time 3D orchestration of your warehouse flows. Control complexity through visual trust.",
+            "link": "See Digital Twin"
+        },
+        "card3": {
+            "title": "Brownfield & Retrofit",
+            "desc": "Integrate before you replace. Modernize existing automation step-by-step without big-bang risks.",
+            "link": "Upgrade Now"
+        },
+        "card4": {
+            "title": "Fleet Management",
+            "desc": "Unified coordination of AGVs and AMRs. Vendor-independent orchestration of your mobile robot fleet.",
+            "link": "View SquadronQ"
+        }
+    },
+    "digitalTwinPage": {
+        "title": "Full Control Through Digital Twin",
+        "subtitle": "Real-time 3D orchestration of your warehouse flows for total operational transparency.",
+        "intro": "The LogisQ Digital Twin is more than a visualization. It is your trust anchor, providing a clear understanding of complex automation in real time.",
+        "features": {
+            "f1Title": "Real-Time System State",
+            "f1Desc": "See exactly what is happening in your warehouse. 2D and 3D views of every move, shuttle, and picker.",
+            "f2Title": "Process Flow Clarity",
+            "f2Desc": "Identify bottlenecks and optimize flows through visual intuition rather than complex data tables.",
+            "f3Title": "Operational Trust",
+            "f3Desc": "Strong visual communication for operators and stakeholders. Transparency that leads to better decision-making."
+        },
+        "roadmapTitle": "Future Outlook: Simulation",
+        "roadmapDesc": "Advanced simulation and 'what-if' scenarios are part of our strategic roadmap. We build the visual foundation for predictive logistics today."
+    },
+    "brownfieldPage": {
+        "title": "Upgrade Your Warehouse — Without Starting from Scratch",
+        "subtitle": "Modernize existing automation step-by-step with zero architectural dead ends.",
+        "intro": "Most warehouses are brownfield installations. LogisQ-WES is designed for mixed automation, legacy integration, and gradual modernization.",
+        "blocks": {
+            "b1Title": "Integrate Before You Replace",
+            "b1Desc": "Your existing WMS, PLCs, and mechanical systems remain operational. We integrate them into a unified orchestration layer.",
+            "b2Title": "Mixed Automation Is Reality",
+            "b2Desc": "Coordinate manual areas, existing shuttles, and new AGVs through one system. No vendor lock-in.",
+            "b3Title": "Step-by-Step Modernization",
+            "b3Desc": "Avoid the big-bang risk. Modernize specific zones or modules at your own pace.",
+            "b4Title": "Risk Reduction via Digital Twin",
+            "b4Desc": "Visualize your current state and simulate future changes before implementation to minimize operational downtime."
+        }
+    },
+    "modularWesPage": {
+        "title": "The Operating System for Your Warehouse",
+        "subtitle": "Modular WES architecture eliminates monolithic constraints and creates a future-proof foundation for your logistics.",
+        "intro": "LogisQ-WES is not a single product—it is a modular ecosystem. Each layer performs a specific role, orchestrated by a unified intelligence.",
+        "pillars": {
+            "p1Title": "Total Flexibility",
+            "p1Desc": "Deploy only the modules you need. Mix and match WMS, MFC, and Fleet components to fit your specific requirements.",
+            "p2Title": "Future-Proof",
+            "p2Desc": "Upgrade individual modules without re-architecting the entire system. Your technology stack grows with your business.",
+            "p3Title": "Rapid Deployment",
+            "p3Desc": "Pre-configured modules and standardized interfaces significantly shorten project runtimes compared to custom-built monoliths."
+        },
+        "techTitle": "Powered by ArconQ",
+        "techDesc": "Built on a proven foundation with over 100 successful projects, ArconQ provides the robust orchestration layer connecting every module."
+    },
+    "fleetPage": {
+        "title": "Vendor-Independent Fleet Orchestration",
+        "subtitle": "Coordinate mixed fleets of AGVs and AMRs through a single, unified interface with SquadronQ.",
+        "intro": "Modern logistics depends on mobility. We break down vendor silos by providing a centralized control layer for your entire robot fleet.",
+        "features": {
+            "f1Title": "Mixed Fleet Coordination",
+            "f1Desc": "No more managing different vendors in different apps. SquadronQ orchestrates robots from multiple manufacturers seamlessly.",
+            "f2Title": "Intelligent Traffic Control",
+            "f2Desc": "Real-time path planning and collision avoidance across your entire automated fleet to ensure maximum throughput.",
+            "f3Title": "Battery & Task Management",
+            "f3Desc": "Automated charging cycles and intelligent task assignment based on robot state, location, and priority."
+        }
+    },
     "hero": {
         "badge": "Strategic Warehouse Logistics",
         "titlePrefix": "Warehouse Execution System for",

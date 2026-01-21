@@ -1,4 +1,8 @@
 import Hero from "@/components/home/Hero";
+import ValuePillars from "@/components/home/ValuePillars";
+import TrustSection from "@/components/home/TrustSection";
+import ProductOverview from "@/components/home/ProductOverview";
+import ContactCTA from "@/components/home/ContactCTA";
 import { getDictionary } from "@/dictionaries/get-dictionary";
 
 export default async function Home({
@@ -12,7 +16,10 @@ export default async function Home({
   return (
     <>
       <Hero dict={dict.hero} />
-      {/* Other sections like Value Propositions, Trust, and CTO will follow */}
+      <ValuePillars dict={dict.pillars} />
+      <TrustSection locale={locale} />
+      <ProductOverview dict={dict.products} />
+      <ContactCTA dict={dict.cta} />
     </>
   );
 }

@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore large documentation media
+docs/*.mp4
+docs/*.pptx
+
+# Ignore large documentation media
+docs/**/*.mp4
+docs/**/*.pptx
+docs/*.mp4
+docs/*.pptx
+
+# Ignore large files (>20MB)
+*.mp4
+*.pptx
+**/image104.png

@@ -6,6 +6,128 @@
         "company": "Unternehmen",
         "contact": "Kontakt"
     },
+    "pillars": {
+        "title1": "Kürzere Projektlaufzeiten",
+        "desc1": "Visuelle, expertenbasierte Konfiguration statt individueller Softwareentwicklung. Schnellerer Go-live für neue Lager.",
+        "title2": "Für vollautomatisierte Lager",
+        "desc2": "Entwickelt für große Goods-to-Person-Systeme mit hohem Durchsatz. Bewährt in Greenfield und Brownfield.",
+        "title3": "Volle Kontrolle durch Digital Twin",
+        "desc3": "Verstehen Sie Ihr Lager, bevor es läuft. 2D- und 3D-Visualisierung schaffen Transparenz und Vertrauen.",
+        "title4": "Echte Modularität",
+        "desc4": "Nutzen Sie, was Sie brauchen: WMS, MFC oder Fleet Manager. Kein Vendor Lock-in, Integration von Altsystemen.",
+        "title5": "Zukunftssichere Investition",
+        "desc5": "Basierend auf einer bewährten Industrieplattform. Skalierbar, datenbankunabhängig und langfristig wartbar."
+    },
+    "trust": {
+        "badge": "Bewährte Produkt-DNA",
+        "title": "Software mit echter Logistik-DNA",
+        "description": "LogisQ-WES wird von BSS LogisQ entwickelt – einem Joint Venture, das Generalunternehmer-Expertise mit erstklassiger industrieller Software vereint.",
+        "bssTitle": "BSS Materialflussgruppe",
+        "bssDesc": "Ein führender Generalunternehmer für Lagerautomatisierung, der weltweit komplexe Greenfield- und Brownfield-Projekte realisiert.",
+        "macrixTitle": "Macrix Technology Group",
+        "macrixDesc": "Entwickler der ArconQ-Industrieplattform – seit 2010 in über 100 erfolgreichen Automatisierungsprojekten im produktiven Einsatz.",
+        "footer": "Diese Kombination stellt sicher, dass LogisQ-WES für reale Anforderungen gebaut ist, nicht für theoretische Systemlandschaften."
+    },
+    "products": {
+        "title": "Kaufen Sie genau das, was Sie brauchen",
+        "subtitle": "LogisQ-WES ist kein Alles-oder-Nichts-System. Setzen Sie modulare Komponenten einzeln oder kombiniert ein.",
+        "wmsTitle": "Lagerverwaltung (WMS)",
+        "wmsDesc": "Die betriebswirtschaftliche Logik für Ihr Lager. Orchestrieren Sie Aufträge, Bestände und Ressourcen mit Präzision.",
+        "mfcTitle": "Materialflusssteuerung (MFC)",
+        "mfcDesc": "Echtzeit-Steuerung von Automatisierungssystemen, Fördertechnik und RBG. Zuverlässige Kontrolle bei maximalem Durchsatz.",
+        "fleetTitle": "Flottenmanagement (SquadronQ)",
+        "fleetDesc": "Herstellerunabhängiges Management von FTS und AMR. Koordinieren Sie gemischte Flotten über eine einheitliche Schnittstelle.",
+        "result": "Ergebnis: Flexibilität ohne Kompromisse."
+    },
+    "cta": {
+        "title": "Bereit, Ihr Lager zu orchestrieren?",
+        "subtitle": "Sprechen Sie mit unseren Experten über Ihr Brownfield-Upgrade oder Ihr Greenfield-Automatisierungsprojekt.",
+        "primary": "Beratung vereinbaren",
+        "secondary": "Vertrieb kontaktieren"
+    },
+    "solutionsPage": {
+        "title": "Komplexe Logistik orchestrieren",
+        "subtitle": "Erfahren Sie, wie LogisQ-WES modulare Architektur mit Digital-Twin-Transparenz kombiniert, um Projektlaufzeiten zu verkürzen und Ihre Investition zu sichern.",
+        "intro": "Unsere Lösungen sind für die Realität moderner Lager konzipiert: hybrid, modular und ständig im Wandel.",
+        "card1": {
+            "title": "Modulare WES-Architektur",
+            "desc": "Das Ende monolithischer Einschränkungen. Setzen Sie genau die Module ein, die Sie für WMS, MFC oder Flottenmanagement benötigen.",
+            "link": "Modularität entdecken"
+        },
+        "card2": {
+            "title": "Digital Twin & Transparenz",
+            "desc": "Echtzeit-3D-Orchestrierung Ihrer Lagerflüsse. Beherrschen Sie Komplexität durch visuelles Vertrauen.",
+            "link": "Digital Twin ansehen"
+        },
+        "card3": {
+            "title": "Brownfield & Retrofit",
+            "desc": "Integrieren statt Ersetzen. Modernisieren Sie bestehende Automatisierung schrittweise ohne Big-Bang-Risiken.",
+            "link": "Jetzt modernisieren"
+        },
+        "card4": {
+            "title": "Flottenmanagement",
+            "desc": "Einheitliche Koordination von FTS und AMR. Herstellerunabhängige Orchestrierung Ihrer mobilen Roboterflotte.",
+            "link": "SquadronQ ansehen"
+        }
+    },
+    "digitalTwinPage": {
+        "title": "Volle Kontrolle durch Digital Twin",
+        "subtitle": "Echtzeit-3D-Orchestrierung Ihrer Lagerflüsse für totale betriebliche Transparenz.",
+        "intro": "Der LogisQ Digital Twin ist mehr als eine Visualisierung. Er ist Ihr Vertrauensanker, der ein klares Verständnis komplexer Automatisierung in Echtzeit ermöglicht.",
+        "features": {
+            "f1Title": "Echtzeit-Systemzustand",
+            "f1Desc": "Sehen Sie genau, was in Ihrem Lager passiert. 2D- und 3D-Ansichten jeder Bewegung, jedes Shuttles und jedes Pickers.",
+            "f2Title": "Klarheit der Prozessabläufe",
+            "f2Desc": "Identifizieren Sie Engpässe und optimieren Sie Abläufe durch visuelle Intuition statt komplexer Datentabellen.",
+            "f3Title": "Betriebliches Vertrauen",
+            "f3Desc": "Starke visuelle Kommunikation für Bediener und Stakeholder. Transparenz, die zu besseren Entscheidungen führt."
+        },
+        "roadmapTitle": "Zukunftsausblick: Simulation",
+        "roadmapDesc": "Erweiterte Simulationen und 'What-if'-Szenarien sind Teil unserer strategischen Roadmap. Wir bauen heute das visuelle Fundament für die prädiktive Logistik von morgen."
+    },
+    "brownfieldPage": {
+        "title": "Ihr Lager modernisieren — ohne bei null anzufangen",
+        "subtitle": "Modernisieren Sie bestehende Automatisierung schrittweise und ohne architektonische Sackgassen.",
+        "intro": "Die meisten Lager sind Brownfield-Installationen. LogisQ-WES ist für gemischte Automatisierung, Legacy-Integration und stufenweise Modernisierung konzipiert.",
+        "blocks": {
+            "b1Title": "Integrieren statt Ersetzen",
+            "b1Desc": "Ihre bestehenden LVS, SPS und Mechanik bleiben betriebsbereit. Wir integrieren sie in eine einheitliche Orchestrierungsschicht.",
+            "b2Title": "Gemischte Automatisierung ist Realität",
+            "b2Desc": "Koordinieren Sie manuelle Bereiche, vorhandene Shuttles und neue FTS über ein System. Kein Vendor Lock-in.",
+            "b3Title": "Schrittweise Modernisierung",
+            "b3Desc": "Vermeiden Sie das Big-Bang-Risiko. Modernisieren Sie einzelne Zonen oder Module in Ihrem eigenen Tempo.",
+            "b4Title": "Risikominimierung durch Digital Twin",
+            "b4Desc": "Visualisieren Sie den Ist-Zustand und planen Sie Änderungen vorab, um Ausfallzeiten im Betrieb zu minimieren."
+        }
+    },
+    "modularWesPage": {
+        "title": "Das Betriebssystem für Ihr Lager",
+        "subtitle": "Die modulare WES-Architektur beseitigt monolithische Einschränkungen und schafft ein zukunftssicheres Fundament für Ihre Logistik.",
+        "intro": "LogisQ-WES ist kein einzelnes Produkt – es ist ein modulares Ökosystem. Jede Schicht erfüllt eine spezifische Rolle, orchestriert durch eine einheitliche Intelligenz.",
+        "pillars": {
+            "p1Title": "Totale Flexibilität",
+            "p1Desc": "Setzen Sie nur die Module ein, die Sie benötigen. Kombinieren Sie WMS-, MFC- und Flotten-Komponenten ganz nach Ihren Anforderungen.",
+            "p2Title": "Zukunftssicher",
+            "p2Desc": "Modernisieren Sie einzelne Module, ohne das gesamte System neu zu konzipieren. Ihr Technologie-Stack wächst mit Ihrem Unternehmen.",
+            "p3Title": "Schnelle Bereitstellung",
+            "p3Desc": "Vorkonfigurierte Module und standardisierte Schnittstellen verkürzen die Projektlaufzeiten im Vergleich zu monolithischen Individualentwicklungen erheblich."
+        },
+        "techTitle": "Powered by ArconQ",
+        "techDesc": "Basierend auf einem bewährten Fundament mit über 100 erfolgreichen Projekten liefert ArconQ die robuste Orchestrierungsschicht, die jedes Modul verbindet."
+    },
+    "fleetPage": {
+        "title": "Herstellerunabhängige Flotten-Orchestrierung",
+        "subtitle": "Koordinieren Sie gemischte Flotten von FTS und AMR über eine einzige, einheitliche Schnittstelle mit SquadronQ.",
+        "intro": "Moderne Logistik hängt von Mobilität ab. Wir brechen Hersteller-Silos auf, indem wir eine zentrale Steuerungsebene für Ihre gesamte Roboterflotte bereitstellen.",
+        "features": {
+            "f1Title": "Gemischte Flottenkoordination",
+            "f1Desc": "Schluss mit der Verwaltung verschiedener Hersteller in unterschiedlichen Apps. SquadronQ orchestriert Roboter mehrerer Hersteller nahtlos.",
+            "f2Title": "Intelligente Verkehrssteuerung",
+            "f2Desc": "Echtzeit-Pfadplanung und Kollisionsvermeidung für Ihre gesamte automatisierte Flotte zur Sicherstellung maximalen Durchsatzes.",
+            "f3Title": "Batterie- & Aufgabenmanagement",
+            "f3Desc": "Automatisierte Ladezyklen und intelligente Aufgabenzuweisung basierend auf Roboterstatus, Standort und Priorität."
+        }
+    },
     "hero": {
         "badge": "Strategische Lagerlogistik",
         "titlePrefix": "Das Warehouse Execution System für",

@@ -1,0 +1,46 @@
+.section {
+    padding: 6rem 0;
+    /* Increased padding slightly for breathability */
+    background: transparent;
+    /* Removed gray background */
+    text-align: center;
+    /* Removed borders */
+}
+
+.label {
+    font-size: 0.875rem;
+    color: var(--color-text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4rem;
+    /* More space between label and logos */
+}
+
+.logoGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    /* Increased gap for wide professional spacing */
+    flex-wrap: wrap;
+}
+
+.logoItem {
+    opacity: 1;
+    /* Full visibility for professional impact */
+    transition: transform 0.3s ease;
+}
+
+.logoItem:hover {
+    transform: scale(1.05);
+    /* Gentle scaling on hover */
+}
+
+.logo {
+    height: 68px;
+    /* Reduced by another ~20% from 85px */
+    width: auto;
+    object-fit: contain;
+    /* Removed grayscale filter */
+    transition: transform 0.3s ease;
+}

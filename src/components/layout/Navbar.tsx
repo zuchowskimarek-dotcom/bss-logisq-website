@@ -29,7 +29,11 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
         <nav className={styles.navbar}>
             <div className={`${styles.container} container`}>
                 <Link href={`/${locale}`} className={styles.logo}>
-                    <span className="text-gradient">BSS</span> LogisQ
+                    <img
+                        src="/assets/images/logos/bss-logisq-logo.svg"
+                        alt="BSS LogisQ"
+                        className={styles.logoImage}
+                    />
                 </Link>
 
                 <div className={styles.links}>

@@ -26,7 +26,20 @@
     text-decoration: none;
     color: var(--color-text-main);
     letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
 }
+
+.logoImage {
+    height: 60px;
+    width: auto;
+    transition: var(--transition-fast);
+}
+
+.logoImage:hover {
+    filter: brightness(1.1);
+}
+
 
 .links {
     display: flex;

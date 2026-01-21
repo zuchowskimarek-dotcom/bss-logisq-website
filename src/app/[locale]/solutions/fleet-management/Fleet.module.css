@@ -1,0 +1,145 @@
+.main {
+    padding-top: 120px;
+    background: var(--bg-main);
+    min-height: 100vh;
+}
+
+.header {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--text-vibrant);
+    margin-bottom: 2rem;
+    letter-spacing: -0.04em;
+    background: linear-gradient(135deg, var(--text-vibrant), var(--primary-cyan));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro {
+    padding: 6rem 0;
+    background: rgba(0, 243, 255, 0.01);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.introText {
+    font-size: 1.5rem;
+    color: var(--text-vibrant);
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.features {
+    padding: 8rem 0;
+}
+
+.featureGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.featureCard {
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: var(--primary-cyan);
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.featureCard h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-vibrant);
+    margin-bottom: 1rem;
+}
+
+.featureCard p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.visuals {
+    padding: 10rem 0;
+    background: rgba(0, 243, 255, 0.02);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-vibrant);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.visualBox {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visualBox:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 60px rgba(0, 243, 255, 0.15);
+}
+
+.visualImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.visualCaption {
+    padding: 2rem;
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    text-align: center;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.01);
+}
+
+
+@media (max-width: 1024px) {
+    .featureGrid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}

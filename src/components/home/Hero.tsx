@@ -37,6 +37,15 @@ export default function Hero({ dict }: HeroProps) {
             <div className={styles.visualSupport}>
                 <div className={styles.glow}></div>
             </div>
+
+            <a href="#solutions" className={styles.scrollIndicator} aria-label="Scroll to solutions">
+                <div className={styles.mouse}>
+                    <div className={styles.wheel}></div>
+                </div>
+                <div className={styles.arrow}>
+                    <span className={styles.chevron}></span>
+                </div>
+            </a>
         </section>
     );
 }

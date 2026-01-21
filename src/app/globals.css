@@ -1,5 +1,9 @@
 @import '../styles/design-tokens.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Custom site-wide styles can go here */
 body {
   background-color: var(--color-bg);
