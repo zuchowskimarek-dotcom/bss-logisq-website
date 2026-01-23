@@ -40,6 +40,115 @@
     font-weight: 400;
 }
 
+/* New Product Structure Styles */
+.structureBlock {
+    margin-top: 4rem;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+}
+
+.structureTitle {
+    font-size: 2rem;
+    color: var(--text-vibrant);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.structureDesc {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+}
+
+.moduleGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.moduleCard {
+    background: rgba(0, 255, 133, 0.05);
+    /* Brand Green tint */
+    border: 1px solid var(--primary-green);
+    color: var(--primary-green);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.moduleCard:hover {
+    transform: translateY(-5px);
+    background: rgba(0, 255, 133, 0.1);
+}
+
+/* Comparison Table Styles */
+.comparisonSection {
+    padding: 8rem 0;
+    background: var(--bg-secondary);
+    /* Ensure contrast */
+}
+
+.sectionDesc {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2rem;
+}
+
+.comparisonTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.comparisonTable th {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.1rem;
+    color: var(--text-vibrant);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.comparisonTable td {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.comparisonTable tr:last-child td {
+    border-bottom: none;
+}
+
+.metricCell {
+    font-weight: 600;
+    color: var(--text-vibrant) !important;
+}
+
+.highlightCell {
+    color: var(--primary-green) !important;
+    font-weight: 700;
+    background: rgba(0, 255, 133, 0.02);
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Pillars */
 .pillars {
     padding: 8rem 0;
 }
@@ -147,7 +256,6 @@
     background: rgba(255, 255, 255, 0.01);
 }
 
-
 @media (max-width: 768px) {
     .title {
         font-size: 2.5rem;
@@ -155,5 +263,15 @@
 
     .pillar {
         padding: 2rem;
+    }
+
+    .moduleGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .comparisonTable th,
+    .comparisonTable td {
+        padding: 1rem;
+        font-size: 0.9rem;
     }
 }

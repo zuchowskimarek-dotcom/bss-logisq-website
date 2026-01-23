@@ -12,6 +12,7 @@ export default async function ModularWesPage({
 
     return (
         <main className={styles.main}>
+            {/* 1. Hero / Definition: Bridges Sales Hook to Technical Reality */}
             <header className={styles.header}>
                 <div className="container">
                     <h1 className={styles.title}>{m.title}</h1>
@@ -19,12 +20,62 @@ export default async function ModularWesPage({
                 </div>
             </header>
 
+            {/* 2. Intro: Defines the Product (LogisQ = WMS + PER + MFC) */}
             <section className={styles.intro}>
                 <div className="container">
                     <p className={styles.introText}>{m.intro}</p>
+
+                    {/* New Product Structure Block */}
+                    {m.productStructure && (
+                        <div className={styles.structureBlock}>
+                            <h3 className={styles.structureTitle}>{m.productStructure.title}</h3>
+                            <p className={styles.structureDesc}>{m.productStructure.desc}</p>
+                            <div className={styles.moduleGrid}>
+                                <div className={styles.moduleCard}>{m.productStructure.modules.wms}</div>
+                                <div className={styles.moduleCard}>{m.productStructure.modules.per}</div>
+                                <div className={styles.moduleCard}>{m.productStructure.modules.mfc}</div>
+                                <div className={styles.moduleCard}>{m.productStructure.modules.sq}</div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </section>
 
+            {/* 3. Comparison Table: WMS vs WCS vs WES (Directly answers 'Why WES?') */}
+            {
+                m.comparison && (
+                    <section className={styles.comparisonSection}>
+                        <div className="container">
+                            <h2 className={styles.sectionTitle}>{m.comparison.title}</h2>
+                            <p className={styles.sectionDesc}>{m.comparison.desc}</p>
+
+                            <div className={styles.tableWrapper}>
+                                <table className={styles.comparisonTable}>
+                                    <thead>
+                                        <tr>
+                                            {m.comparison.cols.map((col: string, i: number) => (
+                                                <th key={i}>{col}</th>
+                                            ))}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {m.comparison.rows.map((row: any, i: number) => (
+                                            <tr key={i}>
+                                                <td className={styles.metricCell}>{row.metric}</td>
+                                                <td>{row.wms}</td>
+                                                <td>{row.wcs}</td>
+                                                <td className={styles.highlightCell}>{row.wes}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                )
+            }
+
+            {/* 4. Pillars: Explains the 'Modularity' concept in practice */}
             <section className={styles.pillars}>
                 <div className="container">
                     <div className={styles.pillarList}>
@@ -50,20 +101,7 @@ export default async function ModularWesPage({
                 </div>
             </section>
 
-            <section className={styles.visuals}>
-                <div className="container">
-                    <h2 className={styles.sectionTitle}>Material Flow Orchestration</h2>
-                    <div className={styles.visualBox}>
-                        <img
-                            src="/assets/images/features/mfc-topology.png"
-                            alt="Material Flow Control Topology"
-                            className={styles.visualImage}
-                        />
-                        <p className={styles.visualCaption}>Coordinated Control of Stackers, Cranes & Conveyors</p>
-                    </div>
-                </div>
-            </section>
-
+            {/* 5. Link to Technology (Proof Layer) - Future Phase, for now Tech Intro */}
             <section className={styles.tech}>
                 <div className="container">
                     <div className={styles.techBox}>
@@ -72,6 +110,6 @@ export default async function ModularWesPage({
                     </div>
                 </div>
             </section>
-        </main>
+        </main >
     );
 }

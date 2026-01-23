@@ -1,0 +1,150 @@
+.main {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: var(--color-bg);
+    background-image:
+        radial-gradient(circle at 10% 20%, rgba(0, 209, 255, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(255, 60, 0, 0.03) 0%, transparent 40%);
+}
+
+.header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 5rem;
+    padding: 0 1.5rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--color-border);
+    border-radius: 100px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #fff 30%, var(--color-text-dim));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    font-size: 1.25rem;
+    color: var(--color-text-dim);
+    line-height: 1.6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 5rem;
+    padding: 0 1.5rem;
+}
+
+.card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 24px;
+    padding: 3rem;
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.03), transparent 60%);
+    pointer-events: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-border-hover);
+    box-shadow: var(--shadow-glow);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cardIcon {
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 1px solid var(--color-border);
+}
+
+.cardTitle {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+}
+
+.cardDesc {
+    font-size: 1.1rem;
+    color: var(--color-text-dim);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Specific styling for BSS vs Macrix to differentiate them visually */
+.card.bss .cardIcon {
+    color: var(--color-secondary);
+    /* Assuming some blue/cyan */
+}
+
+.card.macrix .cardIcon {
+    color: var(--color-accent);
+    /* Assuming some brand color */
+}
+
+.footer {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.footerText {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color-kinetic);
+    /* Using the kinetic/highlight color for emphasis */
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+}

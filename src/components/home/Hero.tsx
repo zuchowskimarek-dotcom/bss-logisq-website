@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Hero.module.css';
 
 interface HeroProps {
@@ -10,9 +11,10 @@ interface HeroProps {
         ctaPrimary: string;
         ctaSecondary: string;
     };
+    locale: string;
 }
 
-export default function Hero({ dict }: HeroProps) {
+export default function Hero({ dict, locale }: HeroProps) {
     return (
         <section className={styles.hero}>
             <div className={styles.overlay}></div>
@@ -26,10 +28,12 @@ export default function Hero({ dict }: HeroProps) {
                         {dict.description}
                     </p>
                     <div className={styles.actions}>
-                        <a href="#solutions" className={styles.primaryBtn}>{dict.ctaPrimary}</a>
-                        <a href="#digital-twin" className={styles.secondaryBtn}>
+                        <Link href={`/${locale}/technology`} className={styles.primaryBtn}>
+                            {dict.ctaPrimary}
+                        </Link>
+                        <Link href={`/${locale}/contact`} className={styles.secondaryBtn}>
                             {dict.ctaSecondary}
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

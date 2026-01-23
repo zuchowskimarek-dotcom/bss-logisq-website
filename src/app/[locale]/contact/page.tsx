@@ -15,11 +15,11 @@ export default async function ContactPage({
             <section className={styles.heroSection}>
                 <div className="container">
                     <div className={styles.headerContent}>
-                        <h1 className={styles.title}>Get in Touch</h1>
+                        <h1 className={styles.title}>{dict.contactPage.title}</h1>
                         <p className={styles.subtitle}>
-                            Ready to modernize your warehouse? Don't let outdated systems slow you down.
+                            {dict.contactPage.subtitle}
                             <br />
-                            <span className={styles.highlight}>Meet the team that will take control of your operations.</span>
+                            <span className={styles.highlight}>{dict.contactPage.highlight}</span>
                         </p>
                     </div>
 
@@ -35,7 +35,7 @@ export default async function ContactPage({
                             </div>
                             <div className={styles.teamInfo}>
                                 <h3 className={styles.teamName}>Marcin Krzywulski</h3>
-                                <p className={styles.teamRole}>Chief Executive Officer</p>
+                                <p className={styles.teamRole}>{dict.contactPage.roles.ceo}</p>
                                 <div className={styles.teamContact}>
                                     <a href="tel:+48691400470" className={styles.contactLink}>
                                         📱 +48 691 400 470
@@ -58,7 +58,7 @@ export default async function ContactPage({
                             </div>
                             <div className={styles.teamInfo}>
                                 <h3 className={styles.teamName}>Józef Eckert</h3>
-                                <p className={styles.teamRole}>Project Manager</p>
+                                <p className={styles.teamRole}>{dict.contactPage.roles.pm}</p>
                                 <div className={styles.teamContact}>
                                     <a href="tel:+491728828422" className={styles.contactLink}>
                                         📱 +49 172 88 28 422
@@ -81,7 +81,7 @@ export default async function ContactPage({
                             </div>
                             <div className={styles.teamInfo}>
                                 <h3 className={styles.teamName}>Kamil Wilkosz</h3>
-                                <p className={styles.teamRole}>Product Manager</p>
+                                <p className={styles.teamRole}>{dict.contactPage.roles.prodM}</p>
                                 <div className={styles.teamContact}>
                                     <a href="tel:+48887633322" className={styles.contactLink}>
                                         📱 +48 887 633 322
@@ -104,7 +104,7 @@ export default async function ContactPage({
                             </div>
                             <div className={styles.teamInfo}>
                                 <h3 className={styles.teamName}>Marek Zuchowski</h3>
-                                <p className={styles.teamRole}>CEO / Chief Product Designer</p>
+                                <p className={styles.teamRole}>{dict.contactPage.roles.chiefDesigner}</p>
                                 <div className={styles.teamContact}>
                                     <a href="tel:+491729762275" className={styles.contactLink}>
                                         📱 +49 172 976 2275

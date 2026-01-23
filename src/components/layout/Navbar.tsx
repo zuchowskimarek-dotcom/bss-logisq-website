@@ -9,6 +9,7 @@ interface NavbarProps {
     navigationDict: {
         solutions: string;
         modularWes: string;
+        technology: string;
         digitalTwin: string;
         company: string;
         contact: string;
@@ -42,6 +43,9 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
                     </Link>
                     <Link href={`/${locale}/solutions/modular-wes`} className={styles.link}>
                         {navigationDict.modularWes}
+                    </Link>
+                    <Link href={`/${locale}/technology`} className={styles.link}>
+                        {navigationDict.technology}
                     </Link>
                     <Link href={`/${locale}/solutions/digital-twin`} className={styles.link}>
                         {navigationDict.digitalTwin}

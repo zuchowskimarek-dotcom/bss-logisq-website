@@ -2,21 +2,22 @@
     "navigation": {
         "solutions": "Lösungen",
         "modularWes": "Modulares WES",
+        "technology": "Technologie",
         "digitalTwin": "Digital Twin",
         "company": "Unternehmen",
         "contact": "Kontakt"
     },
     "pillars": {
         "title1": "Kürzere Projektlaufzeiten",
-        "desc1": "Visuelle, expertenbasierte Konfiguration statt individueller Softwareentwicklung. Schnellerer Go-live für neue Lager.",
-        "title2": "Für vollautomatisierte Lager",
-        "desc2": "Entwickelt für große Goods-to-Person-Systeme mit hohem Durchsatz. Bewährt in Greenfield und Brownfield.",
-        "title3": "Volle Kontrolle durch Digital Twin",
-        "desc3": "Verstehen Sie Ihr Lager, bevor es läuft. 2D- und 3D-Visualisierung schaffen Transparenz und Vertrauen.",
+        "desc1": "Sparen Sie Wochen beim Go-Live. Entscheidungen werden einmal definiert und ohne Neuinterpretation ausgeführt.",
+        "title2": "Risikofreie Modernisierung",
+        "desc2": "Brownfield-Lager ohne 'Big Bang' upgraden. Integrieren Sie neue Zonen, während die alten weiterlaufen.",
+        "title3": "Volle Transparenz",
+        "desc3": "Kein Blindflug mehr. Der Digital Twin sorgt für Abstimmung aller Stakeholder und valide Ergebnisse.",
         "title4": "Echte Modularität",
-        "desc4": "Nutzen Sie, was Sie brauchen: WMS, MFC oder Fleet Manager. Kein Vendor Lock-in, Integration von Altsystemen.",
-        "title5": "Zukunftssichere Investition",
-        "desc5": "Basierend auf einer bewährten Industrieplattform. Skalierbar, datenbankunabhängig und langfristig wartbar."
+        "desc4": "Zahlen Sie nur für das, was Sie nutzen. LogisQ-WES passt sich Ihrem Prozess an, nicht umgekehrt.",
+        "title5": "Investitionsschutz",
+        "desc5": "Gebaut auf der industriellen ArconQ-Plattform. Datenbankunabhängig und skalierbar für die nächsten 15 Jahre."
     },
     "trust": {
         "badge": "Bewährte Produkt-DNA",
@@ -101,19 +102,114 @@
         }
     },
     "modularWesPage": {
-        "title": "Das Betriebssystem für Ihr Lager",
-        "subtitle": "Die modulare WES-Architektur beseitigt monolithische Einschränkungen und schafft ein zukunftssicheres Fundament für Ihre Logistik.",
-        "intro": "LogisQ-WES ist kein einzelnes Produkt – es ist ein modulares Ökosystem. Jede Schicht erfüllt eine spezifische Rolle, orchestriert durch eine einheitliche Intelligenz.",
+        "title": "LogisQ Produktüberblick",
+        "subtitle": "Eine einheitliche Produktarchitektur bestehend aus spezialisierten, unabhängigen Modulen.",
+        "intro": "LogisQ-WES ist das übergeordnete Produkt, das das gesamte Lager orchestriert. Es vereint das 'Gehirn' (WMS), den 'Motor' (PER) und die 'Muskeln' (MFC) in einem kohärenten System.",
+        "productStructure": {
+            "title": "Das LogisQ-WES Produkt",
+            "desc": "Im Gegensatz zu monolithischen Altsystemen ist LogisQ-WES als Suite streng getrennter Module aufgebaut, die über einen zentralen Hub kommunizieren. Das garantiert, dass Sie das WMS upgraden können, ohne das MFC anzufassen.",
+            "modules": {
+                "wms": "WMS (Management)",
+                "per": "PER (Execution Runtime)",
+                "mfc": "MFC (Materialfluss)",
+                "sq": "SquadronQ (Flotte)"
+            }
+        },
+        "comparison": {
+            "title": "WMS vs. WCS vs. LogisQ-WES",
+            "desc": "Warum ein WES? Moderne Lager brauchen mehr als nur Verwaltung (WMS) oder Maschinensteuerung (WCS). Sie brauchen Echtzeit-Ausführung.",
+            "cols": [
+                "Umfang",
+                "Legacy WMS",
+                "Legacy WCS",
+                "LogisQ-WES"
+            ],
+            "rows": [
+                {
+                    "metric": "Hauptrolle",
+                    "wms": "Bestand & Auftrag",
+                    "wcs": "Maschinenverkehr",
+                    "wes": "Prozessausführung"
+                },
+                {
+                    "metric": "Entscheidungszeit",
+                    "wms": "Minuten / Stunden",
+                    "wcs": "Millisekunden",
+                    "wes": "Echtzeit Event-Driven"
+                },
+                {
+                    "metric": "Fokus",
+                    "wms": "Administrativ",
+                    "wcs": "Technokratisch",
+                    "wes": "Operativer Fluss"
+                }
+            ]
+        },
         "pillars": {
-            "p1Title": "Totale Flexibilität",
-            "p1Desc": "Setzen Sie nur die Module ein, die Sie benötigen. Kombinieren Sie WMS-, MFC- und Flotten-Komponenten ganz nach Ihren Anforderungen.",
-            "p2Title": "Zukunftssicher",
-            "p2Desc": "Modernisieren Sie einzelne Module, ohne das gesamte System neu zu konzipieren. Ihr Technologie-Stack wächst mit Ihrem Unternehmen.",
-            "p3Title": "Schnelle Bereitstellung",
-            "p3Desc": "Vorkonfigurierte Module und standardisierte Schnittstellen verkürzen die Projektlaufzeiten im Vergleich zu monolithischen Individualentwicklungen erheblich."
+            "p1Title": "Entkoppelte Architektur",
+            "p1Desc": "Module kommunizieren über den CommunicationHub mittels standardisierter Events. Keine hartcodierten Abhängigkeiten.",
+            "p2Title": "Unabhängiger Lebenszyklus",
+            "p2Desc": "Upgraden Sie WMS-Logik ohne Risiko für SPS-Verbindungen. Patchen Sie das MFC ohne Ausfall des Auftragsmanagements.",
+            "p3Title": "Brownfield Ready",
+            "p3Desc": "Dank unabhängiger Module können wir LogisQ-WES neben Ihrem Legacy-WMS betreiben, um gezielt nur Automatik-Inseln zu steuern."
         },
         "techTitle": "Powered by ArconQ",
-        "techDesc": "Basierend auf einem bewährten Fundament mit über 100 erfolgreichen Projekten liefert ArconQ die robuste Orchestrierungsschicht, die jedes Modul verbindet."
+        "techDesc": "Gebaut auf der industriellen ArconQ-Plattform für 24/7-Zuverlässigkeit, Traceability und sichere Integrationsstandards."
+    },
+    "technologyPage": {
+        "title": "LogisQ-WES Architektur",
+        "subtitle": "Eine Manifest-gesteuerte, Workflow-basierte Execution Runtime. Gebaut für Determinismus und Sicherheit.",
+        "intro": "Die LogisQ-Architektur trennt strikt Verantwortlichkeiten. Das WMS besitzt das 'Was und Warum', der PER das 'Wie' und das MFC das 'Jetzt'.",
+        "stack": {
+            "title": "Der Technologie-Stack",
+            "layers": [
+                {
+                    "name": "Lagerverwaltung / WMS",
+                    "role": "Das Gehirn",
+                    "desc": "Besitzt den Business-State (Aufträge, Bestand). Autorisiert Intents via Policy-Checks. Führt niemals physische Bewegungen direkt aus."
+                },
+                {
+                    "name": "Prozessausführung / PER",
+                    "role": "Der Orchestrator",
+                    "desc": "Elsa-basierte Workflow Engine. Zustandslos, domänen-agnostisch. Orchestriert Capabilities basierend auf Runtime-Manifesten."
+                },
+                {
+                    "name": "Materialfluss / MFC",
+                    "role": "Der Transporter",
+                    "desc": "Echtzeit-Telegrammhandling (SPS/TCP). Besitzt den Transport-Graphen und trifft Hochgeschwindigkeits-Routingentscheidungen."
+                },
+                {
+                    "name": "Konnektivität / CommunicationHub",
+                    "role": "Das Gateway",
+                    "desc": "Das universelle Gateway. Verbindet LogisQ mit der Außenwelt: ERP, SPS, Produktionsmaschinen, Altsysteme und externe Module."
+                },
+                {
+                    "name": "Flottenmanagement / SquadronQ",
+                    "role": "Der Navigator",
+                    "desc": "Autonomer Flottenmanager, angebunden über das Gateway. Wird wie ein externes System behandelt, um unabhängigen Verkauf und Betrieb zu ermöglichen."
+                },
+                {
+                    "name": "Industrie-Plattform / ArconQ",
+                    "role": "Das Rückgrat",
+                    "desc": "Liefert Audit-Log, Identitätsmanagement und Event-Bus (RabbitMQ/Kafka) für garantierte 24/7-Zuverlässigkeit."
+                }
+            ]
+        },
+        "model": {
+            "title": "Manifest-Gesteuerte Ausführung",
+            "desc": "Wir programmieren keine harten Prozesse. Wir definieren 'Runtime-Manifeste' (JSON), die abstrakte Capabilities an konkrete Blueprints binden. Strategiewechsel ohne Neukompilierung.",
+            "flow": [
+                "1. Event (Hu.Arrived)",
+                "2. PER: Lade Manifest",
+                "3. WMS: Autorisiere Intent",
+                "4. Workflow Start"
+            ]
+        },
+        "security": {
+            "title": "Sicherheit & Autorisierung",
+            "desc": "Die Ausführung wird durch 'ProcessScope' gesichert. Ein Workflow hat nur Zugriff auf Ressourcen (Intents), die das WMS beim Start gewährt hat.",
+            "intents": "Intents: AllowTransport, AllowNioHandling, AllowInventoryUpdate"
+        }
     },
     "fleetPage": {
         "title": "Herstellerunabhängige Flotten-Orchestrierung",
@@ -128,14 +224,25 @@
             "f3Desc": "Automatisierte Ladezyklen und intelligente Aufgabenzuweisung basierend auf Roboterstatus, Standort und Priorität."
         }
     },
+    "contactPage": {
+        "title": "Kontakt aufnehmen",
+        "subtitle": "Bereit, Ihr Lager zu modernisieren? Lassen Sie sich nicht von veralteten Systemen ausbremsen.",
+        "highlight": "Treffen Sie das Team, das Ihre Operationen in den Griff bekommt.",
+        "roles": {
+            "ceo": "Geschäftsführer (CEO)",
+            "pm": "Projektmanager",
+            "prodM": "Produktmanager",
+            "chiefDesigner": "CEO / Chief Product Designer"
+        }
+    },
     "hero": {
-        "badge": "Strategische Lagerlogistik",
-        "titlePrefix": "Das Warehouse Execution System für",
-        "titleHighlight": "vollautomatisierte",
-        "titleSuffix": "Logistik",
-        "description": "Kürzere Projektlaufzeiten für komplexe Lager — mit voller Transparenz, echter Modularität und langfristiger Investitionssicherheit.",
-        "ctaPrimary": "System entdecken",
-        "ctaSecondary": "Digital Twin ansehen"
+        "badge": "Design. Validate. Execute.",
+        "titlePrefix": "Warehouse Execution für",
+        "titleHighlight": "kürzere Projektlaufzeiten",
+        "titleSuffix": "",
+        "description": "Durch durchgängiges Design statt Neuinterpretation zwischen Planung und Betrieb.",
+        "ctaPrimary": "So funktioniert's (Technologie)",
+        "ctaSecondary": "Vertrieb kontaktieren"
     },
     "meta": {
         "title": "Warehouse Execution System für Lagerautomatisierung | BSS LogisQ",
