@@ -1,6 +1,18 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import styles from './ModularWes.module.css';
 
+// Helper to render Name|Nickname format
+function renderModuleLabel(text: string, styles: any) {
+    if (!text.includes('|')) return text;
+    const [name, nick] = text.split('|');
+    return (
+        <>
+            <span className={styles.moduleName}>{name}</span>
+            <span className={styles.moduleNick}>{nick}</span>
+        </>
+    );
+}
+
 export default async function ModularWesPage({
     params,
 }: {
@@ -31,10 +43,10 @@ export default async function ModularWesPage({
                             <h3 className={styles.structureTitle}>{m.productStructure.title}</h3>
                             <p className={styles.structureDesc}>{m.productStructure.desc}</p>
                             <div className={styles.moduleGrid}>
-                                <div className={styles.moduleCard}>{m.productStructure.modules.wms}</div>
-                                <div className={styles.moduleCard}>{m.productStructure.modules.per}</div>
-                                <div className={styles.moduleCard}>{m.productStructure.modules.mfc}</div>
-                                <div className={styles.moduleCard}>{m.productStructure.modules.sq}</div>
+                                <div className={styles.moduleCard}>{renderModuleLabel(m.productStructure.modules.wms, styles)}</div>
+                                <div className={styles.moduleCard}>{renderModuleLabel(m.productStructure.modules.per, styles)}</div>
+                                <div className={styles.moduleCard}>{renderModuleLabel(m.productStructure.modules.mfc, styles)}</div>
+                                <div className={styles.moduleCard}>{renderModuleLabel(m.productStructure.modules.sq, styles)}</div>
                             </div>
                         </div>
                     )}

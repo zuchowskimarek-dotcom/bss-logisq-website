@@ -40,10 +40,10 @@
             "title": "One product. Clear responsibilities.",
             "desc": "Built to eliminate responsibility leakage.",
             "modules": {
-                "wms": "WMS (The Brain)",
-                "per": "PER (The Orchestrator)",
-                "mfc": "MFC (The Transporter)",
-                "sq": "SquadronQ (The Navigator)"
+                "wms": "WMS|The Brain",
+                "per": "PER|The Orchestrator",
+                "mfc": "MFC|The Transporter",
+                "sq": "SquadronQ|The Navigator"
             }
         },
         "comparison": {

@@ -40,10 +40,10 @@
             "title": "Ein Produkt. Klare Verantwortlichkeiten.",
             "desc": "Entwickelt, um Verantwortungsdiffusion zu vermeiden.",
             "modules": {
-                "wms": "WMS (Das Gehirn)",
-                "per": "PER (Der Orchestrator)",
-                "mfc": "MFC (Der Transporter)",
-                "sq": "SquadronQ (Der Navigator)"
+                "wms": "WMS|Das Gehirn",
+                "per": "PER|Der Orchestrator",
+                "mfc": "MFC|Der Transporter",
+                "sq": "SquadronQ|Der Navigator"
             }
         },
         "comparison": {
