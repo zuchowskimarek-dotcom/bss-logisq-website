@@ -265,7 +265,7 @@
             "b4Desc": "Extend the life of your existing mechanical hardware."
         }
     },
-    "fleetManagementPage": {
+    "fleetPage": {
         "title": "Fleet Management",
         "subtitle": "Orchestrate mixed fleets from a single source of truth.",
         "intro": "LogisQ-WES integrates AGVs, AMRs, and forklifts into the same execution flow as your conveyors and manual stations.",

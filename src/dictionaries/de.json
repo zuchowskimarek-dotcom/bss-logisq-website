@@ -265,7 +265,7 @@
             "b4Desc": "Verlängern Sie die Lebensdauer Ihrer vorhandenen mechanischen Hardware."
         }
     },
-    "fleetManagementPage": {
+    "fleetPage": {
         "title": "Flottenmanagement",
         "subtitle": "Orchestrieren Sie gemischte Flotten aus einer einzigen Quelle.",
         "intro": "LogisQ-WES integriert FTS, AMRs und Gabelstapler in denselben Ausführungsfluss wie Ihre Fördertechnik und manuellen Stationen.",
