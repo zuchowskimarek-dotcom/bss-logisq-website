@@ -6,10 +6,11 @@ function renderModuleLabel(text: string, styles: any) {
     if (!text.includes('|')) return text;
     const [name, nick] = text.split('|');
     return (
-        <>
+        <div className={styles.moduleLabel}>
             <span className={styles.moduleName}>{name}</span>
+            <span className={styles.moduleSeparator}>|</span>
             <span className={styles.moduleNick}>{nick}</span>
-        </>
+        </div>
     );
 }
 
