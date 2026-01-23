@@ -1,0 +1,114 @@
+.section {
+    padding: 6rem 0;
+    background-color: var(--color-surface);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 1rem;
+}
+
+.narrative {
+    font-size: 1.1rem;
+    color: var(--color-text-dim);
+}
+
+.interface {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 1rem;
+}
+
+.tab {
+    background: transparent;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: var(--color-text-dim);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: var(--transition-fast);
+    font-weight: 500;
+}
+
+.tab:hover {
+    color: var(--color-text-main);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.tab.active {
+    background: var(--color-kinetic);
+    color: #000;
+    font-weight: 700;
+}
+
+.viewport {
+    height: 300px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.visual {
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.placeholderLabel {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.placeholderText {
+    color: var(--color-text-main);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+    }
+}

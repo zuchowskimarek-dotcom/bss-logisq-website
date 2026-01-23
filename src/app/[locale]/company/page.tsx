@@ -9,7 +9,7 @@ export default async function CompanyPage({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const t = dict.trust;
+    const t = dict.companyPage;
 
     return (
         <main className={styles.main}>
@@ -17,7 +17,8 @@ export default async function CompanyPage({
             <header className={styles.header}>
                 <span className={styles.badge}>{t.badge}</span>
                 <h1 className={styles.title}>{t.title}</h1>
-                <p className={styles.description}>{t.description}</p>
+                <p className={styles.subtitle}>{t.subtitle}</p>
+                <p className={styles.intro}>{t.intro}</p>
             </header>
 
             {/* Split Grid */}
@@ -26,23 +27,37 @@ export default async function CompanyPage({
                     {/* BSS Card */}
                     <div className={`${styles.card} ${styles.bss}`}>
                         <div className={styles.cardHeader}>
-                            <div className={styles.cardIcon}>
-                                <Building2 />
+                            <div className={styles.logoWrapper}>
+                                <img
+                                    src="/assets/images/logos/bss-logisq-logo.svg"
+                                    alt="BSS Bohnenberg"
+                                    className={styles.logo}
+                                />
                             </div>
-                            <h2 className={styles.cardTitle}>{t.bssTitle}</h2>
+                            <div>
+                                <h2 className={styles.cardTitle}>{t.bss.title}</h2>
+                                <p className={styles.cardRole}>{t.bss.role}</p>
+                            </div>
                         </div>
-                        <p className={styles.cardDesc}>{t.bssDesc}</p>
+                        <p className={styles.cardDesc}>{t.bss.desc}</p>
                     </div>
 
                     {/* Macrix Card */}
                     <div className={`${styles.card} ${styles.macrix}`}>
                         <div className={styles.cardHeader}>
-                            <div className={styles.cardIcon}>
-                                <Code2 />
+                            <div className={styles.logoWrapper}>
+                                <img
+                                    src="/assets/images/logos/macrix.png"
+                                    alt="Macrix Technology Group"
+                                    className={styles.logo}
+                                />
                             </div>
-                            <h2 className={styles.cardTitle}>{t.macrixTitle}</h2>
+                            <div>
+                                <h2 className={styles.cardTitle}>{t.macrix.title}</h2>
+                                <p className={styles.cardRole}>{t.macrix.role}</p>
+                            </div>
                         </div>
-                        <p className={styles.cardDesc}>{t.macrixDesc}</p>
+                        <p className={styles.cardDesc}>{t.macrix.desc}</p>
                     </div>
                 </div>
 

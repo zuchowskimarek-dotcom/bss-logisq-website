@@ -27,12 +27,12 @@ const ValuePillars: React.FC<ValuePillarsProps> = ({ dict }) => {
         { title: dict.title1, description: dict.desc1, icon: '⏱️' },
         { title: dict.title2, description: dict.desc2, icon: '🏭' },
         { title: dict.title3, description: dict.desc3, icon: '👁️' },
-        { title: dict.title4, description: dict.desc4, icon: '🧩' },
-        { title: dict.title5, description: dict.desc5, icon: '🛡️' },
+        { title: dict.title4, description: dict.desc4, icon: '🛡️' },
+        { title: dict.title5, description: dict.desc5, icon: '🧩' },
     ];
 
     return (
-        <section id="solutions" className={styles.section}>
+        <section id="benefits" className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.grid}>
                     {pillars.map((pillar, index) => (

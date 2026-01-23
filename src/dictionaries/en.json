@@ -7,221 +7,236 @@
         "company": "Company",
         "contact": "Contact Us"
     },
-    "pillars": {
-        "title1": "Shorter Project Runtimes",
-        "desc1": "Cut weeks off your go-live schedule. Decisions are defined once and executed without reinterpretation.",
-        "title2": "Risk-Free Modernization",
-        "desc2": "Upgrade brownfield warehouses without 'Big Bang' risks. Integrate new zones while old ones keep running.",
-        "title3": "Full Operational Transparency",
-        "desc3": "Don't fly blind. Digital Twin improves stakeholder alignment and validation.",
-        "title4": "True Modularity",
-        "desc4": "Pay only for what you need. LogisQ-WES adapts to your process, not the other way around.",
-        "title5": "Investment Protection",
-        "desc5": "Built on the industrial ArconQ platform. Database-independent and scalable for the next 15 years."
-    },
-    "trust": {
-        "badge": "Product Proven DNA",
-        "title": "Software with Real Warehouse DNA",
-        "description": "LogisQ-WES is owned and developed by BSS LogisQ, a joint venture that combines general contractor expertise with mission-critical software excellence.",
-        "bssTitle": "BSS Materialflussgruppe",
-        "bssDesc": "A leading general contractor for warehouse automation, delivering complex greenfield and brownfield projects worldwide.",
-        "macrixTitle": "Macrix Technology Group",
-        "macrixDesc": "Creators of the ArconQ industrial platform – in productive use since 2010 with over 100 successful automation projects.",
-        "footer": "This combination ensures that LogisQ-WES is built for real-world constraints, not theoretical system landscapes."
-    },
-    "products": {
-        "title": "Buy Exactly What You Need",
-        "subtitle": "LogisQ-WES is not an all-or-nothing system. Deploy modular components standalone or combined.",
-        "wmsTitle": "Warehouse Management (WMS)",
-        "wmsDesc": "The business-level logic for your warehouse. Orchestrate orders, inventory, and resource allocation with precision.",
-        "mfcTitle": "Material Flow Control (MFC)",
-        "mfcDesc": "Real-time orchestration of automated systems, conveyors, and AS/RS. Reliable control at maximum throughput.",
-        "fleetTitle": "Fleet Management (SquadronQ)",
-        "fleetDesc": "Vendor-independent management of AGVs and AMRs. Coordinate mixed fleets through a single, unified interface.",
-        "result": "Result: flexibility without compromise."
-    },
-    "cta": {
-        "title": "Ready to Orchestrate Your Warehouse?",
-        "subtitle": "Get in touch with our experts to discuss your brownfield upgrade or greenfield automation project.",
-        "primary": "Schedule a Consultation",
-        "secondary": "Contact Sales"
-    },
     "solutionsPage": {
-        "title": "Orchestrating Complex Logistics",
-        "subtitle": "Discover how LogisQ-WES combines modular architecture with digital twin transparency to shorten project runtimes and secure your investment.",
-        "intro": "Our solutions are designed for the reality of modern warehouses: hybrid, modular, and constantly evolving.",
+        "title": "Solutions",
+        "subtitle": "Specialized modules for every operational challenge.",
+        "intro": "Explore our targeted solutions designed to solve specific logistics problems without adding architectural complexity.",
         "card1": {
-            "title": "Modular WES Architecture",
-            "desc": "The end of monolithic constraints. Deploy exactly the modules you need for WMS, MFC, or Fleet Management.",
-            "link": "Explore Modularity"
+            "title": "Modular WES",
+            "desc": "The core system. WMS, PER, MFC, and Hub working in perfect synchronization.",
+            "link": "Learn about Modular WES"
         },
         "card2": {
-            "title": "Digital Twin & Transparency",
-            "desc": "Real-time 3D orchestration of your warehouse flows. Control complexity through visual trust.",
-            "link": "See Digital Twin"
+            "title": "Digital Twin",
+            "desc": "Validate your facility design before a single conveyer is installed.",
+            "link": "Explore Digital Twin"
         },
         "card3": {
-            "title": "Brownfield & Retrofit",
-            "desc": "Integrate before you replace. Modernize existing automation step-by-step without big-bang risks.",
-            "link": "Upgrade Now"
+            "title": "Brownfield Modernization",
+            "desc": "Upgrade legacy warehouses without the risk of a 'Big Bang' replacement.",
+            "link": "View Brownfield Strategy"
         },
         "card4": {
             "title": "Fleet Management",
-            "desc": "Unified coordination of AGVs and AMRs. Vendor-independent orchestration of your mobile robot fleet.",
-            "link": "View SquadronQ"
-        }
-    },
-    "digitalTwinPage": {
-        "title": "Full Control Through Digital Twin",
-        "subtitle": "Real-time 3D orchestration of your warehouse flows for total operational transparency.",
-        "intro": "The LogisQ Digital Twin is more than a visualization. It is your trust anchor, providing a clear understanding of complex automation in real time.",
-        "features": {
-            "f1Title": "Real-Time System State",
-            "f1Desc": "See exactly what is happening in your warehouse. 2D and 3D views of every move, shuttle, and picker.",
-            "f2Title": "Process Flow Clarity",
-            "f2Desc": "Identify bottlenecks and optimize flows through visual intuition rather than complex data tables.",
-            "f3Title": "Operational Trust",
-            "f3Desc": "Strong visual communication for operators and stakeholders. Transparency that leads to better decision-making."
-        },
-        "roadmapTitle": "Future Outlook: Simulation",
-        "roadmapDesc": "Advanced simulation and 'what-if' scenarios are part of our strategic roadmap. We build the visual foundation for predictive logistics today."
-    },
-    "brownfieldPage": {
-        "title": "Upgrade Your Warehouse — Without Starting from Scratch",
-        "subtitle": "Modernize existing automation step-by-step with zero architectural dead ends.",
-        "intro": "Most warehouses are brownfield installations. LogisQ-WES is designed for mixed automation, legacy integration, and gradual modernization.",
-        "blocks": {
-            "b1Title": "Integrate Before You Replace",
-            "b1Desc": "Your existing WMS, PLCs, and mechanical systems remain operational. We integrate them into a unified orchestration layer.",
-            "b2Title": "Mixed Automation Is Reality",
-            "b2Desc": "Coordinate manual areas, existing shuttles, and new AGVs through one system. No vendor lock-in.",
-            "b3Title": "Step-by-Step Modernization",
-            "b3Desc": "Avoid the big-bang risk. Modernize specific zones or modules at your own pace.",
-            "b4Title": "Risk Reduction via Digital Twin",
-            "b4Desc": "Visualize your current state and simulate future changes before implementation to minimize operational downtime."
+            "desc": "Coordinate AGVs and AMRs as part of your unified execution flow.",
+            "link": "See Fleet Management"
         }
     },
     "modularWesPage": {
-        "title": "LogisQ Product Overview",
-        "subtitle": "A unified product architecture composed of specialized, independent modules.",
-        "intro": "LogisQ-WES is the overarching product that orchestrates the entire warehouse. It combines the 'Brain' (WMS), the 'Engine' (PER), and the 'Muscles' (MFC) into a single, cohesive system.",
+        "title": "Modular WES",
+        "subtitle": "Bridge sales promise and technical reality",
+        "intro": "LogisQ-WES is an intralogistics software product composed of specialized modules connected via the CommunicationHub.",
         "productStructure": {
-            "title": "The LogisQ-WES Product",
-            "desc": "Unlike monolithic legacy systems, LogisQ-WES is built as a suite of strictly separated modules communicating via a central Hub. This ensures you can upgrade the WMS without touching the MFC, or swap Fleet Managers without rewriting the WES.",
+            "title": "One product. Clear responsibilities.",
+            "desc": "Built to eliminate responsibility leakage.",
             "modules": {
-                "wms": "WMS (Management)",
-                "per": "PER (Execution Runtime)",
-                "mfc": "MFC (Material Flow)",
-                "sq": "SquadronQ (Fleet)"
+                "wms": "WMS (The Brain)",
+                "per": "PER (The Orchestrator)",
+                "mfc": "MFC (The Transporter)",
+                "sq": "SquadronQ (The Navigator)"
             }
         },
         "comparison": {
-            "title": "WMS vs. WCS vs. LogisQ-WES",
-            "desc": "Why do you need a WES? Because modern warehouses need more than just inventory management (WMS) or machine control (WCS). They need real-time execution.",
+            "title": "WMS vs WES vs WCS",
+            "desc": "Why a specialized execution layer is necessary.",
             "cols": [
-                "Scope",
-                "Legacy WMS",
-                "Legacy WCS",
+                "Metric",
+                "Classic WMS",
+                "WCS",
                 "LogisQ-WES"
             ],
             "rows": [
                 {
-                    "metric": "Primary Role",
-                    "wms": "Inventory & Orders",
-                    "wcs": "Machine Traffic",
-                    "wes": "Process Execution"
-                },
-                {
-                    "metric": "Decision Speed",
-                    "wms": "Minutes / Hours",
-                    "wcs": "Milliseconds",
-                    "wes": "Real-time Event Driven"
-                },
-                {
                     "metric": "Focus",
-                    "wms": "Administrative",
-                    "wcs": "Technocratic",
-                    "wes": "Operational Flow"
+                    "wms": "Planning",
+                    "wcs": "Machine Control",
+                    "wes": "Execution"
+                },
+                {
+                    "metric": "Time Horizon",
+                    "wms": "Shift / Day",
+                    "wcs": "Milliseconds",
+                    "wes": "Real-time"
+                },
+                {
+                    "metric": "Logic",
+                    "wms": "Batch",
+                    "wcs": "Hardcoded",
+                    "wes": "Event-driven"
                 }
             ]
         },
         "pillars": {
-            "p1Title": "Decoupled Architecture",
-            "p1Desc": "Modules communicate via the CommunicationHub using standardized events. No hard-coded dependencies between layers.",
-            "p2Title": "Independent Lifecycle",
-            "p2Desc": "Upgrade your WMS logic without risking your PLC connections. Patch the MFC without taking down the Order Management.",
+            "p1Title": "Communication Hub",
+            "p1Desc": "The central backbone that decouples systems.",
+            "p2Title": "Independent Upgrades",
+            "p2Desc": "Modules can be upgraded without breaking the system.",
             "p3Title": "Brownfield Ready",
-            "p3Desc": "Because modules are independent, we can deploy LogisQ-WES alongside your existing legacy WMS to handle just the automation islands."
+            "p3Desc": "Integrates with existing hardware and software."
         },
-        "techTitle": "Powered by ArconQ",
-        "techDesc": "Built on the industrial ArconQ platform, ensuring 24/7 reliability, traceablity, and secure integration standards."
+        "techTitle": "Explore the Technology",
+        "techDesc": "Dive deeper into the architecture that makes this possible."
+    },
+    "digitalTwinPage": {
+        "title": "Digital Twin",
+        "subtitle": "Design-time transparency, not runtime dependence.",
+        "intro": "Leverage full 3D visualization during planning and commissioning to validate processes before they go live.",
+        "features": {
+            "f1Title": "Real-time Mirroring",
+            "f1Desc": "Inspect system behavior in a safe, virtual environment.",
+            "f2Title": "Validation",
+            "f2Desc": "Verify logic without physical risk.",
+            "f3Title": "Alignment",
+            "f3Desc": "Ensure all stakeholders see the same reality."
+        },
+        "roadmapTitle": "Future Capabilities",
+        "roadmapDesc": "We are continuously expanding our simulation capabilities to support predictive maintenance and advanced scenario testing."
+    },
+    "companyPage": {
+        "badge": "Strong Partners",
+        "title": "A Strategic Joint Venture",
+        "subtitle": "Combining logistics heritage with software innovation.",
+        "intro": "LogisQ-WES is the result of a powerful partnership between BSS Bohnenberg (Intralogistics) and Macrix Technology Group (Software Engineering).",
+        "bss": {
+            "title": "BSS Bohnenberg",
+            "role": "Logistics & Process Expertise",
+            "desc": "With over 30 years of experience as a general contractor for intralogistics, BSS understands the physical reality of the warehouse."
+        },
+        "macrix": {
+            "title": "Macrix",
+            "role": "Software & Architecture",
+            "desc": "The creators of the ArconQ platform. Macrix brings 25 years of high-performance software engineering to the industrial sector."
+        },
+        "footer": "Together, we deliver a system that is both physically realistic and architecturally superior."
+    },
+    "hero": {
+        "badge": "Design. Validate. Execute.",
+        "titlePrefix": "Warehouse Execution for",
+        "titleHighlight": "Shorter Project Runtimes",
+        "titleSuffix": "",
+        "description": "Through end-to-end design instead of reinterpretation between planning and operation.",
+        "ctaPrimary": "How It Works",
+        "ctaSecondary": "Talk to Sales"
+    },
+    "problem": {
+        "title": "Why warehouse projects slip late — not early",
+        "p1": "Decisions made during planning are reinterpreted during implementation",
+        "p2": "Commissioning turns into a discovery phase instead of a validation step",
+        "p3": "Go-live dates move, even though \"everything was already defined\"",
+        "bridge": "Most delays are not caused by missing features, but by late reinterpretation of already-made decisions."
+    },
+    "difference": {
+        "title": "Designed to run as planned",
+        "p1": "Decisions are defined once and remain consistent across the project",
+        "p2": "Planning, execution, and operation follow the same semantic model",
+        "p3": "No hidden behavior emerges during commissioning",
+        "support": "Execution is not improvised at the end — it is structurally prepared from the beginning."
+    },
+    "operational": {
+        "title": "What LogisQ-WES does in daily operation",
+        "intro": "The **PER module** orchestrates warehouse execution by coordinating priorities, resources, and real-time task flow across manual and automated operations.",
+        "block1Title": "Task Sequencing & Priorities",
+        "block1Desc": "Controls the order and timing of warehouse tasks based on defined rules and current conditions.",
+        "block2Title": "Resource Coordination",
+        "block2Desc": "Aligns people, automation, and fleets within a single execution flow.",
+        "block3Title": "Execution Control",
+        "block3Desc": "Connects warehouse management decisions with shop-floor execution without semantic breaks."
+    },
+    "playbooks": {
+        "title": "Project Playbooks",
+        "inbound": "Inbound Flow",
+        "replenishment": "Replenishment",
+        "picking": "Order Picking",
+        "narrative": "**PER** handles priority and execution sequencing ensuring optimal flow."
+    },
+    "productStructureLight": {
+        "title": "One product. Clear responsibilities.",
+        "wms": "WMS defines business decisions, priorities, and warehouse logic.",
+        "per": "PER executes defined processes in a controlled and observable way.",
+        "mfc": "MFC translates execution requests into physical movements.",
+        "hub": "Communication Hub connects external systems and equipment without embedding logic.",
+        "fleet": "Fleet Management coordinates mobile robots and vehicles within the execution flow."
+    },
+    "benefits": {
+        "title1": "Shorter Project Runtimes",
+        "desc1": "Projects go live faster because execution behavior is defined early and does not change late.",
+        "title2": "Risk-Free Modernization",
+        "desc2": "Upgrade or extend existing warehouses without rewriting execution logic.",
+        "title3": "Operational Clarity",
+        "desc3": "Clear visibility into priorities, execution state, and dependencies during operation.",
+        "title4": "Investment Protection",
+        "desc4": "System structure remains stable while individual modules evolve.",
+        "title5": "True Modularity",
+        "desc5": "Modules can be replaced or extended without breaking execution consistency."
+    },
+    "digitalTwinRepositioned": {
+        "title": "Design-time transparency (optional)",
+        "p1": "Digital Twin technology supports understanding, alignment, and validation during design and planning.",
+        "p2": "It improves communication and confidence — without replacing execution logic."
+    },
+    "trust": {
+        "title": "Go deeper — or start a conversation",
+        "cta1": "Explore the Technology",
+        "cta2": "See Typical Use Cases",
+        "cta3": "Talk to Sales"
     },
     "technologyPage": {
-        "title": "LogisQ-WES Architecture",
-        "subtitle": "A manifest-driven, workflow-first execution runtime. Built for determinism and safety.",
-        "intro": "The LogisQ architecture strictly focuses on separation of concerns. The WMS owns the 'What and Why', the PER owns the 'How', and the MFC owns the 'Now'.",
+        "intro": {
+            "title": "Why LogisQ-WES works reliably in real warehouses",
+            "body": "LogisQ-WES ensures that warehouse processes are executed **as defined**, not as reinterpreted later.<br><br>Its architecture removes semantic gaps between planning, execution, and operation."
+        },
+        "boundaries": {
+            "title": "Clear responsibilities instead of blurred control",
+            "intro": "LogisQ-WES is a product composed of specialized modules. Each module has a **strict, non-overlapping responsibility**.",
+            "wms": "**WMS** defines business decisions, priorities, and warehouse logic",
+            "per": "**PER** executes defined processes in a controlled and observable way",
+            "mfc": "**MFC** translates execution requests into physical movements",
+            "hub": "**Communication Hub** connects external systems and equipment without embedding logic",
+            "fleet": "**Fleet Management** coordinates mobile vehicles within execution boundaries"
+        },
+        "execution": {
+            "title": "Workflow-first, deterministic execution",
+            "intro": "Execution in LogisQ-WES follows a **workflow-first model**:",
+            "p1": "Processes are defined explicitly",
+            "p2": "PER executes these definitions exactly",
+            "p3": "Runtime behavior is deterministic and traceable"
+        },
+        "safety": {
+            "title": "Enforcement over trust",
+            "intro": "Execution is governed by explicit authorization and scope rules:",
+            "p1": "Every execution runs within a defined **ProcessScope**",
+            "p2": "Only authorized actions are allowed to execute",
+            "p3": "Out-of-scope execution attempts are rejected"
+        },
         "stack": {
-            "title": "The Technology Stack",
-            "layers": [
-                {
-                    "name": "Warehouse Management / WMS",
-                    "role": "The Brain",
-                    "desc": "Owns business state (Orders, Inventory). Authorizes intents via Policy Checks. Never executes physical moves directly."
-                },
-                {
-                    "name": "Process Execution / PER",
-                    "role": "The Orchestrator",
-                    "desc": "Elsa-based Workflow Engine. Stateless, domain-agnostic. Orchestrates capabilities based on Runtime Manifests."
-                },
-                {
-                    "name": "Material Flow / MFC",
-                    "role": "The Transporter",
-                    "desc": "Real-time telegram handling (PLC/TCP). Owns the Transport Graph and high-speed routing decisions."
-                },
-                {
-                    "name": "Connectivity / CommunicationHub",
-                    "role": "The Gateway",
-                    "desc": "The Universal Gateway. Connects LogisQ to the outer world: ERP, PLCs, production machines, legacy systems, and external modules."
-                },
-                {
-                    "name": "Fleet Management / SquadronQ",
-                    "role": "The Navigator",
-                    "desc": "Autonomous fleet manager connected via The Gateway. Treated as an external system to ensure it can be sold and operated independently."
-                },
-                {
-                    "name": "Infrastructure / ArconQ",
-                    "role": "The Backbone",
-                    "desc": "Provides the underlying Audit Log, Identity Management, and Event Bus (RabbitMQ/Kafka) ensuring 24/7 reliability."
-                }
-            ]
+            "title": "A platform designed for controlled execution",
+            "intro": "LogisQ-WES runs on the **ArconQ Platform**, providing:",
+            "list": "Service orchestration, Event-driven communication, Observability, Controlled deployment",
+            "bridge": "On top of ArconQ, domain-specific modules implement warehouse execution."
         },
-        "model": {
-            "title": "Manifest-Driven Execution",
-            "desc": "We do not code hard processes. We define 'Runtime Manifests' (JSON) that bind abstract Capabilities to concrete Blueprints. This allows us to change strategies without recompiling the core.",
-            "flow": [
-                "1. Event (Hu.Arrived)",
-                "2. PER: Load Manifest",
-                "3. WMS: Authorize Intent",
-                "4. Workflow Start"
-            ]
+        "integration": {
+            "title": "Event-driven, responsibility-aware integration",
+            "intro": "LogisQ-WES integrates via events and messages, not tight coupling.",
+            "steps": "PLC emits event → Hub normalizes → PER evaluates → MFC executes",
+            "bridge": "Data ownership and decision authority remain explicit at every step."
         },
-        "security": {
-            "title": "Safety & Authorization",
-            "desc": "Execution is secured by 'ProcessScope'. A running workflow only has access to the specific resources (Intents) granted by the WMS at start time. No unauthorized side-effects are possible.",
-            "intents": "Intents: AllowTransport, AllowNioHandling, AllowInventoryUpdate"
-        }
-    },
-    "fleetPage": {
-        "title": "Vendor-Independent Fleet Orchestration",
-        "subtitle": "Coordinate mixed fleets of AGVs and AMRs through a single, unified interface with SquadronQ.",
-        "intro": "Modern logistics depends on mobility. We break down vendor silos by providing a centralized control layer for your entire robot fleet.",
-        "features": {
-            "f1Title": "Mixed Fleet Coordination",
-            "f1Desc": "No more managing different vendors in different apps. SquadronQ orchestrates robots from multiple manufacturers seamlessly.",
-            "f2Title": "Intelligent Traffic Control",
-            "f2Desc": "Real-time path planning and collision avoidance across your entire automated fleet to ensure maximum throughput.",
-            "f3Title": "Battery & Task Management",
-            "f3Desc": "Automated charging cycles and intelligent task assignment based on robot state, location, and priority."
+        "digitalTwin": {
+            "title": "Design-time transparency, not runtime control",
+            "intro": "Digital Twin capabilities support design validation and alignment.",
+            "bridge": "They do **not** replace execution logic at runtime."
+        },
+        "final": {
+            "text": "LogisQ-WES does not optimize execution by guessing.<br>**PER** executes what was defined — consistently, transparently, and safely."
         }
     },
     "contactPage": {
@@ -234,15 +249,6 @@
             "prodM": "Product Manager",
             "chiefDesigner": "CEO / Chief Product Designer"
         }
-    },
-    "hero": {
-        "badge": "Design. Validate. Execute.",
-        "titlePrefix": "Warehouse Execution for",
-        "titleHighlight": "Shorter Project Runtimes",
-        "titleSuffix": "",
-        "description": "Through end-to-end design instead of reinterpretation between planning and operation.",
-        "ctaPrimary": "How It Works (Technology)",
-        "ctaSecondary": "Talk to Sales"
     },
     "meta": {
         "title": "Warehouse Execution System for Automated Logistics | BSS LogisQ",

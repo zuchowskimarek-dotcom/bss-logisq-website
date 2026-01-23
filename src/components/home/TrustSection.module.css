@@ -1,46 +1,158 @@
 .section {
-    padding: 6rem 0;
-    /* Increased padding slightly for breathability */
-    background: transparent;
-    /* Removed gray background */
-    text-align: center;
-    /* Removed borders */
+    padding: 8rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid var(--color-border);
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.03), transparent 70%);
 }
 
-.label {
-    font-size: 0.875rem;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, #ffffff, #888888);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -0.02em;
+}
+
+.ctaRow {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.primaryBtn {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: var(--color-kinetic);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.2s ease;
+}
+
+.primaryBtn:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.secondaryBtn {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: transparent;
+    color: var(--color-text-main);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.2s ease;
+}
+
+.secondaryBtn:hover {
+    border-color: var(--color-text-main);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.salesBtn {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: transparent;
     color: var(--color-text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 4rem;
-    /* More space between label and logos */
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.2s ease;
+}
+
+.salesBtn:hover {
+    color: var(--color-text-main);
+}
+
+.divider {
+    width: 60px;
+    height: 1px;
+    background: var(--color-border);
+    margin: 0 auto 5rem;
 }
 
 .logoGrid {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
-    /* Increased gap for wide professional spacing */
+    gap: 4rem;
     flex-wrap: wrap;
+    opacity: 0.7;
+}
+
+.logoGrid:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 .logoItem {
-    opacity: 1;
-    /* Full visibility for professional impact */
     transition: transform 0.3s ease;
 }
 
 .logoItem:hover {
     transform: scale(1.05);
-    /* Gentle scaling on hover */
 }
 
 .logo {
-    height: 68px;
-    /* Reduced by another ~20% from 85px */
+    height: 48px;
     width: auto;
     object-fit: contain;
-    /* Removed grayscale filter */
-    transition: transform 0.3s ease;
+    filter: grayscale(1);
+    transition: filter 0.3s ease;
+}
+
+.logoItem:hover .logo {
+    filter: grayscale(0);
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .ctaRow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .primaryBtn,
+    .secondaryBtn,
+    .salesBtn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logoGrid {
+        gap: 2rem;
+    }
+
+    .logo {
+        height: 32px;
+    }
 }

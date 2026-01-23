@@ -28,7 +28,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body suppressHydrationWarning>
         <Navbar locale={locale} navigationDict={dict.navigation} />
         <main>{children}</main>
         {/* Footer will go here */}
