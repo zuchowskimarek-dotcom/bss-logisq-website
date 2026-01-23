@@ -107,6 +107,16 @@
     }
 }
 
+.diagramImage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease;
+}
+
 @media (max-width: 768px) {
     .tabs {
         flex-direction: column;

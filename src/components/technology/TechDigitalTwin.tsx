@@ -14,7 +14,9 @@ export default function TechDigitalTwin({ dict }: TechDigitalTwinProps) {
         <section className={styles.section}>
             <div className={styles.container}>
                 <h2 className={styles.headline}>{dict.title}</h2>
-                <p className={styles.subheadline}>{dict.intro}</p>
+                <p className={styles.subheadline}>
+                    <RichText text={dict.intro} />
+                </p>
                 <div className={styles.bridge}>
                     <RichText text={dict.bridge} />
                 </div>

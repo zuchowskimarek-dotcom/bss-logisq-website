@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import styles from './ProjectPlaybooks.module.css';
-import PlaybookDiagram from './PlaybookDiagram';
 import RichText from '@/components/common/RichText';
 
 interface ProjectPlaybooksProps {
@@ -47,7 +46,11 @@ export default function ProjectPlaybooks({ dict }: ProjectPlaybooksProps) {
 
                     <div className={styles.viewport}>
                         <div className={styles.slideContent}>
-                            <PlaybookDiagram type={activeTab} />
+                            <img
+                                src={`/images/playbooks/flow_${activeTab}.png`}
+                                alt={`${activeTab} flow diagram`}
+                                className={styles.diagramImage}
+                            />
                         </div>
                     </div>
                 </div>

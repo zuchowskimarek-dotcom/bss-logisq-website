@@ -1,4 +1,5 @@
 import styles from './OperationalAnchor.module.css';
+import RichText from '@/components/common/RichText';
 
 interface OperationalAnchorProps {
     dict: {
@@ -19,7 +20,7 @@ export default function OperationalAnchor({ dict }: OperationalAnchorProps) {
             <div className={`container ${styles.container}`}>
                 <div className={styles.header}>
                     <h2 className={styles.title}>{dict.title}</h2>
-                    <p className={styles.intro}>{dict.intro}</p>
+                    <p className={styles.intro}><RichText text={dict.intro} /></p>
                 </div>
 
                 <div className={styles.grid}>
