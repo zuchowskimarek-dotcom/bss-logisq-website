@@ -70,6 +70,10 @@
     gap: 1.5rem;
 }
 
+.moduleGrid>*:nth-child(4) {
+    grid-column: 2;
+}
+
 .moduleCard {
     background: rgba(0, 255, 133, 0.05);
     border: 1px solid var(--primary-green);
@@ -90,43 +94,7 @@
     background: rgba(0, 255, 133, 0.1);
 }
 
-.moduleLabel {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    /* Upper alignment */
-    gap: 0.75rem;
-    line-height: 1;
-}
 
-.moduleName {
-    font-size: 2.5rem;
-    /* Larger for contrast */
-    color: var(--primary-green);
-    font-weight: 800;
-    line-height: 0.8;
-    /* Tight line height for alignment */
-}
-
-.moduleSeparator {
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: var(--primary-green);
-    opacity: 0.5;
-    line-height: 0.8;
-}
-
-.moduleNick {
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--text-muted);
-    font-weight: 600;
-    padding-top: 0.2rem;
-    /* Fine-tune upper alignment */
-    max-width: 120px;
-    /* Ensure wrapping if needed, though short nicks preferred */
-}
 
 /* Comparison Table Styles */
 .comparisonSection {

@@ -1,0 +1,75 @@
+.badge {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Upper alignment */
+    gap: 0.75rem;
+    line-height: 1;
+    font-family: var(--font-primary, sans-serif);
+    /* Ensure font consistency */
+}
+
+/* Sizes */
+.sm .name {
+    font-size: 1.5rem;
+}
+
+.sm .separator {
+    font-size: 1.5rem;
+}
+
+.sm .nick {
+    font-size: 0.6rem;
+    max-width: 80px;
+}
+
+.md .name {
+    font-size: 2.5rem;
+}
+
+.md .separator {
+    font-size: 2.5rem;
+}
+
+.md .nick {
+    font-size: 0.85rem;
+    max-width: 120px;
+}
+
+.lg .name {
+    font-size: 3.5rem;
+}
+
+.lg .separator {
+    font-size: 3.5rem;
+}
+
+.lg .nick {
+    font-size: 1rem;
+    max-width: 160px;
+}
+
+/* Elements */
+.name {
+    color: var(--primary-green);
+    font-weight: 800;
+    line-height: 0.8;
+}
+
+.separator {
+    font-weight: 300;
+    color: var(--primary-green);
+    opacity: 0.5;
+    line-height: 0.8;
+}
+
+.nick {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    font-weight: 600;
+    padding-top: 0.1em;
+    /* Fine-tune upper alignment */
+    opacity: 0.8;
+    line-height: 1.2;
+}

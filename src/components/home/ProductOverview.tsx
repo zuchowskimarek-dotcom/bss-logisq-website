@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ProductOverview.module.css';
+import ModuleBadge from '@/components/common/ModuleBadge/ModuleBadge';
 
 interface ProductOverviewProps {
     dict: {
@@ -22,27 +23,27 @@ const ProductOverview: React.FC<ProductOverviewProps> = ({ dict }) => {
 
                 <div className={styles.grid}>
                     <div className={styles.card}>
-                        <div className={styles.moduleBadge}>WMS</div>
+                        <ModuleBadge label="WMS" size="sm" />
                         <p className={styles.moduleDesc}>{dict.wms}</p>
                     </div>
 
                     <div className={`${styles.card} ${styles.featuredCard}`}>
-                        <div className={styles.moduleBadge}>PER</div>
+                        <ModuleBadge label="PER" size="sm" />
                         <p className={styles.moduleDesc}>{dict.per}</p>
                     </div>
 
                     <div className={styles.card}>
-                        <div className={styles.moduleBadge}>MFC</div>
+                        <ModuleBadge label="MFC" size="sm" />
                         <p className={styles.moduleDesc}>{dict.mfc}</p>
                     </div>
 
                     <div className={styles.card}>
-                        <div className={styles.moduleBadge}>Hub</div>
+                        <ModuleBadge label="Hub" size="sm" />
                         <p className={styles.moduleDesc}>{dict.hub}</p>
                     </div>
 
                     <div className={styles.card}>
-                        <div className={styles.moduleBadge}>Fleet</div>
+                        <ModuleBadge label="Fleet" size="sm" />
                         <p className={styles.moduleDesc}>{dict.fleet}</p>
                     </div>
                 </div>
