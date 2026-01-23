@@ -175,9 +175,9 @@
         "title3": "Operational Clarity",
         "desc3": "Clear visibility into priorities, execution state, and dependencies during operation.",
         "title4": "Investment Protection",
-        "desc4": "System structure remains stable while individual modules evolve.",
+        "desc4": "Automation hardware outlasts software cycles because execution semantics remain stable.",
         "title5": "True Modularity",
-        "desc5": "Modules can be replaced or extended without breaking execution consistency."
+        "desc5": "New technologies integrate without side effects because changes do not leak into execution behavior."
     },
     "digitalTwinRepositioned": {
         "title": "Design-time transparency (optional)",

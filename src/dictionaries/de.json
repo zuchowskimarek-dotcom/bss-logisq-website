@@ -175,9 +175,9 @@
         "title3": "Operative Klarheit",
         "desc3": "Transparenz über Prioritäten, Ausführungsstatus und Abhängigkeiten im laufenden Betrieb.",
         "title4": "Investitionssicherheit",
-        "desc4": "Stabile Systemstruktur bei gleichzeitiger Weiterentwicklung einzelner Module.",
+        "desc4": "Automatisierungshardware überdauert Softwarezyklen, da die Ausführungssemantik stabil bleibt.",
         "title5": "Echte Modularität",
-        "desc5": "Austausch oder Erweiterung von Modulen ohne Bruch in der Ausführung."
+        "desc5": "Neue Technologien lassen sich ohne Nebenwirkungen integrieren, da Änderungen nicht in das Ausführungsverhalten durchsickern."
     },
     "digitalTwinRepositioned": {
         "title": "Transparenz in der Planungsphase (optional)",

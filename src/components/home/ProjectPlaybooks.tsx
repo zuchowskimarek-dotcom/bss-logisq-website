@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import styles from './ProjectPlaybooks.module.css';
+import PlaybookDiagram from './PlaybookDiagram';
+import RichText from '@/components/common/RichText';
 
 interface ProjectPlaybooksProps {
     dict: {
@@ -27,7 +29,7 @@ export default function ProjectPlaybooks({ dict }: ProjectPlaybooksProps) {
             <div className={`container ${styles.container}`}>
                 <div className={styles.header}>
                     <h2 className={styles.title}>{dict.title}</h2>
-                    <p className={styles.narrative}>{dict.narrative}</p>
+                    <RichText text={dict.narrative} className={styles.narrative} />
                 </div>
 
                 <div className={styles.interface}>
@@ -45,17 +47,7 @@ export default function ProjectPlaybooks({ dict }: ProjectPlaybooksProps) {
 
                     <div className={styles.viewport}>
                         <div className={styles.slideContent}>
-                            {/* Visual Placeholder for the requested Graphic/Carousel */}
-                            <div className={`${styles.visual} ${styles[activeTab]}`}>
-                                <div className={styles.placeholderLabel}>
-                                    {activeTab === 'inbound' && '🚛 → 📦'}
-                                    {activeTab === 'replenishment' && '📦 → 🏭'}
-                                    {activeTab === 'picking' && '🏭 → 🚚'}
-                                </div>
-                                <div className={styles.placeholderText}>
-                                    Visual Flow: {tabs.find(t => t.id === activeTab)?.label}
-                                </div>
-                            </div>
+                            <PlaybookDiagram type={activeTab} />
                         </div>
                     </div>
                 </div>
