@@ -250,6 +250,34 @@
             "chiefDesigner": "CEO / Chief Product Designer"
         }
     },
+    "brownfieldPage": {
+        "title": "Brownfield Modernisierung",
+        "subtitle": "Modernisierung ohne Stillstand.",
+        "intro": "LogisQ-WES ermöglicht es Ihnen, moderne Ausführungsfunktionen in bestehende Anlagen zu integrieren und Altsysteme schrittweise zu aktualisieren.",
+        "blocks": {
+            "b1Title": "Kein Big Bang",
+            "b1Desc": "Führen Sie neue Module parallel zu Altsystemen ein.",
+            "b2Title": "Gateway-Logik",
+            "b2Desc": "Der Communication Hub fungiert als Übersetzer zwischen Alt und Neu.",
+            "b3Title": "Risikominderung",
+            "b3Desc": "Testen Sie neue Logik in kleinem Umfang vor dem vollständigen Rollout.",
+            "b4Title": "Kapitaleffizient",
+            "b4Desc": "Verlängern Sie die Lebensdauer Ihrer vorhandenen mechanischen Hardware."
+        }
+    },
+    "fleetManagementPage": {
+        "title": "Flottenmanagement",
+        "subtitle": "Orchestrieren Sie gemischte Flotten aus einer einzigen Quelle.",
+        "intro": "LogisQ-WES integriert FTS, AMRs und Gabelstapler in denselben Ausführungsfluss wie Ihre Fördertechnik und manuellen Stationen.",
+        "features": {
+            "f1Title": "Herstellerunabhängig",
+            "f1Desc": "Steuern Sie Roboter verschiedener Hersteller über VDA 5050 oder native APIs.",
+            "f2Title": "Verkehrssteuerung",
+            "f2Desc": "Vermeiden Sie Deadlocks und optimieren Sie das Routing in gemeinsamen Arbeitsbereichen.",
+            "f3Title": "Batteriemanagement",
+            "f3Desc": "Automatisierte Ladelogik sorgt für 24/7-Verfügbarkeit."
+        }
+    },
     "meta": {
         "title": "Warehouse Execution System für Lagerautomatisierung | BSS LogisQ",
         "description": "Modulares Warehouse Execution System für vollautomatisierte Goods-to-Person-Lager. Kürzere Projektlaufzeiten, Digital Twin, kein Vendor Lock-in."

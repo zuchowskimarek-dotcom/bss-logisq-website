@@ -250,6 +250,34 @@
             "chiefDesigner": "CEO / Chief Product Designer"
         }
     },
+    "brownfieldPage": {
+        "title": "Brownfield Modernization",
+        "subtitle": "Modernize without bringing operations to a halt.",
+        "intro": "LogisQ-WES allows you to introduce modern execution capabilities into existing facilities, upgrading legacy systems step-by-step.",
+        "blocks": {
+            "b1Title": "No Big Bang",
+            "b1Desc": "Introduce new modules alongside legacy systems.",
+            "b2Title": "Gateway Logic",
+            "b2Desc": "Communication Hub acts as a translator between old and new.",
+            "b3Title": "Risk Mitigation",
+            "b3Desc": "Test new logic on a small scope before full rollout.",
+            "b4Title": "Capital Efficient",
+            "b4Desc": "Extend the life of your existing mechanical hardware."
+        }
+    },
+    "fleetManagementPage": {
+        "title": "Fleet Management",
+        "subtitle": "Orchestrate mixed fleets from a single source of truth.",
+        "intro": "LogisQ-WES integrates AGVs, AMRs, and forklifts into the same execution flow as your conveyors and manual stations.",
+        "features": {
+            "f1Title": "Vendor Agnostic",
+            "f1Desc": "Control robots from different manufacturers via VDA 5050 or native APIs.",
+            "f2Title": "Traffic Control",
+            "f2Desc": "Prevent deadlocks and optimize routing in shared workspaces.",
+            "f3Title": "Battery Management",
+            "f3Desc": "Automated charging logic ensures 24/7 availability."
+        }
+    },
     "meta": {
         "title": "Warehouse Execution System for Automated Logistics | BSS LogisQ",
         "description": "Modular Warehouse Execution System for fully automated and goods-to-person warehouses. Shorter project runtimes, Digital Twin, no vendor lock-in."
