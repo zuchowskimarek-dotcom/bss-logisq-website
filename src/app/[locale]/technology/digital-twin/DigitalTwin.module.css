@@ -1,6 +1,6 @@
 .main {
     padding-top: 120px;
-    background: var(--bg-main);
+    background: var(--color-bg);
     min-height: 100vh;
 }
 
@@ -24,7 +24,7 @@
 .title {
     font-size: 4rem;
     font-weight: 800;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1.5rem;
     letter-spacing: -0.04em;
     line-height: 1.1;
@@ -40,7 +40,7 @@
 .introText {
     font-size: 1.2rem;
     line-height: 1.7;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     font-weight: 400;
 }
 
@@ -72,7 +72,7 @@
     right: 0;
     padding: 1.5rem;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
@@ -107,13 +107,13 @@
 .featureTitle {
     font-size: 2rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1.5rem;
 }
 
 .featureDesc {
     font-size: 1.2rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.7;
 }
 
@@ -139,7 +139,7 @@
 .imageCaption {
     padding: 1rem 1.5rem;
     background: rgba(0, 0, 0, 0.5);
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     font-size: 0.95rem;
     text-align: center;
 }
@@ -160,7 +160,7 @@
 .sectionSubtitle {
     text-align: center;
     font-size: 1.2rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     margin-top: 1rem;
     margin-bottom: 4rem;
     font-weight: 400;
@@ -209,13 +209,13 @@
 .monitorContent h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 0.75rem;
 }
 
 .monitorContent p {
     font-size: 1rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.6;
 }
 
@@ -241,13 +241,13 @@
 .featureCard h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1rem;
 }
 
 .featureCard p {
     font-size: 1.1rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.6;
 }
 
@@ -262,7 +262,7 @@
 .sectionTitle {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -300,13 +300,13 @@
 .showcaseCard h4 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1rem;
 }
 
 .showcaseCard p {
     font-size: 1rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.6;
 }
 
@@ -336,19 +336,19 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 2rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
 }
 
 .roadmapTitle {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1.5rem;
 }
 
 .roadmapDesc {
     font-size: 1.2rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.7;
     max-width: 700px;
     margin: 0 auto;

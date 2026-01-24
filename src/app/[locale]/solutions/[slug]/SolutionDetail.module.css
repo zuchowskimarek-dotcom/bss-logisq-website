@@ -12,7 +12,7 @@
 .title {
     font-size: 3.5rem;
     font-weight: 800;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1rem;
     letter-spacing: -0.04em;
 }
@@ -40,7 +40,7 @@
 .sectionTitle {
     font-size: 2rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 2.5rem;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 12px;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.6;
     display: flex;
     gap: 1rem;
@@ -76,7 +76,7 @@
 .semanticsText {
     font-size: 1.25rem;
     line-height: 1.8;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     max-width: 800px;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .capabilityCard h4 {
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }

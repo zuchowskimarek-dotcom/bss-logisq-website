@@ -59,7 +59,7 @@
 .title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1.25rem;
     letter-spacing: -0.02em;
 }
@@ -67,7 +67,7 @@
 .description {
     font-size: 1.05rem;
     line-height: 1.6;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
 }
 
 @media (max-width: 768px) {

@@ -18,14 +18,14 @@
 .title {
     font-size: 2.75rem;
     font-weight: 700;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1.25rem;
     letter-spacing: -0.02em;
 }
 
 .subtitle {
     font-size: 1.15rem;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
     line-height: 1.6;
 }
 
@@ -67,14 +67,14 @@
 .moduleTitle {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--text-vibrant);
+    color: var(--color-text-main);
     margin-bottom: 1.25rem;
 }
 
 .moduleDesc {
     font-size: 1rem;
     line-height: 1.6;
-    color: var(--text-muted);
+    color: var(--color-text-dim);
 }
 
 .footer {
