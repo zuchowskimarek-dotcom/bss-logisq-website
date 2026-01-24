@@ -32,7 +32,7 @@
 
 .subtitle {
     font-size: 1.5rem;
-    color: var(--primary-cyan);
+    color: var(--color-accent);
     margin-bottom: 2rem;
     font-weight: 500;
 }
@@ -153,7 +153,7 @@
 /* 2D Monitoring Section */
 .monitoring {
     padding: 8rem 0;
-    background: linear-gradient(135deg, rgba(0, 209, 255, 0.02) 0%, rgba(0, 255, 133, 0.02) 100%);
+    background: linear-gradient(135deg, rgba(0, 209, 255, 0.02) 0%, rgba(0, 243, 255, 0.02) 100%);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -285,13 +285,13 @@
 .showcaseCard:hover {
     transform: translateY(-8px);
     background: rgba(255, 255, 255, 0.04);
-    border-color: var(--primary-cyan);
+    border-color: var(--color-accent);
 }
 
 .showcaseNumber {
     font-size: 3rem;
     font-weight: 800;
-    color: var(--primary-cyan);
+    color: var(--color-accent);
     opacity: 0.3;
     margin-bottom: 1rem;
     line-height: 1;

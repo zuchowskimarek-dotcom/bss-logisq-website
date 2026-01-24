@@ -15,7 +15,7 @@
     color: var(--text-vibrant);
     margin-bottom: 1.5rem;
     letter-spacing: -0.04em;
-    background: linear-gradient(135deg, var(--text-vibrant), var(--primary-cyan));
+    background: linear-gradient(135deg, var(--text-vibrant), var(--color-accent));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,8 +45,21 @@
     margin: 0 auto;
 }
 
-.gridSection {
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-vibrant);
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.section {
     padding: 6rem 0;
+}
+
+.section:nth-child(even) {
+    background: rgba(255, 255, 255, 0.015);
 }
 
 .grid {
@@ -68,7 +81,7 @@
 .card:hover {
     transform: translateY(-8px);
     background: rgba(255, 255, 255, 0.04);
-    border-color: var(--primary-cyan);
+    border-color: var(--color-accent);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
 }
 
@@ -88,7 +101,7 @@
 }
 
 .cardLink {
-    color: var(--primary-cyan);
+    color: var(--color-accent);
     text-decoration: none;
     font-weight: 700;
     display: flex;

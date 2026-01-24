@@ -55,7 +55,7 @@
 
 .primaryBtn {
     padding: 1.25rem 2.5rem;
-    background: linear-gradient(135deg, var(--primary-cyan) 0%, var(--primary-green) 100%);
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-kinetic) 100%);
     color: var(--bg-deep);
     border: none;
     border-radius: 12px;

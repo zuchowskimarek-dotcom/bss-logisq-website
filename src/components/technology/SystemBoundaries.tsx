@@ -36,11 +36,11 @@ export default function SystemBoundaries({ dict }: SystemBoundariesProps) {
                         <div className={styles.tableValue}><RichText text={dict.mfc} /></div>
                     </div>
                     <div className={styles.tableRow}>
-                        <div className={styles.tableLabel}>Hub</div>
+                        <div className={styles.tableLabel}>CommunicationHUB</div>
                         <div className={styles.tableValue}><RichText text={dict.hub} /></div>
                     </div>
                     <div className={styles.tableRow}>
-                        <div className={styles.tableLabel}>Fleet</div>
+                        <div className={styles.tableLabel}>SquadronQ</div>
                         <div className={styles.tableValue}><RichText text={dict.fleet} /></div>
                     </div>
                 </div>

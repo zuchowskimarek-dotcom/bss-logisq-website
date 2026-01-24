@@ -41,13 +41,13 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
                     <Link href={`/${locale}/solutions`} className={styles.link}>
                         {navigationDict.solutions}
                     </Link>
-                    <Link href={`/${locale}/solutions/modular-wes`} className={styles.link}>
+                    <Link href={`/${locale}/technology/modular-wes`} className={styles.link}>
                         {navigationDict.modularWes}
                     </Link>
                     <Link href={`/${locale}/technology`} className={styles.link}>
                         {navigationDict.technology}
                     </Link>
-                    <Link href={`/${locale}/solutions/digital-twin`} className={styles.link}>
+                    <Link href={`/${locale}/technology/digital-twin`} className={styles.link}>
                         {navigationDict.digitalTwin}
                     </Link>
                     <Link href={`/${locale}/company`} className={styles.link}>

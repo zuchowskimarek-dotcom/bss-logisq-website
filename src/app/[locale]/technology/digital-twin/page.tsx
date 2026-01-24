@@ -1,4 +1,22 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
+import { Metadata } from 'next';
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+    const { locale } = await params;
+    const dict = await getDictionary(locale);
+    const d = dict.digitalTwinPage;
+    return {
+        title: `${d.title} | BSS LogisQ`,
+        description: dict.meta.description,
+        alternates: {
+            canonical: `/${locale}/technology/digital-twin`,
+        },
+    };
+}
 import styles from './DigitalTwin.module.css';
 
 export default async function DigitalTwinPage({
@@ -27,7 +45,7 @@ export default async function DigitalTwinPage({
                                 alt="Digital Twin 3D Visualization"
                                 className={styles.heroImage}
                             />
-                            <div className={styles.heroImageLabel}>Live 3D Plant Visualization</div>
+                            <div className={styles.heroImageLabel}>{d.visualLabel}</div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +67,7 @@ export default async function DigitalTwinPage({
                                 alt="Isometric 3D View"
                                 className={styles.featureImage}
                             />
-                            <p className={styles.imageCaption}>Inspection & Analysis Mode</p>
+                            <p className={styles.imageCaption}>{d.captionAnalysis}</p>
                         </div>
                     </div>
 
@@ -72,23 +90,15 @@ export default async function DigitalTwinPage({
             {/* Capabilities Showcase */}
             <section className={styles.showcase}>
                 <div className="container">
-                    <h2 className={styles.sectionTitle}>Real-time Orchestration Capabilities</h2>
+                    <h2 className={styles.sectionTitle}>{d.showcase.title}</h2>
                     <div className={styles.showcaseGrid}>
-                        <div className={styles.showcaseCard}>
-                            <div className={styles.showcaseNumber}>01</div>
-                            <h4>Live State Tracking</h4>
-                            <p>Monitor every asset, vehicle, and process in real-time with millisecond precision</p>
-                        </div>
-                        <div className={styles.showcaseCard}>
-                            <div className={styles.showcaseNumber}>02</div>
-                            <h4>3D Spatial Context</h4>
-                            <p>Visualize complex warehouse layouts and operations from any angle</p>
-                        </div>
-                        <div className={styles.showcaseCard}>
-                            <div className={styles.showcaseNumber}>03</div>
-                            <h4>Predictive Insights</h4>
-                            <p>Anticipate bottlenecks and optimize resource allocation dynamically</p>
-                        </div>
+                        {d.showcase.items.map((item: { num: string; title: string; desc: string }, idx: number) => (
+                            <div key={idx} className={styles.showcaseCard}>
+                                <div className={styles.showcaseNumber}>{item.num}</div>
+                                <h4>{item.title}</h4>
+                                <p>{item.desc}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -96,9 +106,9 @@ export default async function DigitalTwinPage({
             {/* 2D Real-time Monitoring */}
             <section className={styles.monitoring}>
                 <div className="container">
-                    <h2 className={styles.sectionTitle}>2D Real-time Monitoring & Control</h2>
+                    <h2 className={styles.sectionTitle}>{d.monitoring.title}</h2>
                     <p className={styles.sectionSubtitle}>
-                        Comprehensive operational visibility through SquadronQ interface
+                        {d.monitoring.subtitle}
                     </p>
 
                     <div className={styles.monitoringGrid}>
@@ -112,8 +122,8 @@ export default async function DigitalTwinPage({
                                 />
                             </div>
                             <div className={styles.monitorContent}>
-                                <h3>Live Fleet Tracking</h3>
-                                <p>Monitor all AGV positions and movements in real-time across your warehouse floor</p>
+                                <h3>{d.monitoring.fleet.title}</h3>
+                                <p>{d.monitoring.fleet.desc}</p>
                             </div>
                         </div>
 
@@ -127,8 +137,8 @@ export default async function DigitalTwinPage({
                                 />
                             </div>
                             <div className={styles.monitorContent}>
-                                <h3>Battery Management</h3>
-                                <p>Track vehicle charge levels and optimize charging schedules for maximum uptime</p>
+                                <h3>{d.monitoring.battery.title}</h3>
+                                <p>{d.monitoring.battery.desc}</p>
                             </div>
                         </div>
 
@@ -142,8 +152,8 @@ export default async function DigitalTwinPage({
                                 />
                             </div>
                             <div className={styles.monitorContent}>
-                                <h3>Order Context</h3>
-                                <p>Visualize order execution with spatial awareness and progress tracking</p>
+                                <h3>{d.monitoring.order.title}</h3>
+                                <p>{d.monitoring.order.desc}</p>
                             </div>
                         </div>
 
@@ -157,8 +167,8 @@ export default async function DigitalTwinPage({
                                 />
                             </div>
                             <div className={styles.monitorContent}>
-                                <h3>Network Topology</h3>
-                                <p>Understand vehicle connectivity and routing infrastructure at a glance</p>
+                                <h3>{d.monitoring.topology.title}</h3>
+                                <p>{d.monitoring.topology.desc}</p>
                             </div>
                         </div>
                     </div>

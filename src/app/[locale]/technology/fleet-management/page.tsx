@@ -1,4 +1,22 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
+import { Metadata } from 'next';
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+    const { locale } = await params;
+    const dict = await getDictionary(locale);
+    const f = dict.fleetPage;
+    return {
+        title: `${f.title} | BSS LogisQ`,
+        description: dict.meta.description,
+        alternates: {
+            canonical: `/${locale}/technology/fleet-management`,
+        },
+    };
+}
 import styles from './Fleet.module.css';
 
 export default async function FleetPage({

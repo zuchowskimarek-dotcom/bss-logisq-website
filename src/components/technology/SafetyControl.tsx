@@ -21,15 +21,15 @@ export default function SafetyControl({ dict }: SafetyControlProps) {
                 </p>
                 <div className={styles.stackList}>
                     <div className={styles.stackItem}>
-                        <span className={styles.check}>🛡️</span>
+                        <span className={styles.check}>01</span>
                         <div className={styles.itemText}><RichText text={dict.p1} /></div>
                     </div>
                     <div className={styles.stackItem}>
-                        <span className={styles.check}>🛡️</span>
+                        <span className={styles.check}>02</span>
                         <p><RichText text={dict.p2} /></p>
                     </div>
                     <div className={styles.stackItem}>
-                        <span className={styles.check}>🛡️</span>
+                        <span className={styles.check}>03</span>
                         <p><RichText text={dict.p3} /></p>
                     </div>
                 </div>

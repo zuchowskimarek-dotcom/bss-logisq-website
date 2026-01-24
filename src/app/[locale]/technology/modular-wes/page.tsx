@@ -1,4 +1,22 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
+import { Metadata } from 'next';
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+    const { locale } = await params;
+    const dict = await getDictionary(locale);
+    const m = dict.modularWesPage;
+    return {
+        title: `${m.title} | BSS LogisQ`,
+        description: dict.meta.description,
+        alternates: {
+            canonical: `/${locale}/technology/modular-wes`,
+        },
+    };
+}
 import styles from './ModularWes.module.css';
 
 import ModuleBadge from '@/components/common/ModuleBadge/ModuleBadge';
@@ -61,7 +79,7 @@ export default async function ModularWesPage({
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {m.comparison.rows.map((row: any, i: number) => (
+                                        {m.comparison.rows.map((row: { metric: string; wms: string; wcs: string; wes: string }, i: number) => (
                                             <tr key={i}>
                                                 <td className={styles.metricCell}>{row.metric}</td>
                                                 <td>{row.wms}</td>

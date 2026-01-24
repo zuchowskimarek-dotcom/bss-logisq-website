@@ -7,35 +7,232 @@
         "company": "Company",
         "contact": "Contact Us"
     },
-    "solutionsPage": {
-        "title": "Solutions",
-        "subtitle": "Specialized modules for every operational challenge.",
-        "intro": "Explore our targeted solutions designed to solve specific logistics problems without adding architectural complexity.",
-        "card1": {
-            "title": "Modular WES",
-            "desc": "The core system. WMS, PER, MFC, and Hub working in perfect synchronization.",
-            "link": "Learn about Modular WES"
+    "solutionsHub": {
+        "headline": "Warehouse Execution Solutions for Real Operational Scenarios",
+        "subline": "LogisQ-WES adapts to different warehouse types, automation levels, and modernization contexts — without changing execution semantics across different warehouse scenarios.",
+        "sectionA": {
+            "title": "Solutions by Warehouse Type",
+            "cards": [
+                {
+                    "slug": "manual-warehouses",
+                    "title": "Manual Warehouses",
+                    "teaser": "Structured execution, clear priorities, and predictable processes — without automation overhead.",
+                    "cta": "Explore Manual Warehouses"
+                },
+                {
+                    "slug": "automated-warehouses",
+                    "title": "Automated Warehouses",
+                    "teaser": "Deterministic execution across conveyors, shuttles, cranes, and robots.",
+                    "cta": "Explore Automated Warehouses"
+                },
+                {
+                    "slug": "distribution-centers",
+                    "title": "Distribution Centers",
+                    "teaser": "High throughput, strict sequencing, and stable execution for complex distribution operations.",
+                    "cta": "Explore Distribution Centers"
+                },
+                {
+                    "slug": "ecommerce-fulfillment",
+                    "title": "E-Commerce Fulfillment",
+                    "teaser": "Fast order processing, dynamic priorities, and controlled execution under peak load.",
+                    "cta": "Explore E-Commerce Fulfillment"
+                }
+            ]
         },
-        "card2": {
-            "title": "Digital Twin",
-            "desc": "Validate your facility design before a single conveyer is installed.",
-            "link": "Explore Digital Twin"
+        "sectionB": {
+            "title": "Solutions by Modernization Strategy",
+            "cards": [
+                {
+                    "slug": "brownfield-modernization",
+                    "title": "Brownfield Modernization",
+                    "teaser": "Modernize step by step — without risky 'big bang' replacements or execution breaks.",
+                    "cta": "View Brownfield Strategy"
+                },
+                {
+                    "slug": "greenfield-implementation",
+                    "title": "Greenfield Implementation",
+                    "teaser": "Build execution-ready warehouses from day one — without late reinterpretation during go-live.",
+                    "cta": "View Greenfield Approach"
+                }
+            ]
         },
-        "card3": {
-            "title": "Brownfield Modernization",
-            "desc": "Upgrade legacy warehouses without the risk of a 'Big Bang' replacement.",
-            "link": "View Brownfield Strategy"
+        "sectionC": {
+            "title": "Solutions for Special Requirements",
+            "cards": [
+                {
+                    "slug": "hazardous-goods",
+                    "title": "Hazardous Goods Warehousing",
+                    "teaser": "Controlled execution, strict process boundaries, and auditable handling flows.",
+                    "cta": "Explore Hazardous Goods"
+                },
+                {
+                    "slug": "autostore-integration",
+                    "title": "AutoStore Integration",
+                    "teaser": "Seamless execution integration without compromising warehouse control or flow consistency.",
+                    "cta": "Explore AutoStore Integration"
+                },
+                {
+                    "slug": "sorting-systems",
+                    "title": "Sorting & High-Throughput Systems",
+                    "teaser": "Deterministic sequencing and execution for peak-load material flow systems.",
+                    "cta": "Explore Sorting Systems"
+                },
+                {
+                    "slug": "mixed-automation",
+                    "title": "Mixed Automation Environments",
+                    "teaser": "Unified execution across conveyors, shuttles, AMRs, AGVs, and manual zones.",
+                    "cta": "Explore Mixed Automation"
+                }
+            ]
+        }
+    },
+    "solutionDetails": {
+        "manual-warehouses": {
+            "meta": {
+                "title": "Warehouse Execution for Manual Warehouses | BSS LogisQ",
+                "description": "Structured execution and clear priorities for non-automated warehouse operations."
+            },
+            "hero": {
+                "title": "Manual Warehouses",
+                "subtitle": "Structured execution without automation overhead"
+            },
+            "requirements": {
+                "title": "What manual warehouses require",
+                "items": [
+                    "Clear task priorities for warehouse operators",
+                    "Predictable process flows without system complexity",
+                    "Transparent work distribution across shifts"
+                ]
+            },
+            "challenges": {
+                "title": "Typical execution challenges",
+                "items": [
+                    "Inconsistent task prioritization between shifts",
+                    "Invisible bottlenecks in manual processes",
+                    "Difficulty scaling during peak periods"
+                ]
+            },
+            "support": {
+                "title": "How LogisQ-WES supports this scenario",
+                "text": "LogisQ-WES provides a structured execution layer that defines and enforces priorities without requiring automation. Operators receive clear, sequenced tasks while management gains visibility into execution flow."
+            },
+            "capabilities": {
+                "title": "Relevant capabilities",
+                "items": [
+                    "Priority-based task sequencing",
+                    "Real-time execution visibility",
+                    "Shift-aware workload distribution",
+                    "Digital process guidance"
+                ]
+            },
+            "semantics": {
+                "title": "Why execution semantics remain stable",
+                "text": "Process definitions don't change between planning and operation. What you design is what gets executed — regardless of operator or shift."
+            },
+            "nextSteps": {
+                "techLink": "Explore the Technology",
+                "contactLink": "Talk to Sales"
+            }
         },
-        "card4": {
-            "title": "Fleet Management",
-            "desc": "Coordinate AGVs and AMRs as part of your unified execution flow.",
-            "link": "See Fleet Management"
+        "ecommerce-fulfillment": {
+            "meta": {
+                "title": "Warehouse Execution for E-Commerce Fulfillment | BSS LogisQ",
+                "description": "Fast order processing and dynamic priorities for peak-load fulfillment."
+            },
+            "hero": {
+                "title": "E-Commerce Fulfillment",
+                "subtitle": "Controlled execution under peak load"
+            },
+            "requirements": {
+                "title": "What e-commerce fulfillment requires",
+                "items": [
+                    "Fast reaction to incoming order waves",
+                    "Dynamic re-prioritization of pending tasks",
+                    "Seamless integration of returns and picking"
+                ]
+            },
+            "challenges": {
+                "title": "Typical execution challenges",
+                "items": [
+                    "SLA breaches during high-volume periods",
+                    "Chaotic execution when priorities shift rapidly",
+                    "Inflexible logic that can't adapt to wave peaks"
+                ]
+            },
+            "support": {
+                "title": "How LogisQ-WES supports this scenario",
+                "text": "LogisQ-WES handles massive event volumes with a deterministic execution model. It ensures that fulfillment processes stay on track even when volumes spike, by maintaining a strict priority queue that respects SLAs."
+            },
+            "capabilities": {
+                "title": "Relevant capabilities",
+                "items": [
+                    "Event-driven task allocation",
+                    "SLA-aware execution sequencing",
+                    "Real-time throughput monitoring",
+                    "Dynamic flow adjustment"
+                ]
+            },
+            "semantics": {
+                "title": "Why execution semantics remain stable",
+                "text": "The logic for order fulfillment is defined at the semantic level. Spikes in volume increase throughput but don't change how the system fundamentally executes tasks."
+            },
+            "nextSteps": {
+                "techLink": "Explore the Technology",
+                "contactLink": "Talk to Sales"
+            }
+        },
+        "brownfield-modernization": {
+            "meta": {
+                "title": "Brownfield Modernization Solutions | BSS LogisQ",
+                "description": "Modernize legacy warehouses step-by-step without execution breaks."
+            },
+            "hero": {
+                "title": "Brownfield Modernization",
+                "subtitle": "Modernize without bringing operations to a halt"
+            },
+            "requirements": {
+                "title": "What legacy modernization requires",
+                "items": [
+                    "Coexistence of old and new systems",
+                    "Zero-downtime migration strategy",
+                    "Unified visibility across disparate hardware generations"
+                ]
+            },
+            "challenges": {
+                "title": "Typical execution challenges",
+                "items": [
+                    "High-risk 'Big Bang' replacements",
+                    "Integration gaps between legacy PLC and modern WMS",
+                    "Inconsistent data models across old equipment"
+                ]
+            },
+            "support": {
+                "title": "How LogisQ-WES supports this scenario",
+                "text": "Our Communication Hub acts as a semantic bridge, allowing you to wrap legacy hardware in modern execution semantics. You can modernize one aisle or zone at a time without breaking the overall warehouse workflow."
+            },
+            "capabilities": {
+                "title": "Relevant capabilities",
+                "items": [
+                    "Hardware-agnostic communication hub",
+                    "Step-by-step rollout support",
+                    "Legacy system emulation",
+                    "Incremental logic upgrades"
+                ]
+            },
+            "semantics": {
+                "title": "Why execution semantics remain stable",
+                "text": "LogisQ-WES decouples the physical hardware from the execution logic. Even if you replace an old conveyor with a modern shuttle, the *execution semantcs* (what happens to the goods) remains identical."
+            },
+            "nextSteps": {
+                "techLink": "Explore the Technology",
+                "contactLink": "Talk to Sales"
+            }
         }
     },
     "modularWesPage": {
         "title": "Modular WES",
         "subtitle": "Bridge sales promise and technical reality",
-        "intro": "LogisQ-WES is an intralogistics software product composed of specialized modules connected via the CommunicationHub.",
+        "intro": "LogisQ-WES is an intralogistics software product composed of specialized modules connected via the CommunicationHUB.",
         "productStructure": {
             "title": "One product. Clear responsibilities.",
             "desc": "Built to eliminate responsibility leakage.",
@@ -77,7 +274,7 @@
             ]
         },
         "pillars": {
-            "p1Title": "Communication Hub",
+            "p1Title": "CommunicationHUB",
             "p1Desc": "The central backbone that decouples systems.",
             "p2Title": "Independent Upgrades",
             "p2Desc": "Modules can be upgraded without breaking the system.",
@@ -100,7 +297,49 @@
             "f3Desc": "Ensure all stakeholders see the same reality."
         },
         "roadmapTitle": "Future Capabilities",
-        "roadmapDesc": "We are continuously expanding our simulation capabilities to support predictive maintenance and advanced scenario testing."
+        "roadmapDesc": "We are continuously expanding our simulation capabilities to support predictive maintenance and advanced scenario testing.",
+        "visualLabel": "Live 3D Plant Visualization",
+        "captionAnalysis": "Inspection & Analysis Mode",
+        "showcase": {
+            "title": "Real-time Orchestration Capabilities",
+            "items": [
+                {
+                    "num": "01",
+                    "title": "Live State Tracking",
+                    "desc": "Monitor every asset, vehicle, and process in real-time with millisecond precision"
+                },
+                {
+                    "num": "02",
+                    "title": "3D Spatial Context",
+                    "desc": "Visualize complex warehouse layouts and operations from any angle"
+                },
+                {
+                    "num": "03",
+                    "title": "Predictive Insights",
+                    "desc": "Anticipate bottlenecks and optimize resource allocation dynamically"
+                }
+            ]
+        },
+        "monitoring": {
+            "title": "2D Real-time Monitoring & Control",
+            "subtitle": "Comprehensive operational visibility through SquadronQ interface",
+            "fleet": {
+                "title": "Live Fleet Tracking",
+                "desc": "Monitor all AGV positions and movements in real-time across your warehouse floor"
+            },
+            "battery": {
+                "title": "Battery Management",
+                "desc": "Track vehicle charge levels and optimize charging schedules for maximum uptime"
+            },
+            "order": {
+                "title": "Order Context",
+                "desc": "Visualize order execution with spatial awareness and progress tracking"
+            },
+            "topology": {
+                "title": "Network Topology",
+                "desc": "Understand vehicle connectivity and routing infrastructure at a glance"
+            }
+        }
     },
     "companyPage": {
         "badge": "Strong Partners",
@@ -164,7 +403,7 @@
         "wms": "WMS defines business decisions, priorities, and warehouse logic.",
         "per": "PER executes defined processes in a controlled and observable way.",
         "mfc": "MFC translates execution requests into physical movements.",
-        "hub": "Communication Hub connects external systems and equipment without embedding logic.",
+        "hub": "CommunicationHUB connects external systems and equipment without embedding logic.",
         "fleet": "Fleet Management coordinates mobile robots and vehicles within the execution flow."
     },
     "benefits": {
@@ -201,7 +440,7 @@
             "wms": "**WMS** defines business decisions, priorities, and warehouse logic",
             "per": "**PER** executes defined processes in a controlled and observable way",
             "mfc": "**MFC** translates execution requests into physical movements",
-            "hub": "**Communication Hub** connects external systems and equipment without embedding logic",
+            "hub": "**CommunicationHUB** connects external systems and equipment without embedding logic",
             "fleet": "**Fleet Management** coordinates mobile vehicles within execution boundaries"
         },
         "execution": {
@@ -235,6 +474,78 @@
             "intro": "Digital Twin capabilities support design validation and alignment.",
             "bridge": "They do **not** replace execution logic at runtime."
         },
+        "processes": {
+            "title": "Core Warehouse Processes",
+            "intro": "LogisQ-WES provides specialized execution semantics for the entire warehouse lifecycle.",
+            "items": [
+                {
+                    "id": "receipt",
+                    "title": "Goods Receipt (Inbound Processing)",
+                    "description": "Acceptance, identification, inspection, and formal takeover of goods into the system.",
+                    "image": "/assets/images/features/process_goods_receipt_1769203770544.png"
+                },
+                {
+                    "id": "putaway",
+                    "title": "Putaway (Storage Allocation)",
+                    "description": "Allocation and execution of storage to the correct bin location using optimized logic.",
+                    "image": "/assets/images/features/process_putaway_1769203788740.png"
+                },
+                {
+                    "id": "release",
+                    "title": "Order Release & Prioritization",
+                    "description": "Release of orders including prioritization driven by time, customer, or SLA requirements.",
+                    "image": "/assets/images/features/process_order_release_1769203803173.png"
+                },
+                {
+                    "id": "picking",
+                    "title": "Picking",
+                    "description": "Removal of items or handling units for customer, production, or transfer orders.",
+                    "image": "/assets/images/features/process_picking_1769203815928.png"
+                },
+                {
+                    "id": "replenishment",
+                    "title": "Replenishment",
+                    "description": "Automated supply movement to picking or production zones to ensure availability.",
+                    "image": "/assets/images/features/process_replenishment_1769203828927.png"
+                },
+                {
+                    "id": "consolidation",
+                    "title": "Consolidation / Deconsolidation",
+                    "description": "Merging or splitting orders, pallets, or loading units for optimal transport and storage.",
+                    "image": "/assets/images/features/process_consolidation_1769203844117.png"
+                },
+                {
+                    "id": "quality_control",
+                    "title": "Quality Control",
+                    "description": "Inspection, verification, and quality assurance of goods before final dispatch.",
+                    "image": "/assets/images/features/process_quality_control.png"
+                },
+                {
+                    "id": "shipping",
+                    "title": "Shipping / Goods Issue",
+                    "description": "Dispatch preparation, loading, and recording of the goods issue.",
+                    "image": "/assets/images/features/process_shipping_1769203872981.png"
+                },
+                {
+                    "id": "relocation",
+                    "title": "Internal Relocation",
+                    "description": "Re-slotting and repositioning to optimize space, paths, or accessibility.",
+                    "image": "/assets/images/features/process_relocation.png"
+                },
+                {
+                    "id": "inventory",
+                    "title": "Inventory Counting & Adjustment",
+                    "description": "Permanent or periodic inventory counting including difference clarification.",
+                    "image": "/assets/images/features/process_inventory.png"
+                },
+                {
+                    "id": "returns",
+                    "title": "Returns Processing",
+                    "description": "Processing of returned goods including inspection and re-storage workflows.",
+                    "image": "/assets/images/features/process_returns.png"
+                }
+            ]
+        },
         "final": {
             "text": "LogisQ-WES does not optimize execution by guessing.<br>**PER** executes what was defined — consistently, transparently, and safely."
         }
@@ -258,7 +569,7 @@
             "b1Title": "No Big Bang",
             "b1Desc": "Introduce new modules alongside legacy systems.",
             "b2Title": "Gateway Logic",
-            "b2Desc": "Communication Hub acts as a translator between old and new.",
+            "b2Desc": "The CommunicationHUB acts as a translator between old and new.",
             "b3Title": "Risk Mitigation",
             "b3Desc": "Test new logic on a small scope before full rollout.",
             "b4Title": "Capital Efficient",

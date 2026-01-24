@@ -84,7 +84,7 @@
 .result {
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--primary-green);
+    color: var(--color-kinetic);
     letter-spacing: 0.02em;
 }
 

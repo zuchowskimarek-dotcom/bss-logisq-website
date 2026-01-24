@@ -1,6 +1,6 @@
 import 'server-only';
 
-const dictionaries: any = {
+const dictionaries: Record<string, () => Promise<any>> = {
     en: () => import('./en.json').then((module) => module.default),
     de: () => import('./de.json').then((module) => module.default),
 };

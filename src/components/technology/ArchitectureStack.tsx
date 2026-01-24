@@ -25,7 +25,7 @@ export default function ArchitectureStack({ dict }: ArchitectureStackProps) {
                 <div className={styles.stackList}>
                     {items.map((item, i) => (
                         <div key={i} className={styles.stackItem}>
-                            <span className={styles.check}>✓</span>
+                            <span className={styles.check}>{(i + 1).toString().padStart(2, '0')}</span>
                             <p>{item}</p>
                         </div>
                     ))}

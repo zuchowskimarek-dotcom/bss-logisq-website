@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Test</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            background-color: #0a0a0a;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: rgba(0, 255, 133, 0.05);
+            border: 1px solid #00ff85;
+            padding: 3rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: flex-start; /* Align items to top */
+            gap: 12px;
+        }
+
+        .name {
+            font-size: 48px;
+            font-weight: 800;
+            color: #00ff85;
+            line-height: 1; /* Tight line height for alignment */
+            letter-spacing: -0.02em;
+        }
+
+        .separator {
+            font-size: 48px;
+            font-weight: 300;
+            color: #00ff85;
+            opacity: 0.5;
+            line-height: 1;
+        }
+
+        .nick-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 48px; /* Match height of name */
+            padding-top: 6px; /* Fine-tune upper alignment */
+        }
+
+        .nick {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #00ff85; /* Or gray? User said 'similart to TM watermark', usually gray or muted */
+            opacity: 0.8;
+            font-weight: 600;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="name">MFC</div>
+        <div class="separator">|</div>
+        <div class="nick-container">
+            <div class="nick">The Transporter</div>
+        </div>
+    </div>
+
+</body>
+</html>

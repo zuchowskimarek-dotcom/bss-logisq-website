@@ -31,7 +31,7 @@
 .card:hover {
     transform: translateY(-10px);
     background: rgba(255, 255, 255, 0.05);
-    border-color: var(--primary-cyan);
+    border-color: var(--color-accent);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 243, 255, 0.1);
 }
 
@@ -48,7 +48,7 @@
 }
 
 .card:hover .iconWrapper {
-    background: var(--primary-cyan);
+    background: var(--color-accent);
     transform: rotate(10deg);
 }
 

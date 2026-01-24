@@ -15,7 +15,7 @@
     color: var(--text-vibrant);
     margin-bottom: 2rem;
     letter-spacing: -0.04em;
-    background: linear-gradient(135deg, var(--text-vibrant), var(--primary-cyan));
+    background: linear-gradient(135deg, var(--text-vibrant), var(--color-accent));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@
 
 .featureCard:hover {
     background: rgba(255, 255, 255, 0.04);
-    border-color: var(--primary-cyan);
+    border-color: var(--color-accent);
 }
 
 .icon {
