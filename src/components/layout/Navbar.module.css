@@ -34,6 +34,7 @@
     height: 85px;
     width: auto;
     transition: var(--transition-fast);
+    margin-top: 8px;
 }
 
 .logoImage:hover {
@@ -44,7 +45,7 @@
 .links {
     display: flex;
     gap: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 50px;
 }
 
 .link {
@@ -107,6 +108,8 @@
     transition: var(--transition-smooth);
     box-shadow: 0 4px 15px rgba(0, 209, 255, 0.2);
     white-space: nowrap;
+    min-width: 140px;
+    text-align: center;
 }
 
 .cta:hover {
