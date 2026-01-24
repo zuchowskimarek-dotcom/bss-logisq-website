@@ -6,7 +6,6 @@ import SafetyControl from '@/components/technology/SafetyControl';
 import ArchitectureStack from '@/components/technology/ArchitectureStack';
 import IntegrationAPIs from '@/components/technology/IntegrationAPIs';
 import TechDigitalTwin from '@/components/technology/TechDigitalTwin';
-import ProcessCarousel from '@/components/technology/ProcessCarousel';
 import FinalNote from '@/components/technology/FinalNote';
 
 export default async function TechnologyPage({
@@ -27,7 +26,6 @@ export default async function TechnologyPage({
             <ArchitectureStack dict={t.stack} />
             <IntegrationAPIs dict={t.integration} />
             <TechDigitalTwin dict={t.digitalTwin} />
-            <ProcessCarousel dict={t.processes} />
             <FinalNote dict={t.final} />
         </main>
     );

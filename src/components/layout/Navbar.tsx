@@ -38,19 +38,19 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
                 </Link>
 
                 <div className={styles.links}>
-                    <Link href={`/${locale}/solutions`} className={styles.link}>
+                    <Link href={`/${locale}/solutions`} className={`${styles.link} ${pathname?.startsWith(`/${locale}/solutions`) ? styles.activeLink : ''}`}>
                         {navigationDict.solutions}
                     </Link>
-                    <Link href={`/${locale}/technology/modular-wes`} className={styles.link}>
+                    <Link href={`/${locale}/technology/modular-wes`} className={`${styles.link} ${pathname === `/${locale}/technology/modular-wes` ? styles.activeLink : ''}`}>
                         {navigationDict.modularWes}
                     </Link>
-                    <Link href={`/${locale}/technology`} className={styles.link}>
+                    <Link href={`/${locale}/technology`} className={`${styles.link} ${pathname === `/${locale}/technology` ? styles.activeLink : ''}`}>
                         {navigationDict.technology}
                     </Link>
-                    <Link href={`/${locale}/technology/digital-twin`} className={styles.link}>
+                    <Link href={`/${locale}/technology/digital-twin`} className={`${styles.link} ${pathname === `/${locale}/technology/digital-twin` ? styles.activeLink : ''}`}>
                         {navigationDict.digitalTwin}
                     </Link>
-                    <Link href={`/${locale}/company`} className={styles.link}>
+                    <Link href={`/${locale}/company`} className={`${styles.link} ${pathname === `/${locale}/company` ? styles.activeLink : ''}`}>
                         {navigationDict.company}
                     </Link>
                 </div>
