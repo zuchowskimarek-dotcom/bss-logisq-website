@@ -545,6 +545,12 @@
                     "title": "Retourenabwicklung",
                     "description": "Abwicklung von Warenrücksendungen inkl. Prüfung und Wiedereinlagerung.",
                     "image": "/assets/images/features/process_returns.png"
+                },
+                {
+                    "id": "vas",
+                    "title": "VAS (Mehrwertdienste)",
+                    "description": "Kitting, Set-Bildung, Sonderverpackung, Etikettierung und weitere wertschöpfende Aktivitäten vor dem Versand.",
+                    "image": "/assets/images/features/process_vas.png"
                 }
             ]
         },

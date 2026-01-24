@@ -545,6 +545,12 @@
                     "title": "Returns Processing",
                     "description": "Processing of returned goods including inspection and re-storage workflows.",
                     "image": "/assets/images/features/process_returns.png"
+                },
+                {
+                    "id": "vas",
+                    "title": "VAS (Value Added Services)",
+                    "description": "Kitting, set building, custom packing, labeling, and other value-adding activities before dispatch.",
+                    "image": "/assets/images/features/process_vas.png"
                 }
             ]
         },
