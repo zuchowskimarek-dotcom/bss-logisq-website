@@ -20,7 +20,7 @@ export default async function TechnologyPage({
 
     return (
         <main>
-            <TechIntro dict={t.intro} />
+            <TechIntro dict={t.intro} wesDefinition={t.wesDefinition} />
             <SystemBoundaries dict={t.boundaries} />
             <ExecutionModel dict={t.execution} />
             <SafetyControl dict={t.safety} />

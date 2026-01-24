@@ -68,7 +68,7 @@
                 {
                     "slug": "autostore-integration",
                     "title": "AutoStore Integration",
-                    "teaser": "Seamless execution integration without compromising warehouse control or flow consistency.",
+                    "teaser": "Orders flow through AutoStore cubes with the same execution consistency as any other zone.",
                     "cta": "Explore AutoStore Integration"
                 },
                 {
@@ -364,6 +364,7 @@
         "titleHighlight": "Shorter Project Runtimes",
         "titleSuffix": "",
         "description": "Through end-to-end design instead of reinterpretation between planning and operation.",
+        "anchor": "LogisQ-WES coordinates warehouse execution across people, automation, and systems in real time.",
         "ctaPrimary": "How It Works",
         "ctaSecondary": "Talk to Sales"
     },
@@ -430,6 +431,7 @@
         "cta3": "Talk to Sales"
     },
     "technologyPage": {
+        "wesDefinition": "A Warehouse Execution System (WES) coordinates real-time warehouse tasks across systems, people, and automation.",
         "intro": {
             "title": "Why LogisQ-WES works reliably in real warehouses",
             "body": "LogisQ-WES ensures that warehouse processes are executed **as defined**, not as reinterpreted later.<br><br>Its architecture removes semantic gaps between planning, execution, and operation."
@@ -591,6 +593,6 @@
     },
     "meta": {
         "title": "Warehouse Execution System for Automated Logistics | BSS LogisQ",
-        "description": "Modular Warehouse Execution System for fully automated and goods-to-person warehouses. Shorter project runtimes, Digital Twin, no vendor lock-in."
+        "description": "Warehouse Execution System designed for manual, automated, and mixed environments. Shorter project runtimes through execution-ready design. Real-time coordination, Digital Twin validation, no vendor lock-in."
     }
 }

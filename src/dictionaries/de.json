@@ -68,7 +68,7 @@
                 {
                     "slug": "autostore-integration",
                     "title": "AutoStore-Integration",
-                    "teaser": "Nahtlose Ausführungsintegration, ohne die Lagerkontrolle oder Flow-Konsistenz zu gefährden.",
+                    "teaser": "Aufträge fließen durch AutoStore-Cubes mit derselben Ausführungskonsistenz wie jede andere Zone.",
                     "cta": "AutoStore-Integration entdecken"
                 },
                 {
@@ -364,6 +364,7 @@
         "titleHighlight": "kürzere Projektlaufzeiten",
         "titleSuffix": "",
         "description": "Durch durchgängiges Design statt Neuinterpretation zwischen Planung und Betrieb.",
+        "anchor": "LogisQ-WES koordiniert die Lagerausführung über Menschen, Automatisierung und Systeme in Echtzeit.",
         "ctaPrimary": "So funktioniert es",
         "ctaSecondary": "Kontakt aufnehmen"
     },
@@ -430,6 +431,7 @@
         "cta3": "Kontakt aufnehmen"
     },
     "technologyPage": {
+        "wesDefinition": "Ein Warehouse Execution System (WES) koordiniert Lageraufgaben in Echtzeit über Systeme, Menschen und Automatisierung hinweg.",
         "intro": {
             "title": "Warum LogisQ-WES im realen Lagerbetrieb zuverlässig funktioniert",
             "body": "LogisQ-WES stellt sicher, dass Warehouse-Prozesse **so ausgeführt werden, wie sie definiert wurden** —<br><br>nicht so, wie sie später neu interpretiert werden.<br><br>Die Architektur vermeidet semantische Brüche zwischen Planung, Ausführung und Betrieb."
@@ -591,6 +593,6 @@
     },
     "meta": {
         "title": "Warehouse Execution System für Lagerautomatisierung | BSS LogisQ",
-        "description": "Modulares Warehouse Execution System für vollautomatisierte Goods-to-Person-Lager. Kürzere Projektlaufzeiten, Digital Twin, kein Vendor Lock-in."
+        "description": "Warehouse Execution System konzipiert für manuelle, automatisierte und gemischte Umgebungen. Kürzere Projektlaufzeiten durch ausführungsbereites Design. Echtzeit-Koordination, Digital Twin Validierung, kein Vendor Lock-in."
     }
 }

@@ -8,6 +8,7 @@ interface HeroProps {
         titleHighlight: string;
         titleSuffix: string;
         description: string;
+        anchor?: string;
         ctaPrimary: string;
         ctaSecondary: string;
     };
@@ -27,6 +28,11 @@ export default function Hero({ dict, locale }: HeroProps) {
                     <p className={styles.description}>
                         {dict.description}
                     </p>
+                    {dict.anchor && (
+                        <p className={styles.anchor}>
+                            {dict.anchor}
+                        </p>
+                    )}
                     <div className={styles.actions}>
                         <Link href={`/${locale}/technology`} className={styles.primaryBtn}>
                             {dict.ctaPrimary}
