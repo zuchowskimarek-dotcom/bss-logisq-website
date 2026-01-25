@@ -38,7 +38,7 @@ const ProductOverview: React.FC<ProductOverviewProps> = ({ dict }) => {
                     </div>
 
                     <div className={styles.card}>
-                        <ModuleBadge label="Hub" size="sm" />
+                        <ModuleBadge label="CommunicationHUB" size="sm" />
                         <p className={styles.moduleDesc}>{dict.hub}</p>
                     </div>
 
