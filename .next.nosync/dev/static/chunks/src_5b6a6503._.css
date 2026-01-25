@@ -1,0 +1,448 @@
+/* [project]/src/components/common/PageHero/PageHero.module.css [app-client] (css) */
+.PageHero-module__K77aYa__hero {
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 4rem;
+}
+
+.PageHero-module__K77aYa__category {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  font-size: .85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.PageHero-module__K77aYa__headline {
+  color: var(--color-text-main);
+  letter-spacing: -.03em;
+  max-width: 900px;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.PageHero-module__K77aYa__clarifier {
+  color: var(--color-text-dim);
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.PageHero-module__K77aYa__definition {
+  color: var(--color-text-main);
+  background: #1565c014;
+  border: 1px solid #1565c033;
+  border-radius: 12px;
+  max-width: 700px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem 2rem;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.PageHero-module__K77aYa__sell {
+  background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
+}
+
+.PageHero-module__K77aYa__sell .PageHero-module__K77aYa__headline {
+  background: linear-gradient(135deg, var(--color-text-main), var(--color-primary));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.PageHero-module__K77aYa__explain {
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.PageHero-module__K77aYa__explain .PageHero-module__K77aYa__headline {
+  font-size: 3rem;
+}
+
+.PageHero-module__K77aYa__prove {
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.PageHero-module__K77aYa__prove .PageHero-module__K77aYa__headline {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.PageHero-module__K77aYa__prove .PageHero-module__K77aYa__clarifier {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .PageHero-module__K77aYa__headline {
+    font-size: 2.5rem;
+  }
+
+  .PageHero-module__K77aYa__clarifier {
+    font-size: 1.1rem;
+  }
+
+  .PageHero-module__K77aYa__explain .PageHero-module__K77aYa__headline, .PageHero-module__K77aYa__prove .PageHero-module__K77aYa__headline {
+    font-size: 2rem;
+  }
+}
+
+/* [project]/src/app/[locale]/technology/digital-twin/DigitalTwin.module.css [app-client] (css) */
+.DigitalTwin-module__Y4jsoa__main {
+  background: var(--color-bg);
+  min-height: 100vh;
+  padding-top: 0;
+}
+
+.DigitalTwin-module__Y4jsoa__heroVisualSection {
+  border-bottom: 1px solid var(--color-border);
+  background: linear-gradient(135deg, #1565c005 0%, #0000 100%);
+  padding: 2rem 0 4rem;
+}
+
+.DigitalTwin-module__Y4jsoa__centeredVisual {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.DigitalTwin-module__Y4jsoa__heroImageScaled {
+  border: 1px solid var(--color-border);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  box-shadow: var(--shadow-card);
+  border-radius: 16px;
+}
+
+.DigitalTwin-module__Y4jsoa__visualCaption {
+  color: var(--color-text-dim);
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.DigitalTwin-module__Y4jsoa__features {
+  padding: 6rem 0;
+}
+
+.DigitalTwin-module__Y4jsoa__featureRow {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 24px;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 4rem;
+  padding: 2.5rem;
+  display: grid;
+}
+
+.DigitalTwin-module__Y4jsoa__featureContent {
+  padding: 1.5rem;
+}
+
+.DigitalTwin-module__Y4jsoa__icon {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.DigitalTwin-module__Y4jsoa__featureTitle {
+  color: var(--color-text-main);
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.DigitalTwin-module__Y4jsoa__featureDesc {
+  color: var(--color-text-dim);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.DigitalTwin-module__Y4jsoa__featureVisual {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.DigitalTwin-module__Y4jsoa__featureImage {
+  width: 100%;
+  height: auto;
+  transition: transform .3s;
+  display: block;
+}
+
+.DigitalTwin-module__Y4jsoa__featureVisual:hover .DigitalTwin-module__Y4jsoa__featureImage {
+  transform: scale(1.02);
+}
+
+.DigitalTwin-module__Y4jsoa__imageCaption {
+  background: var(--color-bg-alt);
+  color: var(--color-text-dim);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  font-size: .95rem;
+}
+
+.DigitalTwin-module__Y4jsoa__featureGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  display: grid;
+}
+
+.DigitalTwin-module__Y4jsoa__monitoring {
+  border-top: 1px solid var(--color-border);
+  background: linear-gradient(135deg, #1565c005 0% 100%);
+  padding: 8rem 0;
+}
+
+.DigitalTwin-module__Y4jsoa__sectionSubtitle {
+  text-align: center;
+  color: var(--color-text-dim);
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.DigitalTwin-module__Y4jsoa__monitoringGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  display: grid;
+}
+
+.DigitalTwin-module__Y4jsoa__monitorCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-subtle);
+  border-radius: 16px;
+  transition: transform .3s, box-shadow .3s, border-color .3s;
+  overflow: hidden;
+}
+
+.DigitalTwin-module__Y4jsoa__monitorCard:hover {
+  box-shadow: var(--shadow-card);
+  border-color: var(--color-primary);
+  transform: translateY(-8px);
+}
+
+.DigitalTwin-module__Y4jsoa__monitorVisual {
+  background: var(--color-bg-alt);
+  overflow: hidden;
+}
+
+.DigitalTwin-module__Y4jsoa__monitorImage {
+  width: 100%;
+  height: auto;
+  transition: transform .3s;
+  display: block;
+}
+
+.DigitalTwin-module__Y4jsoa__monitorCard:hover .DigitalTwin-module__Y4jsoa__monitorImage {
+  transform: scale(1.05);
+}
+
+.DigitalTwin-module__Y4jsoa__monitorContent {
+  padding: 2rem;
+}
+
+.DigitalTwin-module__Y4jsoa__monitorContent h3 {
+  color: var(--color-text-main);
+  margin-bottom: .75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.DigitalTwin-module__Y4jsoa__monitorContent p {
+  color: var(--color-text-dim);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.DigitalTwin-module__Y4jsoa__roadmap {
+  background: linear-gradient(#0000, #1565c008);
+  padding: 8rem 0;
+}
+
+.DigitalTwin-module__Y4jsoa__featureCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-subtle);
+  border-radius: 24px;
+  padding: 3rem;
+  transition: transform .3s, background .3s;
+}
+
+.DigitalTwin-module__Y4jsoa__featureCard:hover {
+  background: var(--color-bg);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-5px);
+}
+
+.DigitalTwin-module__Y4jsoa__featureCard h3 {
+  color: var(--color-text-main);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.DigitalTwin-module__Y4jsoa__featureCard p {
+  color: var(--color-text-dim);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.DigitalTwin-module__Y4jsoa__showcase {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background: #1565c005;
+  padding: 8rem 0;
+}
+
+.DigitalTwin-module__Y4jsoa__sectionTitle {
+  color: var(--color-text-main);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.DigitalTwin-module__Y4jsoa__showcaseGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  display: grid;
+}
+
+.DigitalTwin-module__Y4jsoa__showcaseCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-subtle);
+  border-radius: 24px;
+  padding: 3rem;
+  transition: all .3s;
+  position: relative;
+}
+
+.DigitalTwin-module__Y4jsoa__showcaseCard:hover {
+  background: var(--color-bg);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-8px);
+}
+
+.DigitalTwin-module__Y4jsoa__showcaseNumber {
+  color: var(--color-primary);
+  opacity: .3;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.DigitalTwin-module__Y4jsoa__showcaseCard h4 {
+  color: var(--color-text-main);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.DigitalTwin-module__Y4jsoa__showcaseCard p {
+  color: var(--color-text-dim);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.DigitalTwin-module__Y4jsoa__roadmapBox {
+  background: var(--color-bg-alt);
+  border: 1px dashed var(--color-border);
+  text-align: center;
+  border-radius: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.DigitalTwin-module__Y4jsoa__roadmapBadge {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--color-primary);
+  background: #1565c01a;
+  border-radius: 100px;
+  margin-bottom: 2rem;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.DigitalTwin-module__Y4jsoa__roadmapTitle {
+  color: var(--color-text-main);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.DigitalTwin-module__Y4jsoa__roadmapDesc {
+  color: var(--color-text-dim);
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 1200px) {
+  .DigitalTwin-module__Y4jsoa__heroContent, .DigitalTwin-module__Y4jsoa__featureRow {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .DigitalTwin-module__Y4jsoa__showcaseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .DigitalTwin-module__Y4jsoa__monitoringGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .DigitalTwin-module__Y4jsoa__featureGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .DigitalTwin-module__Y4jsoa__title {
+    font-size: 2.75rem;
+  }
+
+  .DigitalTwin-module__Y4jsoa__introText {
+    font-size: 1.1rem;
+  }
+
+  .DigitalTwin-module__Y4jsoa__roadmapBox {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .DigitalTwin-module__Y4jsoa__heroText {
+    padding-right: 0;
+  }
+}
+
+/*# sourceMappingURL=src_5b6a6503._.css.map*/

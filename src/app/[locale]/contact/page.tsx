@@ -124,7 +124,7 @@ export default async function ContactPage({
                 <div className="container">
                     <div className={styles.companyBox}>
                         <img
-                            src="/assets/images/logos/bss-logisq-logo.svg"
+                            src="/assets/images/logos/bss-logisq-black.svg"
                             alt="BSS LogisQ"
                             className={styles.companyLogo}
                         />
