@@ -60,13 +60,13 @@
 }
 
 .tab:hover {
-    background: rgba(255, 255, 255, 0.03);
+    background: var(--color-bg-alt);
     color: var(--color-text-main);
 }
 
 .tab.active {
-    background: rgba(0, 209, 255, 0.05);
-    color: var(--color-accent);
+    background: rgba(21, 101, 192, 0.1);
+    color: var(--color-primary);
 }
 
 .tabIndex {
@@ -112,7 +112,7 @@
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid var(--color-border);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: var(--shadow-card);
 }
 
 .visual {
@@ -129,7 +129,7 @@
     font-size: 2rem;
     font-weight: 800;
     font-family: var(--font-heading);
-    color: #ffffff;
+    color: var(--color-text-main);
     margin-bottom: 1rem;
 }
 

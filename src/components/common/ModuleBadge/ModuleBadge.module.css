@@ -49,14 +49,14 @@
 
 /* Elements */
 .name {
-    color: #ffffff;
+    color: var(--color-primary);
     font-weight: 800;
     line-height: 0.8;
 }
 
 .separator {
     font-weight: 300;
-    color: #ffffff;
+    color: var(--color-primary);
     opacity: 0.5;
     line-height: 0.8;
 }
@@ -64,7 +64,7 @@
 .nick {
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--color-text-dim);
+    color: var(--color-text-main);
     font-weight: 600;
     padding-top: 0.1em;
     opacity: 0.8;

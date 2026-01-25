@@ -490,37 +490,37 @@
                     "id": "receipt",
                     "title": "Wareneingang (Inbound-Abwicklung)",
                     "description": "Annahme, Identifikation, Prüfung und formale Übernahme der Ware.",
-                    "image": "/assets/images/features/process_goods_receipt_1769203770544.png"
+                    "image": "/assets/images/features/process_goods_receipt.png"
                 },
                 {
                     "id": "putaway",
                     "title": "Einlagerung (Lagerplatz-Zuweisung)",
                     "description": "Zuweisung und Durchführung der Einlagerung an den richtigen Lagerplatz.",
-                    "image": "/assets/images/features/process_putaway_1769203788740.png"
+                    "image": "/assets/images/features/process_putaway.png"
                 },
                 {
                     "id": "release",
                     "title": "Auftragsfreigabe & Priorisierung",
                     "description": "Freigabe von Aufträgen inkl. Priorisierung (zeit-, kunden- oder SLA-getrieben).",
-                    "image": "/assets/images/features/process_order_release_1769203803173.png"
+                    "image": "/assets/images/features/process_order_release.png"
                 },
                 {
                     "id": "picking",
                     "title": "Kommissionierung",
                     "description": "Entnahme von Artikeln / Handling Units für Kunden-, Produktions- oder Umlageraufträge.",
-                    "image": "/assets/images/features/process_picking_1769203815928.png"
+                    "image": "/assets/images/features/process_picking.png"
                 },
                 {
                     "id": "replenishment",
                     "title": "Nachschub",
                     "description": "Nachschub von Kommissionier- oder Produktionszonen.",
-                    "image": "/assets/images/features/process_replenishment_1769203828927.png"
+                    "image": "/assets/images/features/process_replenishment.png"
                 },
                 {
                     "id": "consolidation",
                     "title": "Konsolidierung / Dekonsolidierung",
                     "description": "Zusammenführen oder Auflösen von Aufträgen, Paletten oder Ladeeinheiten.",
-                    "image": "/assets/images/features/process_consolidation_1769203844117.png"
+                    "image": "/assets/images/features/process_consolidation.png"
                 },
                 {
                     "id": "quality_control",
@@ -532,7 +532,7 @@
                     "id": "shipping",
                     "title": "Versand / Warenausgang",
                     "description": "Versandvorbereitung, Verladung und Warenausgangsbuchung.",
-                    "image": "/assets/images/features/process_shipping_1769203872981.png"
+                    "image": "/assets/images/features/process_shipping.png"
                 },
                 {
                     "id": "relocation",

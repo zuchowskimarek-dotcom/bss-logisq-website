@@ -490,37 +490,37 @@
                     "id": "receipt",
                     "title": "Goods Receipt (Inbound Processing)",
                     "description": "Acceptance, identification, inspection, and formal takeover of goods into the system.",
-                    "image": "/assets/images/features/process_goods_receipt_1769203770544.png"
+                    "image": "/assets/images/features/process_goods_receipt.png"
                 },
                 {
                     "id": "putaway",
                     "title": "Putaway (Storage Allocation)",
                     "description": "Allocation and execution of storage to the correct bin location using optimized logic.",
-                    "image": "/assets/images/features/process_putaway_1769203788740.png"
+                    "image": "/assets/images/features/process_putaway.png"
                 },
                 {
                     "id": "release",
                     "title": "Order Release & Prioritization",
                     "description": "Release of orders including prioritization driven by time, customer, or SLA requirements.",
-                    "image": "/assets/images/features/process_order_release_1769203803173.png"
+                    "image": "/assets/images/features/process_order_release.png"
                 },
                 {
                     "id": "picking",
                     "title": "Picking",
                     "description": "Removal of items or handling units for customer, production, or transfer orders.",
-                    "image": "/assets/images/features/process_picking_1769203815928.png"
+                    "image": "/assets/images/features/process_picking.png"
                 },
                 {
                     "id": "replenishment",
                     "title": "Replenishment",
                     "description": "Automated supply movement to picking or production zones to ensure availability.",
-                    "image": "/assets/images/features/process_replenishment_1769203828927.png"
+                    "image": "/assets/images/features/process_replenishment.png"
                 },
                 {
                     "id": "consolidation",
                     "title": "Consolidation / Deconsolidation",
                     "description": "Merging or splitting orders, pallets, or loading units for optimal transport and storage.",
-                    "image": "/assets/images/features/process_consolidation_1769203844117.png"
+                    "image": "/assets/images/features/process_consolidation.png"
                 },
                 {
                     "id": "quality_control",
@@ -532,7 +532,7 @@
                     "id": "shipping",
                     "title": "Shipping / Goods Issue",
                     "description": "Dispatch preparation, loading, and recording of the goods issue.",
-                    "image": "/assets/images/features/process_shipping_1769203872981.png"
+                    "image": "/assets/images/features/process_shipping.png"
                 },
                 {
                     "id": "relocation",
