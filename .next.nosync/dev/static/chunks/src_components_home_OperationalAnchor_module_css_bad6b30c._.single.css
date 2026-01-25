@@ -1,0 +1,87 @@
+/* [project]/src/components/home/OperationalAnchor.module.css [app-client] (css) */
+.OperationalAnchor-module__KfKXGG__section {
+  background-color: var(--color-bg);
+  padding: 6rem 0;
+}
+
+.OperationalAnchor-module__KfKXGG__container {
+  flex-direction: column;
+  gap: 4rem;
+  display: flex;
+}
+
+.OperationalAnchor-module__KfKXGG__header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.OperationalAnchor-module__KfKXGG__title {
+  color: var(--color-text-main);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.OperationalAnchor-module__KfKXGG__intro {
+  color: var(--color-text-dim);
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.OperationalAnchor-module__KfKXGG__grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  display: grid;
+}
+
+.OperationalAnchor-module__KfKXGG__card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-subtle);
+  border-radius: 12px;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.OperationalAnchor-module__KfKXGG__card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-5px);
+}
+
+.OperationalAnchor-module__KfKXGG__number {
+  color: var(--color-primary);
+  opacity: .15;
+  z-index: 0;
+  font-size: 4rem;
+  font-weight: 800;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+}
+
+.OperationalAnchor-module__KfKXGG__cardTitle {
+  color: var(--color-text-main);
+  z-index: 1;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.OperationalAnchor-module__KfKXGG__cardDesc {
+  color: var(--color-text-dim);
+  z-index: 1;
+  line-height: 1.6;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .OperationalAnchor-module__KfKXGG__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_components_home_OperationalAnchor_module_css_bad6b30c._.single.css.map*/

@@ -35,13 +35,13 @@ export default function TrustSection({ dict, locale }: TrustSectionProps) {
 
                     <div className={styles.logoGrid}>
                         <div className={styles.logoItem}>
-                            <img src="/assets/images/logos/arconq-logo.svg" alt="ArconQ" className={styles.logo} />
+                            <img src="/assets/images/logos/arconq-black.svg" alt="ArconQ" className={styles.logo} />
                         </div>
                         <div className={styles.logoItem}>
-                            <img src="/assets/images/logos/xyronq-logo.svg" alt="XyronQ" className={styles.logo} />
+                            <img src="/assets/images/logos/xyronq-black.svg" alt="XyronQ" className={styles.logo} />
                         </div>
                         <div className={styles.logoItem}>
-                            <img src="/assets/images/logos/squadronq-logo.svg" alt="SquadronQ" className={styles.logo} />
+                            <img src="/assets/images/logos/squadronq-black.svg" alt="SquadronQ" className={styles.logo} />
                         </div>
                         <div className={styles.logoItem}>
                             <img src="/assets/images/logos/macrix.png" alt="Macrix" className={styles.logo} />

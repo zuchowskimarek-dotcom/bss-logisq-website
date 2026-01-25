@@ -1,0 +1,61 @@
+/* [project]/src/components/common/ModuleBadge/ModuleBadge.module.css [app-client] (css) */
+.ModuleBadge-module__p4DkSG__badge {
+  line-height: 1;
+  font-family: var(--font-heading), sans-serif;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: .75rem;
+  display: flex;
+}
+
+.ModuleBadge-module__p4DkSG__sm .ModuleBadge-module__p4DkSG__name, .ModuleBadge-module__p4DkSG__sm .ModuleBadge-module__p4DkSG__separator {
+  font-size: 1.5rem;
+}
+
+.ModuleBadge-module__p4DkSG__sm .ModuleBadge-module__p4DkSG__nick {
+  max-width: 80px;
+  font-size: .6rem;
+}
+
+.ModuleBadge-module__p4DkSG__md .ModuleBadge-module__p4DkSG__name, .ModuleBadge-module__p4DkSG__md .ModuleBadge-module__p4DkSG__separator {
+  font-size: 2.5rem;
+}
+
+.ModuleBadge-module__p4DkSG__md .ModuleBadge-module__p4DkSG__nick {
+  max-width: 120px;
+  font-size: .85rem;
+}
+
+.ModuleBadge-module__p4DkSG__lg .ModuleBadge-module__p4DkSG__name, .ModuleBadge-module__p4DkSG__lg .ModuleBadge-module__p4DkSG__separator {
+  font-size: 3.5rem;
+}
+
+.ModuleBadge-module__p4DkSG__lg .ModuleBadge-module__p4DkSG__nick {
+  max-width: 160px;
+  font-size: 1rem;
+}
+
+.ModuleBadge-module__p4DkSG__name {
+  color: var(--color-primary);
+  font-weight: 800;
+  line-height: .8;
+}
+
+.ModuleBadge-module__p4DkSG__separator {
+  color: var(--color-primary);
+  opacity: .5;
+  font-weight: 300;
+  line-height: .8;
+}
+
+.ModuleBadge-module__p4DkSG__nick {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--color-text-main);
+  opacity: .8;
+  padding-top: .1em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/*# sourceMappingURL=src_components_common_ModuleBadge_ModuleBadge_module_css_bad6b30c._.single.css.map*/

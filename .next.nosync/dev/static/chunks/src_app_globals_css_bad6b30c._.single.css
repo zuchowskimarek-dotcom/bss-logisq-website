@@ -1,0 +1,90 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --color-primary: #1565c0;
+  --color-secondary: #1976d2;
+  --color-accent: #d32f2f;
+  --color-highlight: #0d47a1;
+  --color-bg: #fff;
+  --color-bg-alt: #f5f9ff;
+  --color-surface: #fff;
+  --color-text-main: #263238;
+  --color-text-dim: #607d8b;
+  --color-glass: #1565c00d;
+  --color-border: #1565c026;
+  --color-border-hover: #1565c04d;
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --transition-smooth: .4s cubic-bezier(.4, 0, .2, 1);
+  --transition-fast: .15s ease-out;
+  --shadow-subtle: 0 2px 8px #00000014;
+  --shadow-card: 0 4px 16px #1565c01a;
+  --shadow-glow: 0 0 20px #1565c026;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -.02em;
+}
+
+.glass {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-subtle);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-highlight));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-surface);
+}
+
+/*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

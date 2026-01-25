@@ -1,0 +1,218 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap";
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --color-primary: #1565c0;
+  --color-secondary: #1976d2;
+  --color-accent: #d32f2f;
+  --color-highlight: #0d47a1;
+  --color-bg: #fff;
+  --color-bg-alt: #f5f9ff;
+  --color-surface: #fff;
+  --color-text-main: #263238;
+  --color-text-dim: #607d8b;
+  --color-glass: #1565c00d;
+  --color-border: #1565c026;
+  --color-border-hover: #1565c04d;
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --transition-smooth: .4s cubic-bezier(.4, 0, .2, 1);
+  --transition-fast: .15s ease-out;
+  --shadow-subtle: 0 2px 8px #00000014;
+  --shadow-card: 0 4px 16px #1565c01a;
+  --shadow-glow: 0 0 20px #1565c026;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -.02em;
+}
+
+.glass {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-subtle);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-highlight));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-surface);
+}
+
+/* [project]/src/components/layout/Navbar.module.css [app-client] (css) */
+.Navbar-module__cRh5nW__navbar {
+  z-index: 1000;
+  border-bottom: 1px solid var(--color-border);
+  width: 100%;
+  height: 100px;
+  box-shadow: var(--shadow-subtle);
+  background: #fffffff2;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Navbar-module__cRh5nW__container {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.Navbar-module__cRh5nW__logo {
+  font-family: var(--font-heading);
+  color: var(--color-text-main);
+  letter-spacing: -.02em;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+}
+
+.Navbar-module__cRh5nW__logoImage {
+  width: auto;
+  height: 85px;
+  transition: var(--transition-fast);
+  margin-top: 8px;
+}
+
+.Navbar-module__cRh5nW__logoImage:hover {
+  filter: brightness(.9);
+}
+
+.Navbar-module__cRh5nW__links {
+  gap: 1.5rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.Navbar-module__cRh5nW__link {
+  color: var(--color-text-dim);
+  transition: var(--transition-fast);
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.Navbar-module__cRh5nW__link:hover {
+  color: var(--color-primary);
+}
+
+.Navbar-module__cRh5nW__activeLink {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 4px;
+}
+
+.Navbar-module__cRh5nW__actions {
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.Navbar-module__cRh5nW__langSwitcher {
+  color: var(--color-text-dim);
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.Navbar-module__cRh5nW__langBtn {
+  color: inherit;
+  transition: var(--transition-fast);
+  border-radius: 4px;
+  padding: .25rem .5rem;
+  text-decoration: none;
+}
+
+.Navbar-module__cRh5nW__langBtn:hover {
+  color: var(--color-text-main);
+  background: var(--color-bg-alt);
+}
+
+.Navbar-module__cRh5nW__langBtn.Navbar-module__cRh5nW__active {
+  color: var(--color-primary);
+}
+
+.Navbar-module__cRh5nW__divider {
+  opacity: .3;
+}
+
+.Navbar-module__cRh5nW__cta {
+  background: var(--color-primary);
+  color: #fff;
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-card);
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 8px;
+  min-width: 140px;
+  padding: .75rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.Navbar-module__cRh5nW__cta:hover {
+  background: var(--color-highlight);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+
+/*# sourceMappingURL=src_c12bebbe._.css.map*/
