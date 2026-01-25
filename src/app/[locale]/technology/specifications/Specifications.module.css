@@ -1,0 +1,216 @@
+.main {
+    padding-top: 100px;
+}
+
+/* Hero Section with Product Logo */
+.hero {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #FFFFFF 0%, #F5F9FF 50%, #E3F2FD 100%);
+    text-align: center;
+}
+
+.heroContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.productBadge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 98, 155, 0.15);
+    border-radius: 16px;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 98, 155, 0.1);
+}
+
+.productLogo {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-dim);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Specifications Grid */
+.specs {
+    padding: 4rem 0;
+    background: var(--color-bg);
+}
+
+.specGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.specCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid var(--color-border);
+    transition: var(--transition-smooth);
+}
+
+.specCard:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--color-primary);
+}
+
+.specValue {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.specTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text-main);
+    margin-bottom: 0.5rem;
+}
+
+.specDesc {
+    font-size: 0.9rem;
+    color: var(--color-text-dim);
+    line-height: 1.5;
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 0;
+    background: var(--color-bg-alt);
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.featureGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.featureCard {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+}
+
+.featureIcon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    background: rgba(0, 98, 155, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+}
+
+.featureIcon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.featureTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-main);
+    margin-bottom: 0.25rem;
+}
+
+.featureDesc {
+    font-size: 0.9rem;
+    color: var(--color-text-dim);
+    line-height: 1.5;
+}
+
+/* Requirements Section */
+.requirements {
+    padding: 4rem 0;
+    background: var(--color-bg);
+}
+
+.requirementsList {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+}
+
+.requirementRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.requirementRow:last-child {
+    border-bottom: none;
+}
+
+.reqLabel {
+    font-weight: 500;
+    color: var(--color-text-dim);
+}
+
+.reqValue {
+    font-weight: 600;
+    color: var(--color-text-main);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .productBadge {
+        padding: 1rem 1.5rem;
+    }
+
+    .productLogo {
+        height: 45px;
+    }
+
+    .specGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .featureGrid {
+        grid-template-columns: 1fr;
+    }
+}

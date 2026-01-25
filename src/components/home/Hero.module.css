@@ -41,9 +41,65 @@
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--color-primary);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+.productCardLink {
+    text-decoration: none;
+    display: block;
+    max-width: fit-content;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.productCardLink:hover {
+    transform: translateY(-2px);
+}
+
+/* Product Card - Premium product presentation */
+.productCard {
+    display: flex;
+    align-items: stretch;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 98, 155, 0.15);
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 98, 155, 0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.productCardLink:hover .productCard {
+    background: rgba(255, 255, 255, 0.85);
+    border-color: rgba(0, 98, 155, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 98, 155, 0.12);
+}
+
+.productAccent {
+    width: 5px;
+    background: linear-gradient(180deg, #00629b 0%, #1976d2 100%);
+    flex-shrink: 0;
+}
+
+.productContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+    min-width: 240px;
+}
+
+.productLogo {
+    width: 100%;
+    height: auto;
+    max-height: 48px;
+    display: block;
+    object-fit: contain;
 }
 
 .title {

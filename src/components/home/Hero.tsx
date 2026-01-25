@@ -4,7 +4,8 @@ import styles from './Hero.module.css';
 interface HeroProps {
     dict: {
         badge: string;
-        titlePrefix: string;
+        productName: string;
+        productTagline: string;
         titleHighlight: string;
         titleSuffix: string;
         description: string;
@@ -22,8 +23,20 @@ export default function Hero({ dict, locale }: HeroProps) {
                 <div className={styles.heroGrid}>
                     <div className={styles.content}>
                         <span className={styles.badge}>{dict.badge}</span>
+                        <Link href={`/${locale}/technology/specifications`} className={styles.productCardLink}>
+                            <div className={styles.productCard}>
+                                <div className={styles.productAccent}></div>
+                                <div className={styles.productContent}>
+                                    <img
+                                        src="/assets/images/logos/logisq-wes-logo.svg"
+                                        alt="LogisQ-WES - Warehouse Execution System"
+                                        className={styles.productLogo}
+                                    />
+                                </div>
+                            </div>
+                        </Link>
                         <h1 className={styles.title}>
-                            {dict.titlePrefix} <span className="text-gradient">{dict.titleHighlight}</span> {dict.titleSuffix}
+                            <span className="text-gradient">{dict.titleHighlight}</span> {dict.titleSuffix}
                         </h1>
                         <p className={styles.description}>
                             {dict.description}
