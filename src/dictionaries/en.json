@@ -8,6 +8,7 @@
         "contact": "Contact Us"
     },
     "solutionsHub": {
+        "category": "Solutions",
         "headline": "Warehouse Execution Solutions for Real Operational Scenarios",
         "subline": "LogisQ-WES adapts to different warehouse types, automation levels, and modernization contexts — without changing execution semantics across different warehouse scenarios.",
         "sectionA": {
@@ -230,6 +231,7 @@
         }
     },
     "modularWesPage": {
+        "category": "Technology",
         "title": "Modular WES",
         "subtitle": "Bridge sales promise and technical reality",
         "intro": "LogisQ-WES is an intralogistics software product composed of specialized modules connected via the CommunicationHUB.",
@@ -285,6 +287,7 @@
         "techDesc": "Dive deeper into the architecture that makes this possible."
     },
     "digitalTwinPage": {
+        "category": "Technology",
         "title": "Digital Twin",
         "subtitle": "Design-time transparency, not runtime dependence.",
         "intro": "Leverage full 3D visualization during planning and commissioning to validate processes before they go live.",
@@ -342,6 +345,7 @@
         }
     },
     "companyPage": {
+        "category": "About",
         "badge": "Strong Partners",
         "title": "A Strategic Joint Venture",
         "subtitle": "Combining logistics heritage with software innovation.",
@@ -431,9 +435,11 @@
         "cta3": "Talk to Sales"
     },
     "technologyPage": {
+        "category": "Technology",
         "wesDefinition": "A Warehouse Execution System (WES) coordinates real-time warehouse tasks across systems, people, and automation.",
         "intro": {
             "title": "Why LogisQ-WES works reliably in real warehouses",
+            "bodyShort": "Processes are executed as defined, not as reinterpreted later.",
             "body": "LogisQ-WES ensures that warehouse processes are executed **as defined**, not as reinterpreted later.<br><br>Its architecture removes semantic gaps between planning, execution, and operation."
         },
         "boundaries": {

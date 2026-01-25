@@ -1,5 +1,5 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
-import TechIntro from '@/components/technology/TechIntro';
+import PageHero from '@/components/common/PageHero';
 import SystemBoundaries from '@/components/technology/SystemBoundaries';
 import ExecutionModel from '@/components/technology/ExecutionModel';
 import SafetyControl from '@/components/technology/SafetyControl';
@@ -19,7 +19,13 @@ export default async function TechnologyPage({
 
     return (
         <main>
-            <TechIntro dict={t.intro} wesDefinition={t.wesDefinition} />
+            <PageHero
+                category={t.category}
+                headline={t.intro.title}
+                clarifier={t.intro.bodyShort}
+                definition={t.wesDefinition}
+                archetype="prove"
+            />
             <SystemBoundaries dict={t.boundaries} />
             <ExecutionModel dict={t.execution} />
             <SafetyControl dict={t.safety} />

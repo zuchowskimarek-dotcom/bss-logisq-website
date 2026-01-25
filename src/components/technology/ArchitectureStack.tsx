@@ -34,10 +34,10 @@ export default function ArchitectureStack({ dict }: ArchitectureStackProps) {
                 <div className={styles.diagramWrapper}>
                     <img
                         src="/images/diagrams/diagram_platform_stack.png"
-                        alt="Platform Stack Diagram"
+                        alt="ArconQ Service Architecture"
                         className={styles.diagram}
                     />
-                    <p className={styles.caption}>Figure 4: Platform Stack (ArconQ)</p>
+                    <p className={styles.caption}>Figure 4: ArconQ Service Architecture</p>
                 </div>
 
                 <div className={styles.bridge}>

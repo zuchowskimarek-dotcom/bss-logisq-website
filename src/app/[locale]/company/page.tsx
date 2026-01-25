@@ -1,6 +1,6 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import styles from './Company.module.css';
-import { Building2, Code2 } from 'lucide-react'; // Using Lucide React for consistent icons
+import PageHero from '@/components/common/PageHero';
 
 export default async function CompanyPage({
     params,
@@ -13,13 +13,13 @@ export default async function CompanyPage({
 
     return (
         <main className={styles.main}>
-            {/* Header */}
-            <header className={styles.header}>
-                <span className={styles.badge}>{t.badge}</span>
-                <h1 className={styles.title}>{t.title}</h1>
-                <p className={styles.subtitle}>{t.subtitle}</p>
-                <p className={styles.intro}>{t.intro}</p>
-            </header>
+            {/* Unified Hero with SELL archetype */}
+            <PageHero
+                category={t.category}
+                headline={t.title}
+                clarifier={t.subtitle}
+                archetype="sell"
+            />
 
             {/* Split Grid */}
             <div className="container">

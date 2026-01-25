@@ -1,5 +1,6 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import { Metadata } from 'next';
+import PageHero from '@/components/common/PageHero';
 
 export async function generateMetadata({
     params,
@@ -32,13 +33,13 @@ export default async function ModularWesPage({
 
     return (
         <main className={styles.main}>
-            {/* 1. Hero / Definition: Bridges Sales Hook to Technical Reality */}
-            <header className={styles.header}>
-                <div className="container">
-                    <h1 className={styles.title}>{m.title}</h1>
-                    <p className={styles.subtitle}>{m.subtitle}</p>
-                </div>
-            </header>
+            {/* Unified Hero with EXPLAIN archetype */}
+            <PageHero
+                category={m.category}
+                headline={m.title}
+                clarifier={m.subtitle}
+                archetype="explain"
+            />
 
             {/* 2. Intro: Defines the Product (LogisQ = WMS + PER + MFC) */}
             <section className={styles.intro}>

@@ -1,0 +1,107 @@
+.hero {
+    padding-top: 140px;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+/* Category label */
+.category {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+}
+
+/* Main headline */
+.headline {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Clarifier */
+.clarifier {
+    font-size: 1.35rem;
+    color: var(--color-text-dim);
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* Definition box */
+.definition {
+    margin-top: 2rem;
+    padding: 1.25rem 2rem;
+    background: rgba(0, 209, 255, 0.08);
+    border: 1px solid rgba(0, 209, 255, 0.2);
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: var(--color-text-main);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+/* Archetype: SELL */
+.sell {
+    background: var(--color-bg);
+}
+
+.sell .headline {
+    background: linear-gradient(135deg, var(--color-text-main), var(--color-accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Archetype: EXPLAIN */
+.explain {
+    background: var(--color-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.explain .headline {
+    font-size: 3rem;
+}
+
+/* Archetype: PROVE */
+.prove {
+    background: var(--color-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.prove .headline {
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.prove .clarifier {
+    font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .headline {
+        font-size: 2.5rem;
+    }
+
+    .clarifier {
+        font-size: 1.1rem;
+    }
+
+    .explain .headline,
+    .prove .headline {
+        font-size: 2rem;
+    }
+}

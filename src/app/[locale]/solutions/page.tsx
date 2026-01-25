@@ -1,6 +1,7 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import styles from '@/components/solutions/Solutions.module.css';
 import Link from 'next/link';
+import PageHero from '@/components/common/PageHero';
 
 export default async function SolutionsPage({
     params,
@@ -19,12 +20,12 @@ export default async function SolutionsPage({
 
     return (
         <main className={styles.main}>
-            <header className={styles.header}>
-                <div className="container">
-                    <h1 className={styles.title}>{hub.headline}</h1>
-                    <p className={styles.subtitle}>{hub.subline}</p>
-                </div>
-            </header>
+            <PageHero
+                category={hub.category}
+                headline={hub.headline}
+                clarifier={hub.subline}
+                archetype="sell"
+            />
 
             {sections.map((section, idx) => (
                 <section key={idx} className={styles.section}>

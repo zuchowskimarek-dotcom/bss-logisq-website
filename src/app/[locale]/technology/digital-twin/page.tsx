@@ -1,5 +1,6 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import { Metadata } from 'next';
+import PageHero from '@/components/common/PageHero';
 
 export async function generateMetadata({
     params,
@@ -30,26 +31,27 @@ export default async function DigitalTwinPage({
 
     return (
         <main className={styles.main}>
-            {/* Hero Section with Featured Visual */}
-            <header className={styles.header}>
+            {/* Unified Hero */}
+            <PageHero
+                category={d.category}
+                headline={d.title}
+                clarifier={d.subtitle}
+                archetype="prove"
+            />
+
+            {/* Hero Visual - Scaled Down */}
+            <section className={styles.heroVisualSection}>
                 <div className="container">
-                    <div className={styles.heroContent}>
-                        <div className={styles.heroText}>
-                            <h1 className={styles.title}>{d.title}</h1>
-                            <p className={styles.subtitle}>{d.subtitle}</p>
-                            <p className={styles.introText}>{d.intro}</p>
-                        </div>
-                        <div className={styles.heroVisual}>
-                            <img
-                                src="/assets/images/features/digital-twin-3d-main.png"
-                                alt="Digital Twin 3D Visualization"
-                                className={styles.heroImage}
-                            />
-                            <div className={styles.heroImageLabel}>{d.visualLabel}</div>
-                        </div>
+                    <div className={styles.centeredVisual}>
+                        <img
+                            src="/assets/images/features/digital-twin-3d-main.png"
+                            alt="Digital Twin 3D Visualization"
+                            className={styles.heroImageScaled}
+                        />
+                        <p className={styles.visualCaption}>{d.visualLabel}</p>
                     </div>
                 </div>
-            </header>
+            </section>
 
             {/* Features with Integrated Visuals */}
             <section className={styles.features}>
