@@ -31,7 +31,7 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
             <div className={`${styles.container} container`}>
                 <Link href={`/${locale}`} className={styles.logo}>
                     <img
-                        src="/assets/images/logos/bss-logisq-logo.svg"
+                        src="/assets/images/logos/bss-logisq-black.svg"
                         alt="BSS LogisQ"
                         className={styles.logoImage}
                     />
