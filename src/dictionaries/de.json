@@ -364,11 +364,12 @@
     },
     "hero": {
         "badge": "Design. Validate. Execute.",
-        "titlePrefix": "Warehouse Execution für",
-        "titleHighlight": "kürzere Projektlaufzeiten",
-        "titleSuffix": "",
-        "description": "Durch durchgängiges Design statt Neuinterpretation zwischen Planung und Betrieb.",
-        "anchor": "LogisQ-WES koordiniert die Lagerausführung über Menschen, Automatisierung und Systeme in Echtzeit.",
+        "productName": "LogisQ-WES",
+        "productTagline": "Warehouse Execution System",
+        "titleHighlight": "Kürzere Projektlaufzeiten",
+        "titleSuffix": "durch durchgängiges Design",
+        "description": "Keine Neuinterpretation zwischen Planung und Betrieb. Was Sie designen, wird exakt so ausgeführt.",
+        "anchor": "Koordiniert Lagerausführung über Menschen, Automatisierung und Systeme in Echtzeit.",
         "ctaPrimary": "So funktioniert es",
         "ctaSecondary": "Kontakt aufnehmen"
     },
@@ -603,8 +604,84 @@
             "f3Desc": "Automatisierte Ladelogik sorgt für 24/7-Verfügbarkeit."
         }
     },
+    "specificationsPage": {
+        "title": "Spezifikation & Features",
+        "subtitle": "Technische Fähigkeiten des LogisQ-WES Warehouse Execution Systems",
+        "metaDescription": "Technische Spezifikationen und Funktionen von LogisQ-WES - das modulare Warehouse Execution System für automatisierte und manuelle Logistik.",
+        "specs": [
+            {
+                "title": "Parallele Prozesse",
+                "value": "10.000+",
+                "desc": "Gleichzeitige Ausführungsthreads für Hochdurchsatzbetrieb"
+            },
+            {
+                "title": "Event-Verarbeitung",
+                "value": "<50ms",
+                "desc": "Echtzeit-Ereignisverarbeitung für sofortige operative Reaktion"
+            },
+            {
+                "title": "Integrationsprotokolle",
+                "value": "15+",
+                "desc": "Inkl. OPC-UA, REST, MQTT, VDA 5050 und proprietäre SPSen"
+            },
+            {
+                "title": "Uptime SLA",
+                "value": "99,9%",
+                "desc": "Enterprise-Zuverlässigkeit mit Redundanzunterstützung"
+            }
+        ],
+        "featuresTitle": "Kernfunktionen",
+        "features": [
+            {
+                "title": "Workflow-basierte Ausführung",
+                "desc": "Prozesse werden explizit definiert und deterministisch ausgeführt"
+            },
+            {
+                "title": "Modulare Architektur",
+                "desc": "WMS, PER, MFC und CommunicationHUB als unabhängige Module"
+            },
+            {
+                "title": "Echtzeit-Orchestrierung",
+                "desc": "Koordiniert Aufgaben über Menschen, Automatisierung und Systeme"
+            },
+            {
+                "title": "Ereignisbasierte Integration",
+                "desc": "Lose Kopplung via Events, keine engen API-Abhängigkeiten"
+            },
+            {
+                "title": "Digital Twin Support",
+                "desc": "Design-Validierung und 3D-Visualisierungsfunktionen"
+            },
+            {
+                "title": "Brownfield Ready",
+                "desc": "Integration mit bestehender Hardware und Legacy-Systemen"
+            }
+        ],
+        "requirementsTitle": "Systemanforderungen",
+        "requirements": [
+            {
+                "label": "Betriebssystem",
+                "value": "Linux (Ubuntu 22.04+), Windows Server 2019+"
+            },
+            {
+                "label": "Datenbank",
+                "value": "PostgreSQL 14+ oder Microsoft SQL Server 2019+"
+            },
+            {
+                "label": "Runtime",
+                "value": ".NET 8.0, Node.js 20.x"
+            },
+            {
+                "label": "Arbeitsspeicher",
+                "value": "16GB RAM Minimum, 64GB empfohlen"
+            },
+            {
+                "label": "Netzwerk",
+                "value": "Gigabit Ethernet, VPN-fähig"
+            }
+        ]
+    },
     "meta": {
         "title": "Warehouse Execution System für Lagerautomatisierung | BSS LogisQ",
         "description": "Warehouse Execution System konzipiert für manuelle, automatisierte und gemischte Umgebungen. Kürzere Projektlaufzeiten durch ausführungsbereites Design. Echtzeit-Koordination, Digital Twin Validierung, kein Vendor Lock-in."
-    }
-}
+    }}

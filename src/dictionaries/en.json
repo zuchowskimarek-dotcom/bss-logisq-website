@@ -364,11 +364,12 @@
     },
     "hero": {
         "badge": "Design. Validate. Execute.",
-        "titlePrefix": "Warehouse Execution for",
+        "productName": "LogisQ-WES",
+        "productTagline": "Warehouse Execution System",
         "titleHighlight": "Shorter Project Runtimes",
-        "titleSuffix": "",
-        "description": "Through end-to-end design instead of reinterpretation between planning and operation.",
-        "anchor": "LogisQ-WES coordinates warehouse execution across people, automation, and systems in real time.",
+        "titleSuffix": "through end-to-end design",
+        "description": "No reinterpretation between planning and operation. What you design is what gets executed.",
+        "anchor": "Coordinates warehouse execution across people, automation, and systems in real time.",
         "ctaPrimary": "How It Works",
         "ctaSecondary": "Talk to Sales"
     },
@@ -602,6 +603,83 @@
             "f3Title": "Battery Management",
             "f3Desc": "Automated charging logic ensures 24/7 availability."
         }
+    },
+    "specificationsPage": {
+        "title": "Specification & Features",
+        "subtitle": "Technical capabilities of the LogisQ-WES Warehouse Execution System",
+        "metaDescription": "Technical specifications and features of LogisQ-WES - the modular warehouse execution system for automated and manual logistics.",
+        "specs": [
+            {
+                "title": "Concurrent Processes",
+                "value": "10,000+",
+                "desc": "Simultaneous execution threads for high-throughput operations"
+            },
+            {
+                "title": "Event Processing",
+                "value": "<50ms",
+                "desc": "Real-time event handling for immediate operational response"
+            },
+            {
+                "title": "Integration Protocols",
+                "value": "15+",
+                "desc": "Including OPC-UA, REST, MQTT, VDA 5050, and proprietary PLCs"
+            },
+            {
+                "title": "Uptime SLA",
+                "value": "99.9%",
+                "desc": "Enterprise-grade reliability with redundancy support"
+            }
+        ],
+        "featuresTitle": "Core Features",
+        "features": [
+            {
+                "title": "Workflow-First Execution",
+                "desc": "Processes are defined explicitly and executed deterministically"
+            },
+            {
+                "title": "Modular Architecture",
+                "desc": "WMS, PER, MFC, and CommunicationHUB as independent modules"
+            },
+            {
+                "title": "Real-Time Orchestration",
+                "desc": "Coordinates tasks across people, automation, and systems"
+            },
+            {
+                "title": "Event-Driven Integration",
+                "desc": "Loose coupling via events, not tight API dependencies"
+            },
+            {
+                "title": "Digital Twin Support",
+                "desc": "Design-time validation and 3D visualization capabilities"
+            },
+            {
+                "title": "Brownfield Ready",
+                "desc": "Integrates with existing hardware and legacy systems"
+            }
+        ],
+        "requirementsTitle": "System Requirements",
+        "requirements": [
+            {
+                "label": "Operating System",
+                "value": "Linux (Ubuntu 22.04+), Windows Server 2019+"
+            },
+            {
+                "label": "Database",
+                "value": "PostgreSQL 14+ or Microsoft SQL Server 2019+"
+            },
+            {
+                "label": "Runtime",
+                "value": ".NET 8.0, Node.js 20.x"
+            },
+            {
+                "label": "Memory",
+                "value": "16GB RAM minimum, 64GB recommended"
+            },
+            {
+                "label": "Network",
+                "value": "Gigabit Ethernet, VPN-capable"
+            }
+        ]
     },
     "meta": {
         "title": "Warehouse Execution System for Automated Logistics | BSS LogisQ",
