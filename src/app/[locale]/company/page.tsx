@@ -29,7 +29,7 @@ export default async function CompanyPage({
                         <div className={styles.cardHeader}>
                             <div className={styles.logoWrapper}>
                                 <img
-                                    src="/assets/images/logos/bss-only-black.svg"
+                                    src="/assets/images/logos/bss-only.svg"
                                     alt="BSS Bohnenberg"
                                     className={styles.logo}
                                 />
