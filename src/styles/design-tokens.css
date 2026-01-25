@@ -1,23 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap');
 
 :root {
-    /* Brand Colors */
-    --color-primary: #0a1128;
-    --color-secondary: #001f54;
-    --color-accent: #00d1ff;
-    /* Digital Twin Cyan */
-    --color-kinetic: #00f3ff;
-    /* Brand Cyan Kinetic */
+    /* Brand Colors - Professional Blue Palette */
+    --color-primary: #1565C0;
+    /* Deep professional blue */
+    --color-secondary: #1976D2;
+    /* Medium blue */
+    --color-accent: #D32F2F;
+    /* Signal red for emphasis */
+    --color-highlight: #0D47A1;
+    /* Dark blue for headings */
 
-    /* Neutral Palette */
-    --color-bg: #050505;
-    --color-surface: rgba(255, 255, 255, 0.03);
-    --color-text-main: #f0f0f0;
-    --color-text-dim: #a0a0a0;
+    /* Neutral Palette - Light Mode */
+    --color-bg: #FFFFFF;
+    --color-bg-alt: #F5F9FF;
+    /* Very light blue tint */
+    --color-surface: #FFFFFF;
+    --color-text-main: #263238;
+    /* Charcoal */
+    --color-text-dim: #607D8B;
+    /* Blue-gray */
 
     /* Functional Colors */
-    --color-glass: rgba(10, 17, 40, 0.7);
-    --color-border: rgba(255, 255, 255, 0.1);
+    --color-glass: rgba(21, 101, 192, 0.05);
+    --color-border: rgba(21, 101, 192, 0.15);
+    --color-border-hover: rgba(21, 101, 192, 0.3);
 
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
@@ -27,9 +34,10 @@
     --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-fast: 0.15s ease-out;
 
-    /* Shadows & Effects */
-    --shadow-glow: 0 0 20px rgba(0, 209, 255, 0.3);
-    --glass-blur: blur(12px);
+    /* Shadows & Effects - Light Mode */
+    --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-card: 0 4px 16px rgba(21, 101, 192, 0.1);
+    --shadow-glow: 0 0 20px rgba(21, 101, 192, 0.15);
 }
 
 /* Base Styles */
@@ -59,12 +67,12 @@ h4 {
 /* Utility Classes */
 .glass {
     background: var(--color-surface);
-    backdrop-filter: var(--glass-blur);
     border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-subtle);
 }
 
 .text-gradient {
-    background: linear-gradient(90deg, var(--color-text-main), var(--color-accent));
+    background: linear-gradient(90deg, var(--color-primary), var(--color-highlight));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

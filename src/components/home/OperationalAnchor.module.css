@@ -42,19 +42,20 @@
     position: relative;
     overflow: hidden;
     transition: var(--transition-smooth);
+    box-shadow: var(--shadow-subtle);
 }
 
 .card:hover {
     transform: translateY(-5px);
-    border-color: var(--color-kinetic);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-card);
 }
 
 .number {
     font-size: 4rem;
     font-weight: 800;
-    color: var(--color-border);
-    opacity: 0.3;
+    color: var(--color-primary);
+    opacity: 0.15;
     position: absolute;
     top: -1rem;
     right: 1rem;

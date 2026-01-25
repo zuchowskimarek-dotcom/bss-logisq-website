@@ -1,9 +1,9 @@
 .section {
     padding: 10rem 2rem;
-    background: var(--color-bg);
+    background: var(--color-bg-alt);
     position: relative;
     overflow: hidden;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--color-border);
 }
 
 .section::before {
@@ -13,7 +13,7 @@
     left: 50%;
     width: 1000px;
     height: 1000px;
-    background: radial-gradient(circle, rgba(0, 243, 255, 0.03) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(21, 101, 192, 0.05) 0%, transparent 70%);
     transform: translate(-50%, -50%);
     z-index: 0;
 }
@@ -55,38 +55,40 @@
 
 .primaryBtn {
     padding: 1.25rem 2.5rem;
-    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-kinetic) 100%);
-    color: var(--bg-deep);
+    background: var(--color-primary);
+    color: white;
     border: none;
     border-radius: 12px;
     font-size: 1.1rem;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0, 243, 255, 0.2);
+    box-shadow: var(--shadow-card);
+    text-decoration: none;
 }
 
 .primaryBtn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(0, 243, 255, 0.4);
+    background: var(--color-highlight);
+    box-shadow: var(--shadow-glow);
 }
 
 .secondaryBtn {
     padding: 1.25rem 2.5rem;
-    background: rgba(255, 255, 255, 0.03);
+    background: var(--color-bg);
     color: var(--color-text-main);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
+    text-decoration: none;
 }
 
 .secondaryBtn:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.3);
+    background: var(--color-bg-alt);
+    border-color: var(--color-primary);
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 .section {
     padding: 8rem 2rem;
-    background: var(--bg-deep);
+    background: var(--color-bg);
     position: relative;
 }
 
@@ -38,27 +38,29 @@
 
 .card {
     padding: 3rem 2rem;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 24px;
     display: flex;
     flex-direction: column;
     transition: all 0.3s ease;
+    box-shadow: var(--shadow-subtle);
 }
 
 .featuredCard {
-    background: rgba(0, 243, 255, 0.03);
-    border-color: rgba(0, 243, 255, 0.1);
+    background: rgba(21, 101, 192, 0.05);
+    border-color: rgba(21, 101, 192, 0.2);
     transform: scale(1.05);
 }
 
 .card:hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: var(--color-bg-alt);
     transform: translateY(-5px);
+    box-shadow: var(--shadow-card);
 }
 
 .featuredCard:hover {
-    background: rgba(0, 243, 255, 0.05);
+    background: rgba(21, 101, 192, 0.08);
     transform: translateY(-5px) scale(1.05);
 }
 
@@ -84,7 +86,7 @@
 .result {
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--color-kinetic);
+    color: var(--color-primary);
     letter-spacing: 0.02em;
 }
 

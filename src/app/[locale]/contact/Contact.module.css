@@ -7,78 +7,67 @@
 /* Hero Section */
 .heroSection {
     padding: 2rem 0 2rem;
-    /* Reduced from 6rem 0 4rem */
     text-align: center;
-    background: linear-gradient(135deg, rgba(0, 209, 255, 0.03) 0%, transparent 100%);
+    background: linear-gradient(135deg, rgba(21, 101, 192, 0.03) 0%, transparent 100%);
 }
 
 .headerContent {
     max-width: 900px;
     margin: 0 auto 3rem;
-    /* Reduced from 5rem */
 }
 
 .title {
     font-size: 3rem;
-    /* Reduced from 4rem */
     font-weight: 800;
     color: var(--color-text-main);
     margin-bottom: 1rem;
-    /* Reduced from 2rem */
     letter-spacing: -0.04em;
 }
 
 .subtitle {
     font-size: 1.25rem;
-    /* Reduced from 1.5rem */
     color: var(--color-text-dim);
     line-height: 1.6;
 }
 
 .highlight {
-    color: var(--color-accent);
+    color: var(--color-primary);
     font-weight: 600;
     display: block;
     margin-top: 0.25rem;
-    /* Reduced from 0.5rem */
 }
 
 /* Team Grid */
 .teamGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    /* Reduced minmax slightly */
     gap: 1.5rem;
-    /* Reduced from 2rem */
     justify-content: center;
 }
 
 .teamCard {
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 24px;
     padding: 1.5rem;
-    /* Reduced from 2.5rem */
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    box-shadow: var(--shadow-subtle);
 }
 
 .teamCard:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 209, 255, 0.15);
-    border-color: rgba(0, 209, 255, 0.3);
+    box-shadow: var(--shadow-card);
+    border-color: var(--color-primary);
 }
 
 .teamPhoto {
     width: 100px;
-    /* Reduced from 120px */
     height: 100px;
-    /* Reduced from 120px */
     margin: 0 auto 1.5rem;
-    /* Reduced from 2rem */
     border-radius: 50%;
     overflow: hidden;
-    border: 3px solid rgba(0, 209, 255, 0.3);
+    border: 3px solid rgba(21, 101, 192, 0.3);
 }
 
 .photo {
@@ -93,25 +82,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Visual & Textual Polish (Final Fine-Tuning)
-- **Balanced Sizing**:
-    - **Technology Overview**: Labels (**WMS**, **PER**, **MFC**, etc.) are now **2.0rem** (scaled back by 19% for better fit) and white.
-    - **Subtitles**: Key introductory text (subheadlines) increased to **1.65rem** (30% larger) to enhance readability and messaging priority.
-    - **Modular WES Site**: `ModuleBadge` sizes are confirmed at **standard proportions** (1.5rem - 3.5rem) to maintain layout integrity.
-- **Unified Branding**: All key labels and headers now use the **'Outfit'** font family and a clean **white/deep** aesthetic.
-- **Precision Typography**: Confirmed **SquadronQ** (capital Q) and **CommunicationHUB** (capital HUB) naming conventions.
-
-#### Final Verification
-````carousel
-![Technology Overview - Balanced Layout](/Users/marekzuchowski/.gemini/antigravity/brain/0a36324b-76ca-4631-91f7-a524617245da/technology_labels_verification_1769201331826.png)
-<!-- slide -->
-![Standard ModuleBadges](/Users/marekzuchowski/.gemini/antigravity/brain/0a36324b-76ca-4631-91f7-a524617245da/modular_wes_badges_normal_1769200871988.png)
-````
-
-### Summary
-The LogisQ-WES architecture is now presented with high-impact, perfectly balanced white labels and prominent subheadlines. The design is unified, premium, and functional across all technology subpages.
-*/
-    background: linear-gradient(135deg, var(--color-accent), var(--color-kinetic));
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     font-size: 2.5rem;
     font-weight: 700;
     color: white;
@@ -130,7 +101,7 @@ The LogisQ-WES architecture is now presented with high-impact, perfectly balance
 
 .teamRole {
     font-size: 1rem;
-    color: var(--color-accent);
+    color: var(--color-primary);
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
@@ -152,24 +123,25 @@ The LogisQ-WES architecture is now presented with high-impact, perfectly balance
 }
 
 .contactLink:hover {
-    color: var(--color-accent);
-    background: rgba(0, 209, 255, 0.05);
+    color: var(--color-primary);
+    background: rgba(21, 101, 192, 0.05);
 }
 
 /* Company Section */
 .company {
     padding: 0 0 6rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .companyBox {
     max-width: 600px;
     margin: 0 auto;
     padding: 3rem;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 24px;
     text-align: center;
+    box-shadow: var(--shadow-subtle);
 }
 
 .companyLogo {
@@ -181,7 +153,7 @@ The LogisQ-WES architecture is now presented with high-impact, perfectly balance
 .companyName {
     font-size: 2rem;
     font-weight: 700;
-    color: var(--color-accent);
+    color: var(--color-primary);
     margin-bottom: 2rem;
 }
 
@@ -207,7 +179,7 @@ The LogisQ-WES architecture is now presented with high-impact, perfectly balance
 }
 
 .companyContact a {
-    color: var(--color-accent);
+    color: var(--color-primary);
     text-decoration: none;
     transition: color 0.2s ease;
 }

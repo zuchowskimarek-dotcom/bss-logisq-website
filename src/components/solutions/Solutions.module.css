@@ -1,5 +1,5 @@
 .main {
-    padding-top: 120px;
+    padding-top: 0;
     background: var(--color-bg);
     min-height: 100vh;
 }
@@ -15,7 +15,7 @@
     color: var(--color-text-main);
     margin-bottom: 1.5rem;
     letter-spacing: -0.04em;
-    background: linear-gradient(135deg, var(--color-text-main), var(--color-accent));
+    background: linear-gradient(135deg, var(--color-text-main), var(--color-primary));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,9 +31,9 @@
 
 .intro {
     padding: 4rem 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    background: rgba(255, 255, 255, 0.01);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg-alt);
 }
 
 .introText {
@@ -51,7 +51,7 @@
     color: var(--color-text-main);
     margin-bottom: 3rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .section {
@@ -59,7 +59,7 @@
 }
 
 .section:nth-child(even) {
-    background: rgba(255, 255, 255, 0.015);
+    background: var(--color-bg-alt);
 }
 
 .grid {
@@ -70,19 +70,20 @@
 
 .card {
     padding: 3rem;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 24px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
+    box-shadow: var(--shadow-subtle);
 }
 
 .card:hover {
     transform: translateY(-8px);
-    background: rgba(255, 255, 255, 0.04);
-    border-color: var(--color-accent);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    background: var(--color-bg);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-card);
 }
 
 .cardTitle {
@@ -101,7 +102,7 @@
 }
 
 .cardLink {
-    color: var(--color-accent);
+    color: var(--color-primary);
     text-decoration: none;
     font-weight: 700;
     display: flex;
@@ -112,6 +113,7 @@
 
 .cardLink:hover {
     gap: 1rem;
+    color: var(--color-highlight);
 }
 
 .arrow {

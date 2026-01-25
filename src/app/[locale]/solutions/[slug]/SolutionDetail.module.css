@@ -3,10 +3,10 @@
 }
 
 .header {
-    background: var(--bg-card);
+    background: var(--color-bg-alt);
     padding: 6rem 0;
     margin-bottom: 4rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .title {
@@ -19,7 +19,7 @@
 
 .subtitle {
     font-size: 1.5rem;
-    color: var(--color-accent);
+    color: var(--color-primary);
     font-weight: 500;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .section:nth-child(even) {
-    background: rgba(255, 255, 255, 0.01);
+    background: var(--color-bg-alt);
 }
 
 .container {
@@ -57,18 +57,19 @@
 
 .listItem {
     padding: 1.5rem;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     color: var(--color-text-dim);
     line-height: 1.6;
     display: flex;
     gap: 1rem;
+    box-shadow: var(--shadow-subtle);
 }
 
 .listItem::before {
     content: "•";
-    color: var(--color-accent);
+    color: var(--color-primary);
     font-weight: bold;
 }
 
@@ -88,8 +89,9 @@
 
 .capabilityCard {
     padding: 2rem;
-    border-left: 3px solid var(--color-accent);
-    background: linear-gradient(90deg, rgba(0, 243, 255, 0.03) 0%, transparent 100%);
+    border-left: 3px solid var(--color-primary);
+    background: linear-gradient(90deg, rgba(21, 101, 192, 0.05) 0%, transparent 100%);
+    border-radius: 0 12px 12px 0;
 }
 
 .capabilityCard h4 {
@@ -99,12 +101,12 @@
 }
 
 .semanticsSection {
-    background: var(--bg-card) !important;
-    border-top: 1px solid var(--color-accent);
+    background: var(--color-bg-alt) !important;
+    border-top: 1px solid var(--color-primary);
 }
 
 .semanticsHighlight {
-    color: var(--color-accent);
+    color: var(--color-primary);
     font-weight: 600;
 }
 
@@ -122,8 +124,8 @@
 
 .primaryBtn {
     padding: 1.25rem 2.5rem;
-    background: var(--color-accent);
-    color: #000;
+    background: var(--color-primary);
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 8px;
@@ -132,13 +134,14 @@
 
 .primaryBtn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 240, 255, 0.3);
+    background: var(--color-highlight);
+    box-shadow: var(--shadow-glow);
 }
 
 .secondaryBtn {
     padding: 1.25rem 2.5rem;
-    border: 1px solid var(--color-accent);
-    color: var(--color-accent);
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
     text-decoration: none;
     font-weight: 700;
     border-radius: 8px;
@@ -146,7 +149,7 @@
 }
 
 .secondaryBtn:hover {
-    background: rgba(0, 243, 255, 0.05);
+    background: rgba(21, 101, 192, 0.05);
     transform: translateY(-2px);
 }
 
