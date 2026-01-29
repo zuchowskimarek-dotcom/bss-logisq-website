@@ -23,7 +23,7 @@ export default async function ProductsPage({
                 <div className={styles.card}>
                     <div className={styles.cardImage}>
                         {/* Visual Placeholder for WES */}
-                        <img src="/assets/images/technology/modular-wes.png" alt="LogisQ WES" style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} />
+                        <img src="/assets/images/technology/modular-wes.png" alt="LogisQ WES" style={{ maxHeight: '80%' }} />
                     </div>
                     <div className={styles.cardContent}>
                         <h2 className={styles.cardTitle}>{content.wes.title}</h2>
@@ -40,7 +40,7 @@ export default async function ProductsPage({
                 <div className={styles.card}>
                     <div className={styles.cardImage}>
                         {/* Placeholder until we have a real image */}
-                        <img src="/assets/images/products/kolli-scanner-hero.png" alt="Kolli Scanner" style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} />
+                        <img src="/assets/images/products/kolli-scanner-hero.png" alt="Kolli Scanner" style={{ maxHeight: '80%', opacity: 0.8 }} />
                     </div>
                     <div className={styles.cardContent}>
                         <h2 className={styles.cardTitle}>{content.kolliScanner.title}</h2>
