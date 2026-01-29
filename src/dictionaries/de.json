@@ -12,7 +12,24 @@
         "rights": "Alle Rechte vorbehalten.",
         "imprint": "Impressum",
         "privacy": "Datenschutz",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "ctas": {
+            "strategy": {
+                "title": "Strategie-Session buchen",
+                "desc": "Erhalten Sie eine maßgeschneiderte Roadmap für Ihre Lageroptimierung.",
+                "link": "Session anfragen"
+            },
+            "audit": {
+                "title": "WES-Audit anfordern",
+                "desc": "Wir analysieren Ihre aktuellen Prozesse und zeigen Optimierungspotenziale auf.",
+                "link": "Audit starten"
+            },
+            "newsletter": {
+                "title": "Newsletter abonnieren",
+                "desc": "Bleiben Sie über neue WES-Funktionen und Branchentrends informiert.",
+                "link": "Anmelden"
+            }
+        }
     },
     "products": {
         "overview": {
@@ -332,8 +349,232 @@
             "p3Title": "Brownfield Ready",
             "p3Desc": "Integriert sich in bestehende Hardware und Software."
         },
+        "layeredArchitecture": {
+            "title": "4-Schichten-Architektur",
+            "subtitle": "Klare Trennung von Verantwortlichkeiten für maximale Flexibilität",
+            "layers": [
+                {
+                    "name": "Physical Layer",
+                    "icon": "layer_physical",
+                    "description": "Definition und Visualisierung des physischen Layouts Ihrer Anlage, Ausrüstung und Lagerzonen."
+                },
+                {
+                    "name": "Transport Layer",
+                    "icon": "layer_transport",
+                    "description": "Konfiguration der logischen Verbindungen und möglichen Bewegungspfade für Materialien."
+                },
+                {
+                    "name": "Process Layer",
+                    "icon": "layer_process",
+                    "description": "Definition der Geschäftsregeln und Workflows für verschiedene Lageroperationen und Ausnahmebehandlung."
+                },
+                {
+                    "name": "Communication Layer",
+                    "icon": "layer_comms",
+                    "description": "Verwaltung des Datenaustauschs mit externen Systemen, Steuerungsgeräten und IoT-Schnittstellen."
+                }
+            ]
+        },
         "techTitle": "Technologie entdecken",
         "techDesc": "Tauchen Sie tiefer in die Architektur ein."
+    },
+    "platformPage": {
+        "category": "Technologie",
+        "title": "ArconQ Plattform",
+        "subtitle": "Das robuste Fundament für industrielle Softwarelösungen",
+        "capabilities": {
+            "title": "Kern-Fähigkeiten",
+            "subtitle": "Microservice-Architektur für skalierbare Industrieanwendungen",
+            "items": [
+                {
+                    "icon": "microservices",
+                    "title": "Microservice-Architektur",
+                    "desc": "Aufbau von Systemen aus kleinen, unabhängigen und einfach verwaltbaren Services."
+                },
+                {
+                    "icon": "kubernetes",
+                    "title": "Kubernetes-Native",
+                    "desc": "Nutzen Sie die Leistungsfähigkeit von Kubernetes für Orchestrierung, Skalierbarkeit und Selbstheilung."
+                },
+                {
+                    "icon": "plugnplay",
+                    "title": "Plug & Play Integration",
+                    "desc": "Verbinden Sie Legacy- oder neue Anwendungen über unser SDK mit minimalen Änderungen."
+                },
+                {
+                    "icon": "monitoring",
+                    "title": "Zentrales Monitoring",
+                    "desc": "Elasticsearch & Kibana Integration für Echtzeit-Einblick in den operativen Betrieb."
+                },
+                {
+                    "icon": "deployment",
+                    "title": "One-Click Deployment",
+                    "desc": "Deployments und Rollbacks mit einem Klick. Parallelbetrieb mehrerer Versionen."
+                },
+                {
+                    "icon": "hmi",
+                    "title": "Integrierte HMIs",
+                    "desc": "Anwendungen können eigene Benutzeroberflächen (Blazor, React) direkt hosten."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Vorteile für Ihr Unternehmen",
+            "items": [
+                {
+                    "icon": "speed",
+                    "title": "Schnellere Markteinführung",
+                    "desc": "Fokus auf Features statt auf Infrastruktur."
+                },
+                {
+                    "icon": "future",
+                    "title": "Zukunftssicher",
+                    "desc": "Modulare Architektur ermöglicht inkrementelle Upgrades."
+                },
+                {
+                    "icon": "security",
+                    "title": "Betriebssicherheit",
+                    "desc": "Selbstheilende Systeme und automatische Skalierung."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Bereit für die nächste Generation?",
+            "desc": "Erfahren Sie, wie ArconQ Ihre Projekte beschleunigt.",
+            "button": "Weiter zu ArconQ Produktseite"
+        }
+    },
+    "configurationPage": {
+        "category": "Technologie",
+        "title": "XyronQ Konfiguration",
+        "subtitle": "Visuelles Design und Konfiguration Ihres Lagers – ohne Coding",
+        "capabilities": {
+            "title": "Konfigurations-Fähigkeiten",
+            "subtitle": "Low-Code Warehouse Design für schnellere Projekte",
+            "items": [
+                {
+                    "icon": "visual",
+                    "title": "Visuelles 2D/3D Design",
+                    "desc": "Erstellen Sie ein digitales Abbild Ihres physischen Lagers. Intuitive Layouts sofort in 3D visualisiert."
+                },
+                {
+                    "icon": "fleet",
+                    "title": "Fleet Management",
+                    "desc": "Einfache Verwaltung und Orchestrierung von AGVs und AMRs innerhalb Ihres Lagermodells."
+                },
+                {
+                    "icon": "library",
+                    "title": "Modulare Komponentenbibliothek",
+                    "desc": "Fertige Komponenten oder eigene Definitionen für Ihre spezifischen Anforderungen."
+                },
+                {
+                    "icon": "integration",
+                    "title": "System-Integration",
+                    "desc": "Verbindung zu PLCs, ERPs und mehr über den Communication Hub."
+                },
+                {
+                    "icon": "lowcode",
+                    "title": "Low-Code/No-Code",
+                    "desc": "Domain-Experten konfigurieren Systeme ohne Entwickler-Abhängigkeit."
+                },
+                {
+                    "icon": "agile",
+                    "title": "Agile Rekonfiguration",
+                    "desc": "Workflows, Layouts oder Equipment anpassen – ohne große Umbauarbeiten."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Vorteile für Ihr Unternehmen",
+            "items": [
+                {
+                    "icon": "speed",
+                    "title": "Schnellere Deployments",
+                    "desc": "Wiederverwendbare Module und visuelle Tools beschleunigen Projekte."
+                },
+                {
+                    "icon": "validation",
+                    "title": "Konsistente Qualität",
+                    "desc": "Standardisierte Komponenten eliminieren Konfigurationsfehler."
+                },
+                {
+                    "icon": "visual",
+                    "title": "Totale Systemtransparenz",
+                    "desc": "2D/3D-Echtzeit-Ansichten bieten einen Digital Twin Ihrer Anlage."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Bereit für visuelles Warehouse Design?",
+            "desc": "Entdecken Sie XyronQ für schnellere und flexiblere Projekte.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "aiAssistantPage": {
+        "category": "Technologie",
+        "title": "DevyonQ AI-Assistent",
+        "subtitle": "KI-gestützte Konfiguration für schnellere Implementierungen",
+        "capabilities": {
+            "title": "KI-Fähigkeiten",
+            "subtitle": "Intelligente Automatisierung der WES-Konfiguration",
+            "items": [
+                {
+                    "icon": "auto",
+                    "title": "Automatische Konfiguration",
+                    "desc": "DevyonQ konfiguriert Message Handling, Routen und Runtime-Logik automatisch."
+                },
+                {
+                    "icon": "process",
+                    "title": "Prozess-Verständnis",
+                    "desc": "KI analysiert Ihre Prozessanforderungen und schlägt optimale Konfigurationen vor."
+                },
+                {
+                    "icon": "natural",
+                    "title": "Natürliche Sprache",
+                    "desc": "Beschreiben Sie Anforderungen in natürlicher Sprache – DevyonQ übersetzt in Konfiguration."
+                },
+                {
+                    "icon": "validation",
+                    "title": "Validierung",
+                    "desc": "Automatische Überprüfung der Konfiguration auf Konsistenz und Best Practices."
+                },
+                {
+                    "icon": "learning",
+                    "title": "Lernend",
+                    "desc": "DevyonQ lernt aus vergangenen Projekten und verbessert Empfehlungen kontinuierlich."
+                },
+                {
+                    "icon": "speed",
+                    "title": "Beschleunigte Implementierung",
+                    "desc": "Reduzieren Sie Konfigurationszeit von Wochen auf Tage."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Vorteile für Ihr Unternehmen",
+            "items": [
+                {
+                    "icon": "accuracy",
+                    "title": "Weniger Fehler",
+                    "desc": "KI-validierte Konfigurationen reduzieren menschliche Fehler."
+                },
+                {
+                    "icon": "expert",
+                    "title": "Expertenwissen demokratisiert",
+                    "desc": "Auch ohne tiefes WES-Wissen schnell produktiv."
+                },
+                {
+                    "icon": "scale",
+                    "title": "Skalierbarkeit",
+                    "desc": "Mehr Projekte mit dem gleichen Team umsetzen."
+                }
+            ]
+        },
+        "cta": {
+            "title": "KI-Unterstützung für Ihre WES-Projekte?",
+            "desc": "Erfahren Sie, wie DevyonQ Ihre Implementierungen beschleunigt.",
+            "button": "Kontakt aufnehmen"
+        }
     },
     "digitalTwinPage": {
         "category": "Technologie",
@@ -491,6 +732,46 @@
             "title": "Warum LogisQ-WES im realen Lagerbetrieb zuverlässig funktioniert",
             "bodyShort": "Prozesse werden so ausgeführt, wie sie definiert wurden — nicht wie sie später neu interpretiert werden.",
             "body": "LogisQ-WES stellt sicher, dass Warehouse-Prozesse **so ausgeführt werden, wie sie definiert wurden** —<br><br>nicht so, wie sie später neu interpretiert werden.<br><br>Die Architektur vermeidet semantische Brüche zwischen Planung, Ausführung und Betrieb."
+        },
+        "navigationHub": {
+            "title": "Technologie-Stack erkunden",
+            "items": [
+                {
+                    "id": "platform",
+                    "title": "ArconQ Plattform",
+                    "desc": "Die technische Basis für skalierbare Services",
+                    "link": "Plattform",
+                    "icon": "microservices"
+                },
+                {
+                    "id": "configuration",
+                    "title": "XyronQ Konfiguration",
+                    "desc": "Low-Code Anpassung ohne Programmierung",
+                    "link": "Konfiguration",
+                    "icon": "lowcode"
+                },
+                {
+                    "id": "ai",
+                    "title": "DevyonQ AI-Assistent",
+                    "desc": "Intelligente Unterstützung für Operatoren",
+                    "link": "AI-Assistent",
+                    "icon": "human_bot"
+                },
+                {
+                    "id": "modular",
+                    "title": "Modulares WES",
+                    "desc": "Spezialisierte Module für jeden Layer",
+                    "link": "Modulares WES",
+                    "icon": "plugnplay"
+                },
+                {
+                    "id": "digitalTwin",
+                    "title": "Digital Twin",
+                    "desc": "Validierung vor der Inbetriebnahme",
+                    "link": "Digital Twin",
+                    "icon": "visual"
+                }
+            ]
         },
         "boundaries": {
             "title": "Klare Zuständigkeiten statt vermischter Kontrolle",

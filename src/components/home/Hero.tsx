@@ -28,7 +28,7 @@ export default function Hero({ dict, locale }: HeroProps) {
                                 <div className={styles.productAccent}></div>
                                 <div className={styles.productContent}>
                                     <img
-                                        src="/assets/images/logos/logisq-wes-logo.svg"
+                                        src="/assets/images/logos/logisq-wes-logo.png"
                                         alt="LogisQ-WES - Warehouse Execution System"
                                         className={styles.productLogo}
                                     />

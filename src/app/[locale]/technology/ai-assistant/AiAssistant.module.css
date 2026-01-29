@@ -1,0 +1,147 @@
+/* Shared styles import if needed, or specific overrides */
+.main {
+    background: var(--color-bg);
+}
+
+.heroVisual {
+    padding: 2rem 0 6rem 0;
+    margin-top: -2rem;
+    position: relative;
+    z-index: 10;
+}
+
+.capabilities {
+    padding: 6rem 0;
+    background: var(--color-surface);
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-dim);
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 4rem auto;
+}
+
+.capabilityGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.capabilityCard {
+    background: var(--color-bg);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+}
+
+.capabilityCard:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--color-primary);
+}
+
+.capabilityIcon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-primary);
+}
+
+.capabilityCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-main);
+}
+
+.capabilityCard p {
+    color: var(--color-text-dim);
+    line-height: 1.6;
+}
+
+/* Benefits */
+.benefits {
+    padding: 8rem 0;
+}
+
+.benefitList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    max-width: 900px;
+    margin: 4rem auto 0 auto;
+}
+
+.benefitItem {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.benefitIcon {
+    font-size: 2rem;
+    min-width: 60px;
+    height: 60px;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.benefitItem h4 {
+    font-size: 1.25rem;
+    color: var(--color-text-main);
+    margin-bottom: 0.5rem;
+}
+
+.benefitItem p {
+    color: var(--color-text-dim);
+    line-height: 1.6;
+}
+
+/* CTA */
+.ctaSection {
+    padding: 8rem 0;
+    text-align: center;
+    background: var(--color-surface);
+}
+
+.ctaTitle {
+    font-size: 2.5rem;
+    color: var(--color-text-main);
+    margin-bottom: 1.5rem;
+}
+
+.ctaDesc {
+    font-size: 1.25rem;
+    color: var(--color-text-dim);
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--color-primary);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.ctaButton:hover {
+    background: var(--color-primary-dark);
+}

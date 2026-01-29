@@ -12,6 +12,9 @@ interface NavbarProps {
         products: string;
         technology: string;
         digitalTwin: string;
+        platform?: string;
+        configuration?: string;
+        aiAssistant?: string;
         company: string;
         contact: string;
     };

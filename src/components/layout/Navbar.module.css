@@ -121,6 +121,6 @@
 
 .cta:hover {
     transform: translateY(-2px);
-    background: var(--color-highlight);
+    background: var(--color-primary-dark);
     box-shadow: var(--shadow-glow);
 }

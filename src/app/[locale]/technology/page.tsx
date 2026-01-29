@@ -7,6 +7,7 @@ import ArchitectureStack from '@/components/technology/ArchitectureStack';
 import IntegrationAPIs from '@/components/technology/IntegrationAPIs';
 import TechDigitalTwin from '@/components/technology/TechDigitalTwin';
 import FinalNote from '@/components/technology/FinalNote';
+import TechnologyNavigation from '@/components/technology/TechnologyNavigation';
 
 export default async function TechnologyPage({
     params,
@@ -26,6 +27,7 @@ export default async function TechnologyPage({
                 definition={t.wesDefinition}
                 archetype="prove"
             />
+            <TechnologyNavigation dict={t.navigationHub} locale={locale} />
             <SystemBoundaries dict={t.boundaries} />
             <ExecutionModel dict={t.execution} />
             <SafetyControl dict={t.safety} />

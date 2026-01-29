@@ -19,6 +19,7 @@ export async function generateMetadata({
     };
 }
 import styles from './ModularWes.module.css';
+import Icon from '@/components/common/Icon';
 
 import ModuleBadge from '@/components/common/ModuleBadge/ModuleBadge';
 
@@ -122,7 +123,30 @@ export default async function ModularWesPage({
                 </div>
             </section>
 
-            {/* 5. Link to Technology (Proof Layer) - Future Phase, for now Tech Intro */}
+            {/* 5. Layered Architecture (NEW) */}
+            {m.layeredArchitecture && (
+                <section className={styles.layeredSection}>
+                    <div className="container">
+                        <h2 className={styles.layeredTitle}>{m.layeredArchitecture.title}</h2>
+                        <p className={styles.layeredSubtitle}>{m.layeredArchitecture.subtitle}</p>
+                        <div className={styles.layerStack}>
+                            {m.layeredArchitecture.layers.map((layer: { name: string; icon: string; description: string }, idx: number) => (
+                                <div key={idx} className={styles.layerCard}>
+                                    <div className={styles.layerIcon}>
+                                        <Icon name={layer.icon} size={32} />
+                                    </div>
+                                    <div className={styles.layerContent}>
+                                        <h4>{layer.name}</h4>
+                                        <p>{layer.description}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            {/* 6. Link to Technology (Proof Layer) - Future Phase, for now Tech Intro */}
             <section className={styles.tech}>
                 <div className="container">
                     <div className={styles.techBox}>

@@ -10,6 +10,8 @@
     /* Signal red for emphasis */
     --color-highlight: #0D47A1;
     /* Dark blue for headings */
+    --color-primary-dark: #0D47A1;
+    /* Darker shade for hover states */
 
     /* Neutral Palette - Light Mode */
     --color-bg: #FFFFFF;

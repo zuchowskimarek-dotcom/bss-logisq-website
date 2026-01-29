@@ -1,5 +1,7 @@
 import { getDictionary } from '@/dictionaries/get-dictionary';
 import { Metadata } from 'next';
+import Link from 'next/link';
+import Icon from '@/components/common/Icon';
 import PageHero from '@/components/common/PageHero';
 
 export async function generateMetadata({
@@ -59,7 +61,9 @@ export default async function DigitalTwinPage({
                     {/* Feature 1 - Real-time Mirroring */}
                     <div className={styles.featureRow}>
                         <div className={styles.featureContent}>
-                            <div className={styles.icon}>📡</div>
+                            <div className={styles.icon}>
+                                <Icon name="signal" size={40} />
+                            </div>
                             <h3 className={styles.featureTitle}>{d.features.f1Title}</h3>
                             <p className={styles.featureDesc}>{d.features.f1Desc}</p>
                         </div>
@@ -76,12 +80,16 @@ export default async function DigitalTwinPage({
                     {/* Features 2 & 3 - Cards */}
                     <div className={styles.featureGrid}>
                         <div className={styles.featureCard}>
-                            <div className={styles.icon}>🎯</div>
+                            <div className={styles.icon}>
+                                <Icon name="target" size={40} />
+                            </div>
                             <h3>{d.features.f2Title}</h3>
                             <p>{d.features.f2Desc}</p>
                         </div>
                         <div className={styles.featureCard}>
-                            <div className={styles.icon}>🤝</div>
+                            <div className={styles.icon}>
+                                <Icon name="handshake" size={40} />
+                            </div>
                             <h3>{d.features.f3Title}</h3>
                             <p>{d.features.f3Desc}</p>
                         </div>

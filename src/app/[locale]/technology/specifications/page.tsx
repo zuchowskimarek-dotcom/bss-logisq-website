@@ -38,7 +38,7 @@ export default async function SpecificationsPage({
                     <div className={styles.heroContent}>
                         <div className={styles.productBadge}>
                             <Image
-                                src="/assets/images/logos/logisq-wes-logo.svg"
+                                src="/assets/images/logos/logisq-wes-logo.png"
                                 alt="LogisQ-WES"
                                 width={400}
                                 height={80}
