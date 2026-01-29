@@ -1,0 +1,306 @@
+/* [project]/src/components/home/Hero.module.css [app-client] (css) */
+.Hero-module__s-6kkG__hero {
+  background: linear-gradient(135deg, #fff 0%, #f5f9ff 50%, #e3f2fd 100%);
+  align-items: center;
+  min-height: 90vh;
+  padding-top: 120px;
+  padding-bottom: 4rem;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-height: 900px) {
+  .Hero-module__s-6kkG__hero {
+    min-height: 85vh;
+  }
+}
+
+.Hero-module__s-6kkG__container {
+  z-index: 2;
+  width: 100%;
+  position: relative;
+}
+
+.Hero-module__s-6kkG__heroGrid {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+  display: grid;
+}
+
+.Hero-module__s-6kkG__content {
+  max-width: 600px;
+}
+
+.Hero-module__s-6kkG__badge {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.Hero-module__s-6kkG__productCardLink {
+  max-width: fit-content;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  transition: transform .3s cubic-bezier(.4, 0, .2, 1);
+  display: block;
+}
+
+.Hero-module__s-6kkG__productCardLink:hover {
+  transform: translateY(-2px);
+}
+
+.Hero-module__s-6kkG__productCard {
+  -webkit-backdrop-filter: blur(12px);
+  cursor: pointer;
+  background: #ffffffb3;
+  border: 1px solid #00629b26;
+  border-radius: 12px;
+  align-items: stretch;
+  padding: 0;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 20px #00629b14;
+}
+
+.Hero-module__s-6kkG__productCardLink:hover .Hero-module__s-6kkG__productCard {
+  background: #ffffffd9;
+  border-color: #00629b4d;
+  box-shadow: 0 8px 32px #00629b1f;
+}
+
+.Hero-module__s-6kkG__productAccent {
+  background: linear-gradient(#00629b 0%, #1976d2 100%);
+  flex-shrink: 0;
+  width: 5px;
+}
+
+.Hero-module__s-6kkG__productContent {
+  justify-content: center;
+  align-items: center;
+  min-width: 240px;
+  padding: .75rem 1.25rem;
+  display: flex;
+}
+
+.Hero-module__s-6kkG__productLogo {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-height: 48px;
+  display: block;
+}
+
+.Hero-module__s-6kkG__title {
+  color: var(--color-text-main);
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.Hero-module__s-6kkG__description {
+  color: var(--color-text-dim);
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.Hero-module__s-6kkG__anchor {
+  color: var(--color-text-dim);
+  opacity: .85;
+  max-width: 500px;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.Hero-module__s-6kkG__actions {
+  gap: 1.5rem;
+  display: flex;
+}
+
+.Hero-module__s-6kkG__primaryBtn {
+  background: var(--color-primary);
+  color: #fff;
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-card);
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Hero-module__s-6kkG__primaryBtn:hover {
+  background: var(--color-highlight);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-3px);
+}
+
+.Hero-module__s-6kkG__secondaryBtn {
+  background: var(--color-bg);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+  transition: var(--transition-fast);
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.Hero-module__s-6kkG__secondaryBtn:hover {
+  background: var(--color-bg-alt);
+  border-color: var(--color-primary);
+}
+
+.Hero-module__s-6kkG__heroImage {
+  box-shadow: var(--shadow-card);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Hero-module__s-6kkG__warehouseImage {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Hero-module__s-6kkG__scrollIndicator {
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  transition: opacity .3s;
+  display: flex;
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Hero-module__s-6kkG__scrollIndicator:hover {
+  opacity: .7;
+}
+
+.Hero-module__s-6kkG__mouse {
+  border: 2px solid #1565c066;
+  border-radius: 20px;
+  width: 26px;
+  height: 42px;
+  position: relative;
+}
+
+.Hero-module__s-6kkG__wheel {
+  background-color: var(--color-primary);
+  border-radius: 2px;
+  width: 2px;
+  height: 6px;
+  animation: 1.5s infinite Hero-module__s-6kkG__scroll-wheel;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Hero-module__s-6kkG__arrow {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.Hero-module__s-6kkG__chevron {
+  border-bottom: 2px solid #1565c066;
+  border-right: 2px solid #1565c066;
+  width: 12px;
+  height: 12px;
+  animation: 1.5s infinite Hero-module__s-6kkG__scroll-arrow;
+  display: block;
+  transform: rotate(45deg);
+}
+
+@keyframes Hero-module__s-6kkG__scroll-wheel {
+  0% {
+    opacity: 0;
+    transform: translate(-50%);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, 15px);
+  }
+}
+
+@keyframes Hero-module__s-6kkG__scroll-arrow {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg)translate(0);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg)translate(8px, 8px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .Hero-module__s-6kkG__heroGrid {
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .Hero-module__s-6kkG__content {
+    max-width: 100%;
+  }
+
+  .Hero-module__s-6kkG__title {
+    font-size: 2.75rem;
+  }
+
+  .Hero-module__s-6kkG__description, .Hero-module__s-6kkG__anchor {
+    max-width: 100%;
+  }
+
+  .Hero-module__s-6kkG__actions {
+    justify-content: center;
+  }
+
+  .Hero-module__s-6kkG__heroImage {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .Hero-module__s-6kkG__title {
+    font-size: 2.25rem;
+  }
+
+  .Hero-module__s-6kkG__actions {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_components_home_Hero_module_cb9b498c.css.map*/

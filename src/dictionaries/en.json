@@ -1,5 +1,6 @@
 {
     "navigation": {
+        "solutionByDesign": "Solution by Design",
         "solutions": "Solutions",
         "modularWes": "Modular WES",
         "technology": "Technology",
@@ -680,6 +681,92 @@
                 "value": "Gigabit Ethernet, VPN-capable"
             }
         ]
+    },
+    "solutionByDesign": {
+        "category": "Solution by Design",
+        "headline": "From Planning to Execution — Without Translation Loss",
+        "subline": "How LogisQ-WES ensures your warehouse processes run exactly as designed.",
+        "journey": {
+            "title": "Your Project — Step by Step",
+            "subtitle": "Experience interactively how we get from contract to running operations together.",
+            "backToDesign": "Back to Design",
+            "proceedLabel": "Continue",
+            "changeRequestLabel": "Extension needed?",
+            "steps": [
+                {
+                    "id": "contract",
+                    "title": "Project Contract",
+                    "subtitle": "The Kick-Off",
+                    "description": "Together we define clear goals and the scope of your WES project.",
+                    "details": [
+                        "Clear project goals",
+                        "Transparent cost framework",
+                        "Fixed milestones"
+                    ],
+                    "visual": "handshake"
+                },
+                {
+                    "id": "design",
+                    "title": "Requirements & Design",
+                    "subtitle": "Configure XyronQ instead of programming",
+                    "description": "Our engineers configure the 4 layers: Physical, Transport, Process, Communication.",
+                    "details": [
+                        "AI-assisted analysis",
+                        "Configuration in XyronQ Designer",
+                        "Validation rules generated"
+                    ],
+                    "visual": "design"
+                },
+                {
+                    "id": "simulation",
+                    "title": "Simulation & Validation",
+                    "subtitle": "Digital Twin — risk-free testing",
+                    "description": "Your system runs in the digital twin. We validate every process before real steel moves.",
+                    "details": [
+                        "Digital and Real mirrored",
+                        "All scenarios tested",
+                        "Problems? Back to design"
+                    ],
+                    "visual": "simulation"
+                },
+                {
+                    "id": "golive",
+                    "title": "Go-Live",
+                    "subtitle": "The Big Moment",
+                    "description": "Switch on — it runs! No hoping, no worrying — it was validated.",
+                    "details": [
+                        "Validated design deployed",
+                        "Steep production ramp-up"
+                    ],
+                    "visual": "golive"
+                },
+                {
+                    "id": "operations",
+                    "title": "Running Operations",
+                    "subtitle": "Your Warehouse Works",
+                    "description": "Stable with full observability. Changes anytime — without operational downtime.",
+                    "details": [
+                        "Real-time monitoring",
+                        "Updates without downtime"
+                    ],
+                    "visual": "operations"
+                },
+                {
+                    "id": "service",
+                    "title": "Service Partnership",
+                    "subtitle": "Long-term at Your Side",
+                    "description": "With our service contract, we're your partner for continuous optimization.",
+                    "details": [
+                        "Proactive support",
+                        "Fast response times"
+                    ],
+                    "visual": "service"
+                }
+            ]
+        },
+        "ctaTitle": "Ready for the Next Step?",
+        "ctaTech": "Explore Technical Details",
+        "ctaContact": "Get in Touch"
     },
     "meta": {
         "title": "Warehouse Execution System for Automated Logistics | BSS LogisQ",

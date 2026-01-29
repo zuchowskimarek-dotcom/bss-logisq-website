@@ -1,0 +1,140 @@
+.solutionsHub {
+    padding: 6rem 0;
+    background: var(--color-bg);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.category {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.headline {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+}
+
+.subline {
+    font-size: 1.25rem;
+    color: var(--color-text-dim);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 5rem;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.sectionTitle {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    background: var(--color-bg);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-card);
+}
+
+.cardTitle {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 0.75rem;
+}
+
+.cardDesc {
+    font-size: 1rem;
+    color: var(--color-text-dim);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.cardLink {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: gap 0.2s ease;
+    font-size: 0.95rem;
+}
+
+.cardLink:hover {
+    gap: 0.75rem;
+    color: var(--color-highlight);
+}
+
+.arrow {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+    .solutionsHub {
+        padding: 4rem 0;
+    }
+
+    .headline {
+        font-size: 2rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .section {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .headline {
+        font-size: 1.75rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+}

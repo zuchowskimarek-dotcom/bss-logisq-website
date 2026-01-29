@@ -47,7 +47,7 @@ export default function Hero({ dict, locale }: HeroProps) {
                             </p>
                         )}
                         <div className={styles.actions}>
-                            <Link href={`/${locale}/technology`} className={styles.primaryBtn}>
+                            <Link href={`/${locale}/solution-by-design`} className={styles.primaryBtn}>
                                 {dict.ctaPrimary}
                             </Link>
                             <Link href={`/${locale}/contact`} className={styles.secondaryBtn}>

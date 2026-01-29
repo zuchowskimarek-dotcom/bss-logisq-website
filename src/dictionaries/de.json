@@ -1,5 +1,6 @@
 {
     "navigation": {
+        "solutionByDesign": "Lösung durch Design",
         "solutions": "Lösungen",
         "modularWes": "Modulares WES",
         "technology": "Technologie",
@@ -681,7 +682,94 @@
             }
         ]
     },
+    "solutionByDesign": {
+        "category": "Lösung durch Design",
+        "headline": "Von der Planung zur Ausführung — ohne Brüche",
+        "subline": "Wie LogisQ-WES sicherstellt, dass Ihre Warehouse-Prozesse so laufen, wie sie geplant wurden.",
+        "journey": {
+            "title": "Ihr Projekt — Schritt für Schritt",
+            "subtitle": "Erleben Sie interaktiv, wie wir gemeinsam vom Vertrag zur laufenden Anlage kommen.",
+            "backToDesign": "Zurück zum Design",
+            "proceedLabel": "Weiter",
+            "changeRequestLabel": "Erweiterungswunsch?",
+            "steps": [
+                {
+                    "id": "contract",
+                    "title": "Projektvertrag",
+                    "subtitle": "Der Startschuss",
+                    "description": "Gemeinsam definieren wir klare Ziele und den Scope Ihres WES-Projekts.",
+                    "details": [
+                        "Klare Projektziele",
+                        "Transparenter Kostenrahmen",
+                        "Feste Meilensteine"
+                    ],
+                    "visual": "handshake"
+                },
+                {
+                    "id": "design",
+                    "title": "Anforderungen & Design",
+                    "subtitle": "XyronQ konfigurieren statt programmieren",
+                    "description": "Unsere Ingenieure konfigurieren die 4 Layer: Physical, Transport, Process, Communication.",
+                    "details": [
+                        "KI-gestützte Analyse",
+                        "Konfiguration in XyronQ Designer",
+                        "Validierungsregeln erzeugt"
+                    ],
+                    "visual": "design"
+                },
+                {
+                    "id": "simulation",
+                    "title": "Simulation & Validierung",
+                    "subtitle": "Digital Twin — risikofrei testen",
+                    "description": "Ihr System läuft im digitalen Zwilling. Wir validieren jeden Prozess, bevor echter Stahl sich bewegt.",
+                    "details": [
+                        "Spiegelung von Digital und Real",
+                        "Alle Szenarien durchspielen",
+                        "Bei Problemen: zurück zum Design"
+                    ],
+                    "visual": "simulation"
+                },
+                {
+                    "id": "golive",
+                    "title": "Go-Live",
+                    "subtitle": "Der große Moment",
+                    "description": "Einschalten — läuft! Kein Hoffen, kein Bangen — es wurde validiert.",
+                    "details": [
+                        "Validiertes Design deployed",
+                        "Steiler Produktionshochlauf"
+                    ],
+                    "visual": "golive"
+                },
+                {
+                    "id": "operations",
+                    "title": "Laufender Betrieb",
+                    "subtitle": "Ihr Lager arbeitet",
+                    "description": "Stabil mit voller Observability. Änderungen jederzeit möglich — ohne Betriebsunterbrechung.",
+                    "details": [
+                        "Echtzeit-Monitoring",
+                        "Updates ohne Stillstand"
+                    ],
+                    "visual": "operations"
+                },
+                {
+                    "id": "service",
+                    "title": "Service-Partnerschaft",
+                    "subtitle": "Langfristig an Ihrer Seite",
+                    "description": "Mit unserem Servicevertrag sind wir Ihr Partner für kontinuierliche Optimierung.",
+                    "details": [
+                        "Proaktiver Support",
+                        "Schnelle Reaktionszeiten"
+                    ],
+                    "visual": "service"
+                }
+            ]
+        },
+        "ctaTitle": "Bereit für den nächsten Schritt?",
+        "ctaTech": "Technische Details entdecken",
+        "ctaContact": "Kontakt aufnehmen"
+    },
     "meta": {
         "title": "Warehouse Execution System für Lagerautomatisierung | BSS LogisQ",
         "description": "Warehouse Execution System konzipiert für manuelle, automatisierte und gemischte Umgebungen. Kürzere Projektlaufzeiten durch ausführungsbereites Design. Echtzeit-Koordination, Digital Twin Validierung, kein Vendor Lock-in."
-    }}
+    }
+}

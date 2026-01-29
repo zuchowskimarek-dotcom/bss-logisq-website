@@ -7,6 +7,7 @@ import styles from './Navbar.module.css';
 interface NavbarProps {
     locale: string;
     navigationDict: {
+        solutionByDesign: string;
         solutions: string;
         modularWes: string;
         technology: string;
@@ -38,8 +39,8 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
                 </Link>
 
                 <div className={styles.links}>
-                    <Link href={`/${locale}/solutions`} className={`${styles.link} ${pathname?.startsWith(`/${locale}/solutions`) ? styles.activeLink : ''}`}>
-                        {navigationDict.solutions}
+                    <Link href={`/${locale}/solution-by-design`} className={`${styles.link} ${pathname?.startsWith(`/${locale}/solution-by-design`) ? styles.activeLink : ''}`}>
+                        {navigationDict.solutionByDesign}
                     </Link>
                     <Link href={`/${locale}/technology/modular-wes`} className={`${styles.link} ${pathname === `/${locale}/technology/modular-wes` ? styles.activeLink : ''}`}>
                         {navigationDict.modularWes}

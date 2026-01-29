@@ -29,6 +29,11 @@ __turbopack_context__.v({
   "heroImage": "Hero-module__s-6kkG__heroImage",
   "mouse": "Hero-module__s-6kkG__mouse",
   "primaryBtn": "Hero-module__s-6kkG__primaryBtn",
+  "productAccent": "Hero-module__s-6kkG__productAccent",
+  "productCard": "Hero-module__s-6kkG__productCard",
+  "productCardLink": "Hero-module__s-6kkG__productCardLink",
+  "productContent": "Hero-module__s-6kkG__productContent",
+  "productLogo": "Hero-module__s-6kkG__productLogo",
   "scroll-arrow": "Hero-module__s-6kkG__scroll-arrow",
   "scroll-wheel": "Hero-module__s-6kkG__scroll-wheel",
   "scrollIndicator": "Hero-module__s-6kkG__scrollIndicator",
@@ -68,28 +73,66 @@ function Hero({ dict, locale }) {
                                     children: dict.badge
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/Hero.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: `/${locale}/technology/specifications`,
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].productCardLink,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].productCard,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].productAccent
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/home/Hero.tsx",
+                                                lineNumber: 28,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].productContent,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: "/assets/images/logos/logisq-wes-logo.svg",
+                                                    alt: "LogisQ-WES - Warehouse Execution System",
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].productLogo
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/home/Hero.tsx",
+                                                    lineNumber: 30,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/home/Hero.tsx",
+                                                lineNumber: 29,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/home/Hero.tsx",
+                                        lineNumber: 27,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/home/Hero.tsx",
+                                    lineNumber: 26,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].title,
                                     children: [
-                                        dict.titlePrefix,
-                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-gradient",
                                             children: dict.titleHighlight
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/Hero.tsx",
-                                            lineNumber: 26,
-                                            columnNumber: 48
+                                            lineNumber: 39,
+                                            columnNumber: 29
                                         }, this),
                                         " ",
                                         dict.titleSuffix
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/Hero.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 38,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -97,7 +140,7 @@ function Hero({ dict, locale }) {
                                     children: dict.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/Hero.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 41,
                                     columnNumber: 25
                                 }, this),
                                 dict.anchor && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -105,7 +148,7 @@ function Hero({ dict, locale }) {
                                     children: dict.anchor
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/Hero.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 45,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -117,7 +160,7 @@ function Hero({ dict, locale }) {
                                             children: dict.ctaPrimary
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/Hero.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 50,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -126,19 +169,19 @@ function Hero({ dict, locale }) {
                                             children: dict.ctaSecondary
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/Hero.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 53,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/Hero.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 49,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/Hero.tsx",
-                            lineNumber: 23,
+                            lineNumber: 24,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -149,23 +192,23 @@ function Hero({ dict, locale }) {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].warehouseImage
                             }, void 0, false, {
                                 fileName: "[project]/src/components/home/Hero.tsx",
-                                lineNumber: 46,
+                                lineNumber: 59,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/home/Hero.tsx",
-                            lineNumber: 45,
+                            lineNumber: 58,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home/Hero.tsx",
-                    lineNumber: 22,
+                    lineNumber: 23,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/home/Hero.tsx",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -179,12 +222,12 @@ function Hero({ dict, locale }) {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].wheel
                         }, void 0, false, {
                             fileName: "[project]/src/components/home/Hero.tsx",
-                            lineNumber: 58,
+                            lineNumber: 71,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/home/Hero.tsx",
-                        lineNumber: 57,
+                        lineNumber: 70,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -193,24 +236,24 @@ function Hero({ dict, locale }) {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$home$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].chevron
                         }, void 0, false, {
                             fileName: "[project]/src/components/home/Hero.tsx",
-                            lineNumber: 61,
+                            lineNumber: 74,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/home/Hero.tsx",
-                        lineNumber: 60,
+                        lineNumber: 73,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/home/Hero.tsx",
-                lineNumber: 56,
+                lineNumber: 69,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/home/Hero.tsx",
-        lineNumber: 20,
+        lineNumber: 21,
         columnNumber: 9
     }, this);
 }

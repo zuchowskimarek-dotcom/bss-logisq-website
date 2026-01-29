@@ -1,0 +1,275 @@
+.lifecycle {
+    padding: 5rem 0;
+    background: linear-gradient(180deg, var(--color-background) 0%, rgba(37, 99, 235, 0.02) 50%, var(--color-background) 100%);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Orbit Container */
+.orbitContainer {
+    position: relative;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 0.8s ease-out;
+}
+
+.orbitContainer.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.orbitSvg {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Orbit Paths */
+.orbitPath {
+    opacity: 0;
+    stroke-dashoffset: 1000;
+    animation: drawPath 2s ease-out forwards;
+}
+
+.visible .orbitPath {
+    opacity: 1;
+}
+
+@keyframes drawPath {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.iterationLoop {
+    stroke-dasharray: 4 2;
+    opacity: 0.7;
+}
+
+/* Nodes */
+.node {
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0);
+    animation: nodeAppear 0.5s ease-out forwards;
+}
+
+.visible .node {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@keyframes nodeAppear {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.nodeCircle {
+    fill: var(--color-surface);
+    stroke: var(--color-primary);
+    stroke-width: 3;
+    transition: all 0.3s ease;
+}
+
+.node:hover .nodeCircle,
+.node.active .nodeCircle {
+    fill: var(--color-primary);
+    stroke-width: 4;
+}
+
+.node.golive .nodeCircle {
+    fill: var(--color-primary);
+    stroke: white;
+    stroke-width: 4;
+}
+
+.opsNode .nodeCircle {
+    stroke-width: 2;
+    stroke-dasharray: 4 2;
+}
+
+.nodeLabel {
+    font-size: 12px;
+    font-weight: 700;
+    fill: var(--color-primary);
+    pointer-events: none;
+    transition: fill 0.3s ease;
+}
+
+.node:hover .nodeLabel,
+.node.active .nodeLabel {
+    fill: white;
+}
+
+.node.golive .nodeLabel {
+    fill: white;
+    font-size: 14px;
+}
+
+.nodeText {
+    font-size: 11px;
+    font-weight: 600;
+    fill: var(--color-text);
+    pointer-events: none;
+}
+
+/* Phase Labels */
+.phaseLabel {
+    font-size: 14px;
+    font-weight: 700;
+    fill: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.iterationLabel {
+    font-size: 9px;
+    fill: var(--color-text-secondary);
+    font-style: italic;
+}
+
+/* Badge */
+.badge rect {
+    transition: opacity 0.3s ease;
+}
+
+.badgeText {
+    font-size: 10px;
+    font-weight: 600;
+    fill: var(--color-primary);
+}
+
+/* Description */
+.description {
+    text-align: center;
+    min-height: 60px;
+    padding: 1.5rem;
+    margin-top: -2rem;
+}
+
+.descText {
+    font-size: 1.1rem;
+    color: var(--color-text);
+    animation: fadeIn 0.3s ease;
+}
+
+.descHint {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Benefits */
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid rgba(37, 99, 235, 0.1);
+}
+
+.benefitItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    background: rgba(37, 99, 235, 0.05);
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+.benefitItem:hover {
+    background: rgba(37, 99, 235, 0.1);
+    transform: translateY(-2px);
+}
+
+.benefitIcon {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+}
+
+.benefitText {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .orbitSvg {
+        min-height: 400px;
+    }
+
+    .benefits {
+        gap: 1rem;
+    }
+
+    .benefitItem {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .lifecycle {
+        padding: 3rem 0;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefitItem {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+}
