@@ -9,7 +9,7 @@ interface NavbarProps {
     navigationDict: {
         solutionByDesign: string;
         solutions: string;
-        modularWes: string;
+        products: string;
         technology: string;
         digitalTwin: string;
         company: string;
@@ -42,8 +42,8 @@ export default function Navbar({ locale, navigationDict }: NavbarProps) {
                     <Link href={`/${locale}/solution-by-design`} className={`${styles.link} ${pathname?.startsWith(`/${locale}/solution-by-design`) ? styles.activeLink : ''}`}>
                         {navigationDict.solutionByDesign}
                     </Link>
-                    <Link href={`/${locale}/technology/modular-wes`} className={`${styles.link} ${pathname === `/${locale}/technology/modular-wes` ? styles.activeLink : ''}`}>
-                        {navigationDict.modularWes}
+                    <Link href={`/${locale}/products`} className={`${styles.link} ${pathname?.startsWith(`/${locale}/products`) ? styles.activeLink : ''}`}>
+                        {navigationDict.products}
                     </Link>
                     <Link href={`/${locale}/technology`} className={`${styles.link} ${pathname === `/${locale}/technology` ? styles.activeLink : ''}`}>
                         {navigationDict.technology}

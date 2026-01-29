@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "../globals.css";
+import EventBanner from "@/components/layout/EventBanner";
 import Navbar from "@/components/layout/Navbar";
 import { getDictionary } from "@/dictionaries/get-dictionary";
 
@@ -29,6 +30,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body suppressHydrationWarning>
+        <EventBanner dict={dict.eventBanner} />
         <Navbar locale={locale} navigationDict={dict.navigation} />
         <main>{children}</main>
         {/* Footer will go here */}

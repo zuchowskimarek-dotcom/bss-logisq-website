@@ -2,11 +2,59 @@
     "navigation": {
         "solutionByDesign": "Lösung durch Design",
         "solutions": "Lösungen",
-        "modularWes": "Modulares WES",
+        "products": "Produkte",
         "technology": "Technologie",
         "digitalTwin": "Digital Twin",
         "company": "Unternehmen",
         "contact": "Kontakt"
+    },
+    "footer": {
+        "rights": "Alle Rechte vorbehalten.",
+        "imprint": "Impressum",
+        "privacy": "Datenschutz",
+        "contact": "Kontakt"
+    },
+    "products": {
+        "overview": {
+            "title": "Unsere Produkte",
+            "subtitle": "Intelligente Hardware- und Software-Lösungen für Ihre Intralogistik.",
+            "wes": {
+                "title": "LogisQ WES",
+                "description": "Das Gehirn Ihres Lagers. Unser modulares Warehouse Execution System für maximale Effizienz und Flexibilität.",
+                "cta": "WES entdecken"
+            },
+            "kolliScanner": {
+                "title": "Kolli Scanner",
+                "description": "Präzise 3D-Vermessung von Gebinden für optimale Packmusterberechnung. Manuell, schnell und hochpräzise.",
+                "cta": "Kolli Scanner ansehen"
+            }
+        },
+        "kolliScanner": {
+            "title": "Kolli Scanner",
+            "subtitle": "Hochpräzise Gebindevermessung (< 3mm)",
+            "heroImage": "/assets/images/products/kolli-scanner-hero.png",
+            "introduction": "Der Kolli Scanner ist eine Stand-Alone-Lösung zur exakten Erfassung von Gebinde-Dimensionen. Kartons und Kisten werden manuell eingestellt und von drei Kameras binnen Sekunden vermessen – die perfekte Basis für effiziente Packmusterberechnung.",
+            "features": [
+                {
+                    "title": "Präzise 3D-Vermessung",
+                    "description": "Erfasst Länge, Breite und Höhe mit einer Genauigkeit von unter 3mm."
+                },
+                {
+                    "title": "Stand-Alone Einheit",
+                    "description": "Kompakte Box mit 3 Kameras und Industrie-Touchpanel zur einfachen Bedienung."
+                },
+                {
+                    "title": "Optimierte Packmuster",
+                    "description": "Liefert exakte Daten für die Berechnung optimaler Packdichten und Ladungsträger."
+                }
+            ]
+        }
+    },
+    "eventBanner": {
+        "active": true,
+        "text": "Besuchen Sie uns auf der Logimat (19.-21. März 2026) – auf dem Stand der BSS Materialflussgruppe.",
+        "linkUrl": "https://www.logimat-messe.de/en",
+        "linkLabel": "Infos"
     },
     "solutionsHub": {
         "category": "Lösungen",

@@ -3,7 +3,7 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 2rem;
     padding-bottom: 4rem;
     background: linear-gradient(135deg, #FFFFFF 0%, #F5F9FF 50%, #E3F2FD 100%);
     overflow: hidden;

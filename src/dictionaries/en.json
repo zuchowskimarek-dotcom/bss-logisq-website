@@ -2,11 +2,59 @@
     "navigation": {
         "solutionByDesign": "Solution by Design",
         "solutions": "Solutions",
-        "modularWes": "Modular WES",
+        "products": "Products",
         "technology": "Technology",
         "digitalTwin": "Digital Twin",
         "company": "Company",
         "contact": "Contact Us"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "imprint": "Imprint",
+        "privacy": "Privacy Policy",
+        "contact": "Contact"
+    },
+    "products": {
+        "overview": {
+            "title": "Our Products",
+            "subtitle": "Intelligent hardware and software solutions for your intralogistics.",
+            "wes": {
+                "title": "LogisQ WES",
+                "description": "The brain of your warehouse. Our modular Warehouse Execution System for maximum efficiency and flexibility.",
+                "cta": "Discover WES"
+            },
+            "kolliScanner": {
+                "title": "Kolli Scanner",
+                "description": "Precise 3D dimensioning of crates for optimal packing pattern calculation. Manual, fast, and highly accurate.",
+                "cta": "View Kolli Scanner"
+            }
+        },
+        "kolliScanner": {
+            "title": "Kolli Scanner",
+            "subtitle": "High-Precision Crate Dimensioning (< 3mm)",
+            "heroImage": "/assets/images/products/kolli-scanner-hero.png",
+            "introduction": "The Kolli Scanner is a standalone solution for exact crate dimensioning. Cartons and boxes are placed manually and measured by three cameras within seconds – the perfect basis for efficient packing pattern calculation.",
+            "features": [
+                {
+                    "title": "Precise 3D Measurement",
+                    "description": "Captures length, width, and height with accuracy better than 3mm."
+                },
+                {
+                    "title": "Standalone Unit",
+                    "description": "Compact unit with 3 cameras and industrial touch panel for easy operation."
+                },
+                {
+                    "title": "Optimized Packing Patterns",
+                    "description": "Provides exact data for calculating optimal packing densities and load carriers."
+                }
+            ]
+        }
+    },
+    "eventBanner": {
+        "active": true,
+        "text": "Visit us at Logimat (March 19-21, 2026) – at the BSS Materialflussgruppe booth.",
+        "linkUrl": "https://www.logimat-messe.de/en",
+        "linkLabel": "Info"
     },
     "solutionsHub": {
         "category": "Solutions",

@@ -54,3 +54,5 @@ docs/*.pptx
 *.mp4
 *.pptx
 **/image104.png
+
+.next.nosync/
