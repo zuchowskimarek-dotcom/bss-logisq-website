@@ -23,7 +23,7 @@ export default async function ProductsPage({
                 <div className={styles.card}>
                     <div className={styles.cardImage}>
                         {/* Visual Placeholder for WES */}
-                        <img src="/assets/images/technology/modular-wes.png" alt="LogisQ WES" style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} />
+                        <img src="/assets/images/technology/modul-stack.png" alt="LogisQ WES" style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} />
                     </div>
                     <div className={styles.cardContent}>
                         <h2 className={styles.cardTitle}>{content.wes.title}</h2>
