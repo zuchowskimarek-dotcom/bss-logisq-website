@@ -49,7 +49,7 @@
         "kolliScanner": {
             "title": "Kolli Scanner",
             "subtitle": "High-Precision Crate Dimensioning (< 3mm)",
-            "heroImage": "/assets/images/products/kolli-scanner-hero.png",
+            "heroImage": "/assets/images/products/kolli-scanner-tomatenkiste.png",
             "introduction": "The Kolli Scanner is a standalone solution for exact crate dimensioning. Cartons and boxes are placed manually and measured by three cameras within seconds – the perfect basis for efficient packing pattern calculation.",
             "features": [
                 {
@@ -727,52 +727,68 @@
     },
     "technologyPage": {
         "category": "Technology",
-        "wesDefinition": "A Warehouse Execution System (WES) coordinates real-time warehouse tasks across systems, people, and automation.",
-        "intro": {
-            "title": "Why LogisQ-WES works reliably in real warehouses",
-            "bodyShort": "Processes are executed as defined, not as reinterpreted later.",
-            "body": "LogisQ-WES ensures that warehouse processes are executed **as defined**, not as reinterpreted later.<br><br>Its architecture removes semantic gaps between planning, execution, and operation."
+        "overview": {
+            "anchorText": "LogisQ-WES consists of **clearly separated layers**: Platform, Definition, Execution, and Functional Modules. These layers are not mixed. Execution is the result of explicit definitions — not implicit logic.",
+            "imageCaption": "Overview of the modular execution architecture of LogisQ-WES."
         },
-        "navigationHub": {
-            "title": "Explore the Tech Stack",
-            "items": [
-                {
-                    "id": "platform",
-                    "title": "ArconQ Platform",
-                    "desc": "The technical foundation for scalable services",
-                    "link": "Platform",
-                    "icon": "microservices"
-                },
-                {
-                    "id": "configuration",
-                    "title": "XyronQ Configuration",
-                    "desc": "Low-Code customization without programming",
-                    "link": "Configuration",
-                    "icon": "lowcode"
-                },
-                {
-                    "id": "ai",
-                    "title": "DevyonQ AI Assistant",
-                    "desc": "Intelligent support for operators",
-                    "link": "AI Assistant",
-                    "icon": "human_bot"
-                },
-                {
-                    "id": "modular",
-                    "title": "Modular WES",
-                    "desc": "Specialized modules for every layer",
-                    "link": "Modular WES",
-                    "icon": "plugnplay"
-                },
-                {
-                    "id": "digitalTwin",
-                    "title": "Digital Twin",
-                    "desc": "Validation before commissioning",
-                    "link": "Digital Twin",
-                    "icon": "visual"
-                }
-            ]
-        },
+        "sections": [
+            {
+                "id": "arconq",
+                "num": "01",
+                "title": "ArconQ",
+                "subtitle": "Platform Layer",
+                "desc": "Operations, security, and communication. All modules run on this platform.",
+                "href": "/technology/platform"
+            },
+            {
+                "id": "xyronq",
+                "num": "02",
+                "title": "XyronQ",
+                "subtitle": "Definition & Design Layer",
+                "desc": "Modeling, configuration, and process definition. This is where business meaning originates.",
+                "href": "/technology/configuration"
+            },
+            {
+                "id": "per",
+                "num": "03",
+                "title": "PER",
+                "subtitle": "Execution Layer",
+                "desc": "Domain-agnostic runtime. Executes definitions deterministically, does not interpret.",
+                "href": "/technology/modular-wes"
+            },
+            {
+                "id": "modules",
+                "num": "04",
+                "title": "Functional Modules",
+                "subtitle": "WMS, MFC, SquadronQ",
+                "desc": "Interchangeable functional modules with clear responsibility separation.",
+                "href": "/technology/modular-wes"
+            },
+            {
+                "id": "communication",
+                "num": "05",
+                "title": "Communication Layer",
+                "subtitle": "Integration",
+                "desc": "Decoupled communication. Abstracted protocols, no hidden semantics.",
+                "href": "/technology/modular-wes"
+            },
+            {
+                "id": "external",
+                "num": "06",
+                "title": "Third-Party Systems",
+                "subtitle": "External Integration",
+                "desc": "LogisQ-WES is not a closed shop. Third-party WMS and MFC are integrable.",
+                "href": "/technology/modular-wes"
+            },
+            {
+                "id": "operations",
+                "num": "07",
+                "title": "Operating Model",
+                "subtitle": "Deployment & Runtime",
+                "desc": "Kubernetes-based, containerized, cluster-ready.",
+                "href": "/technology/platform"
+            }
+        ],
         "boundaries": {
             "title": "Clear responsibilities instead of blurred control",
             "intro": "LogisQ-WES is a product composed of specialized modules. Each module has a **strict, non-overlapping responsibility**.",

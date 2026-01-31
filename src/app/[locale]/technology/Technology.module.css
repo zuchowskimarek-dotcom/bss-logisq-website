@@ -194,3 +194,110 @@
         display: none;
     }
 }
+
+/* Anchor Image */
+.anchorFigure {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto 3rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.anchorImage {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.anchorCaption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+/* Anchor Text Section */
+.anchorTextSection {
+    max-width: 900px;
+    margin: 0 auto 4rem;
+    padding: 0 1.5rem;
+}
+
+.anchorTextContent {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--color-text-main);
+    text-align: center;
+}
+
+/* Navigation Grid */
+.navGridSection {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    padding: 0 1.5rem;
+}
+
+.navGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.navCard {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.navCard:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 8px 32px rgba(21, 101, 192, 0.12);
+    transform: translateY(-4px);
+}
+
+.navNum {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    letter-spacing: 0.05em;
+}
+
+.navTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin: 0;
+}
+
+.navSubtitle {
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.navDesc {
+    font-size: 0.9rem;
+    color: var(--color-text-dim);
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .navGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .anchorTextContent {
+        font-size: 1.1rem;
+    }
+}
